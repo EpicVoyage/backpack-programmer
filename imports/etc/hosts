@@ -1,0 +1,18 @@
+# This Hosts file has been altered to block ad servers.
+# To restore the file just
+# delete everything below the first entry or rename hosts.nbk
+# to hosts and move it to the proper directory.
+# Updated: scroll down for date stamp
+# This is an ad blocking hosts file compiled by
+# Mike Skallas(user245(at)hotmail.com)
+# Available at http://everythingisnt.com/hosts.html
+# Copyright 2005. Please do not redistribute, use above link.
+# Free only for Residential/Non-Profit use.
+# Just add '127.0.0.1 ADSERVER' to the bottom to continue the list.
+
+
+# This live-cd:
+127.0.0.1 localhost backpack backpack.livecd
+
+# Ad servers to ignore (redirect to localhost)
+

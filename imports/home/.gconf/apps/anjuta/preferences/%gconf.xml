@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="truncat.mesg.first" mtime="1130023642" type="int" value="50">
+        </entry>
+        <entry name="truncat.messages" mtime="1130023642" type="bool" value="false">
+        </entry>
+        <entry name="truncat.mesg.last" mtime="1130023642" type="int" value="50">
+        </entry>
+        <entry name="messages.color.warning" mtime="1130023642" type="string">
+                <stringvalue>#00FF00</stringvalue>
+        </entry>
+        <entry name="indicators.style.normal" mtime="1130023642" type="string">
+                <stringvalue>Underline-Plain</stringvalue>
+        </entry>
+        <entry name="messages.color.error" mtime="1130023642" type="string">
+                <stringvalue>#FF0000</stringvalue>
+        </entry>
+        <entry name="indicators.style.error" mtime="1130023642" type="string">
+                <stringvalue>Strike-Out</stringvalue>
+        </entry>
+        <entry name="messages.tab.position" mtime="1130023642" type="string">
+                <stringvalue>Top</stringvalue>
+        </entry>
+        <entry name="indicators.style.warning" mtime="1130023642" type="string">
+                <stringvalue>Underline-Squiggle</stringvalue>
+        </entry>
+        <entry name="messages.color.info" mtime="1130023642" type="string">
+                <stringvalue>#0000FF</stringvalue>
+        </entry>
+        <entry name="indicators.automatic" mtime="1130023642" type="bool" value="false">
+        </entry>
+        <entry name="anjuta.user.email" mtime="1130023214" type="string">
+                <stringvalue></stringvalue>
+        </entry>
+        <entry name="anjuta.user.name" mtime="1130023212" type="string">
+                <stringvalue></stringvalue>
+        </entry>
+        <entry name="filter.file.ignore.nonrepo" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="anjuta.project.directory" mtime="1130023337" type="string">
+                <stringvalue>~/Projects</stringvalue>
+        </entry>
+        <entry name="cvs.path" mtime="1130018661" type="string">
+                <stringvalue>/usr/bin/cvs</stringvalue>
+        </entry>
+        <entry name="cvs.compression" mtime="1130023614" type="int" value="3">
+        </entry>
+        <entry name="cvs.ignorerc" mtime="1130023614" type="bool" value="true">
+        </entry>
+        <entry name="terminal.profile" mtime="1130018620" type="string">
+                <stringvalue>Default</stringvalue>
+        </entry>
+        <entry name="terminal.default.profile" mtime="1130023614" type="bool" value="true">
+        </entry>
+        <entry name="filter.file.unmatch" mtime="1130023337" type="string">
+                <stringvalue></stringvalue>
+        </entry>
+        <entry name="filter.file.ignore.hidden" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="filter.dir.ignore.hidden" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="root.dir" mtime="1130023388" type="string">
+                <stringvalue>/home/user/Projects</stringvalue>
+        </entry>
+        <entry name="supported.encodings" mtime="1130018212" type="string">
+                <stringvalue>ISO-8859-15</stringvalue>
+        </entry>
+        <entry name="disable.syntax.hilighting" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="whitespace" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="margin.linenumber.width" mtime="1130018212" type="int" value="40">
+        </entry>
+        <entry name="fold.compact" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="editor.doseol" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="editor.wrapbookmarks" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="autoformat.disable" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="indent.closing" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="margin.marker.visible" mtime="1139378404" type="bool" value="true">
+        </entry>
+        <entry name="view.indentation.guides" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="strip.trailing.spaces" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="caret.width" mtime="1130023337" type="int" value="2">
+        </entry>
+        <entry name="editor.tabs.hide" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="print.linenumber.count" mtime="1130018212" type="int" value="1">
+        </entry>
+        <entry name="view.eol" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="indent.automatic" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="save.session.timer" mtime="1130018212" type="int" value="10">
+        </entry>
+        <entry name="fold.html" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="fold" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="fold.underline" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="edge.column" mtime="1130018212" type="int" value="80">
+        </entry>
+        <entry name="fold.comment" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="autosave.timer" mtime="1130018212" type="int" value="10">
+        </entry>
+        <entry name="autocompleteword.automatic" mtime="1130018212" type="int" value="3">
+        </entry>
+        <entry name="editor.tabs.ordering" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="margin.linenumber.visible" mtime="1139378404" type="bool" value="true">
+        </entry>
+        <entry name="indent.maintain" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="autocomplete.choose.single" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="print.linewrap" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="xml.auto.close.tags" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="indent.opening" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="editor.tabs.recent.first" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="save.automatic" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="view.indentation.whitespace" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="view.line.wrap" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="fold.symbols" mtime="1130023379" type="string">
+                <stringvalue>Plus/Minus</stringvalue>
+        </entry>
+        <entry name="fold.quotes.python" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="autoformat.custom.style" mtime="1130023337" type="string">
+                <stringvalue> -i8 -sc -bli0 -bl0 -cbi0 -ss</stringvalue>
+        </entry>
+        <entry name="margin.fold.visible" mtime="1139378404" type="bool" value="true">
+        </entry>
+        <entry name="autoformat.style" mtime="1139378404" type="pair">
+        <car type="string">
+                <stringvalue>GNU coding style</stringvalue>
+        </car>
+        <cdr type="string">
+                <stringvalue>-nbad -bap -bbo -nbc -bl -bli2 -bls -ncdb -nce -cp1 -cs -di2 -nfc1 -nfca -hnl -i2 -ip5 -lp -pcs -nprs -psl -saf -sai -saw -nsc -nsob</stringvalue>
+        </cdr>
+        </entry>
+        <entry name="use.tabs" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="tab.indents" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="fold.comment.python" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="save.encoding.original" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="backspace.unindents" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="print.header" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="editor.tabs.pos" mtime="1130018212" type="string">
+                <stringvalue>Top</stringvalue>
+        </entry>
+        <entry name="indent.size" mtime="1130018212" type="int" value="4">
+        </entry>
+        <entry name="braces.check" mtime="1130023337" type="bool" value="true">
+        </entry>
+        <entry name="print.color" mtime="1130023349" type="bool" value="false">
+        </entry>
+        <entry name="save.encoding.current.locale" mtime="1130018212" type="bool" value="false">
+        </entry>
+        <entry name="caret.period" mtime="1130023337" type="int" value="350">
+        </entry>
+        <entry name="tabsize" mtime="1130018212" type="int" value="4">
+        </entry>
+        <entry name="fold.on.open" mtime="1130018212" type="bool" value="false">
+        </entry>
+</gconf>

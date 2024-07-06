@@ -1,0 +1,8 @@
+apparmor.mo
+development.mo
+games.mo
+gnome.mo
+gnome-recommended.mo
+power-user.mo
+required.mo
+xorg.mo

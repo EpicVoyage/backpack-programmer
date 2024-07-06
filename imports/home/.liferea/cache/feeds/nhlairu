@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<feed>
+  <feedTitle>art.gnome.org</feedTitle>
+  <feedSource>http://art.gnome.org/backend.php</feedSource>
+  <feedDescription>A list of recent backgrounds and themes released on art.gnome.org</feedDescription>
+  <feedImage>http://art.gnome.org/images/site/art-icon.png</feedImage>
+  <feedUpdateInterval>-1</feedUpdateInterval>
+  <feedStatus>1</feedStatus>
+  <feedDiscontinued>0</feedDiscontinued>
+  <attributes>
+    <attribute name="webmaster">thos@nospam.gnome.org</attribute>
+  </attributes>
+  <item>
+    <title>[Backgrounds - GNOME] Gnome Tango Color Green</title>
+    <description>
+&lt;table border="0" style="margin-bottom:1em;"&gt;&lt;tr&gt;
+	&lt;td style="width:120px"&gt;&lt;a href="http://art.gnome.org/backgrounds/gnome/1283"&gt;&lt;img src="http://art.gnome.org/images/thumbnails/backgrounds/GNOME-GnomeTangoColorGreen-Th.jpg" alt="Thumbnail" class="thumbnail"/&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="http://art.gnome.org/backgrounds/gnome/1283" class="h2"&gt;&lt;strong&gt;Gnome Tango Color Green&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;
+		&lt;span class="subtitle"&gt;Backgrounds - GNOME&lt;br/&gt;21 October 2005&lt;/span&gt;&lt;br/&gt;
+&lt;div style="float:left; width: 100px;"&gt;&lt;/div&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+	</description>
+    <source>http://art.gnome.org/backgrounds/gnome/1283</source>
+    <id>http://art.gnome.org/backgrounds/gnome/1283</id>
+    <nr>12</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129869301</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>[Backgrounds - Nature] Pebble Beach</title>
+    <description>
+&lt;table border="0" style="margin-bottom:1em;"&gt;&lt;tr&gt;
+	&lt;td style="width:120px"&gt;&lt;a href="http://art.gnome.org/backgrounds/nature/1286"&gt;&lt;img src="http://art.gnome.org/images/thumbnails/backgrounds/NATURE-PebbleBeach-Th.jpg" alt="Thumbnail" class="thumbnail"/&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="http://art.gnome.org/backgrounds/nature/1286" class="h2"&gt;&lt;strong&gt;Pebble Beach&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;
+		&lt;span class="subtitle"&gt;Backgrounds - Nature&lt;br/&gt;21 October 2005&lt;/span&gt;&lt;br/&gt;
+&lt;div style="float:left; width: 100px;"&gt;&lt;/div&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+	</description>
+    <source>http://art.gnome.org/backgrounds/nature/1286</source>
+    <id>http://art.gnome.org/backgrounds/nature/1286</id>
+    <nr>11</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129869301</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>[Backgrounds - GNOME] Variety Brushed Desktop</title>
+    <description>
+&lt;table border="0" style="margin-bottom:1em;"&gt;&lt;tr&gt;
+	&lt;td style="width:120px"&gt;&lt;a href="http://art.gnome.org/backgrounds/gnome/1281"&gt;&lt;img src="http://art.gnome.org/images/thumbnails/backgrounds/GNOME-VarietyBrushedDesktop-Th.jpg" alt="Thumbnail" class="thumbnail"/&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="http://art.gnome.org/backgrounds/gnome/1281" class="h2"&gt;&lt;strong&gt;Variety Brushed Desktop&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;
+		&lt;span class="subtitle"&gt;Backgrounds - GNOME&lt;br/&gt;21 October 2005&lt;/span&gt;&lt;br/&gt;
+&lt;div style="float:left; width: 100px;"&gt;&lt;/div&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+	</description>
+    <source>http://art.gnome.org/backgrounds/gnome/1281</source>
+    <id>http://art.gnome.org/backgrounds/gnome/1281</id>
+    <nr>10</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129869301</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>[Backgrounds - GNOME] Gnome Tango Color Orange</title>
+    <description>
+&lt;table border="0" style="margin-bottom:1em;"&gt;&lt;tr&gt;
+	&lt;td style="width:120px"&gt;&lt;a href="http://art.gnome.org/backgrounds/gnome/1284"&gt;&lt;img src="http://art.gnome.org/images/thumbnails/backgrounds/GNOME-GnomeTangoColorOrange-Th.jpg" alt="Thumbnail" class="thumbnail"/&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="http://art.gnome.org/backgrounds/gnome/1284" class="h2"&gt;&lt;strong&gt;Gnome Tango Color Orange&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;
+		&lt;span class="subtitle"&gt;Backgrounds - GNOME&lt;br/&gt;21 October 2005&lt;/span&gt;&lt;br/&gt;
+&lt;div style="float:left; width: 100px;"&gt;&lt;/div&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+	</description>
+    <source>http://art.gnome.org/backgrounds/gnome/1284</source>
+    <id>http://art.gnome.org/backgrounds/gnome/1284</id>
+    <nr>9</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129869301</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>[Backgrounds - GNOME] Gnome Tango Color Blue</title>
+    <description>
+&lt;table border="0" style="margin-bottom:1em;"&gt;&lt;tr&gt;
+	&lt;td style="width:120px"&gt;&lt;a href="http://art.gnome.org/backgrounds/gnome/1282"&gt;&lt;img src="http://art.gnome.org/images/thumbnails/backgrounds/GNOME-GnomeTangoColorBlue-Th.jpg" alt="Thumbnail" class="thumbnail"/&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="http://art.gnome.org/backgrounds/gnome/1282" class="h2"&gt;&lt;strong&gt;Gnome Tango Color Blue&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;
+		&lt;span class="subtitle"&gt;Backgrounds - GNOME&lt;br/&gt;21 October 2005&lt;/span&gt;&lt;br/&gt;
+&lt;div style="float:left; width: 100px;"&gt;&lt;/div&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+	</description>
+    <source>http://art.gnome.org/backgrounds/gnome/1282</source>
+    <id>http://art.gnome.org/backgrounds/gnome/1282</id>
+    <nr>8</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129869301</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>[Backgrounds - Abstract] cubism river photo</title>
+    <description>
+&lt;table border="0" style="margin-bottom:1em;"&gt;&lt;tr&gt;
+	&lt;td style="width:120px"&gt;&lt;a href="http://art.gnome.org/backgrounds/abstract/1285"&gt;&lt;img src="http://art.gnome.org/images/thumbnails/backgrounds/ABSTRACT-CubismRiverPhoto-Th.jpg" alt="Thumbnail" class="thumbnail"/&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="http://art.gnome.org/backgrounds/abstract/1285" class="h2"&gt;&lt;strong&gt;cubism river photo&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;
+		&lt;span class="subtitle"&gt;Backgrounds - Abstract&lt;br/&gt;21 October 2005&lt;/span&gt;&lt;br/&gt;
+&lt;div style="float:left; width: 100px;"&gt;&lt;/div&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+	</description>
+    <source>http://art.gnome.org/backgrounds/abstract/1285</source>
+    <id>http://art.gnome.org/backgrounds/abstract/1285</id>
+    <nr>7</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129869301</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>[Backgrounds - Nature] Snail (german)</title>
+    <description>
+&lt;table border="0" style="margin-bottom:1em;"&gt;&lt;tr&gt;
+	&lt;td style="width:120px"&gt;&lt;a href="http://art.gnome.org/backgrounds/nature/1278"&gt;&lt;img src="http://art.gnome.org/images/thumbnails/backgrounds/NATURE-Snailgerman-Th.jpg" alt="Thumbnail" class="thumbnail"/&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="http://art.gnome.org/backgrounds/nature/1278" class="h2"&gt;&lt;strong&gt;Snail (german)&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;
+		&lt;span class="subtitle"&gt;Backgrounds - Nature&lt;br/&gt;20 October 2005&lt;/span&gt;&lt;br/&gt;
+&lt;div style="float:left; width: 100px;"&gt;&lt;/div&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+	</description>
+    <source>http://art.gnome.org/backgrounds/nature/1278</source>
+    <id>http://art.gnome.org/backgrounds/nature/1278</id>
+    <nr>6</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129797688</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>[Backgrounds - GNOME] Gnome-snow</title>
+    <description>
+&lt;table border="0" style="margin-bottom:1em;"&gt;&lt;tr&gt;
+	&lt;td style="width:120px"&gt;&lt;a href="http://art.gnome.org/backgrounds/gnome/1279"&gt;&lt;img src="http://art.gnome.org/images/thumbnails/backgrounds/GNOME-GnomeSnow-Th.jpg" alt="Thumbnail" class="thumbnail"/&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="http://art.gnome.org/backgrounds/gnome/1279" class="h2"&gt;&lt;strong&gt;Gnome-snow&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;
+		&lt;span class="subtitle"&gt;Backgrounds - GNOME&lt;br/&gt;20 October 2005&lt;/span&gt;&lt;br/&gt;
+&lt;div style="float:left; width: 100px;"&gt;&lt;/div&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+	</description>
+    <source>http://art.gnome.org/backgrounds/gnome/1279</source>
+    <id>http://art.gnome.org/backgrounds/gnome/1279</id>
+    <nr>5</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129797688</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>[Backgrounds - Nature] Toadstools</title>
+    <description>
+&lt;table border="0" style="margin-bottom:1em;"&gt;&lt;tr&gt;
+	&lt;td style="width:120px"&gt;&lt;a href="http://art.gnome.org/backgrounds/nature/1277"&gt;&lt;img src="http://art.gnome.org/images/thumbnails/backgrounds/NATURE-Toadstools-Th.jpg" alt="Thumbnail" class="thumbnail"/&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="http://art.gnome.org/backgrounds/nature/1277" class="h2"&gt;&lt;strong&gt;Toadstools&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;
+		&lt;span class="subtitle"&gt;Backgrounds - Nature&lt;br/&gt;20 October 2005&lt;/span&gt;&lt;br/&gt;
+&lt;div style="float:left; width: 100px;"&gt;&lt;/div&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+	</description>
+    <source>http://art.gnome.org/backgrounds/nature/1277</source>
+    <id>http://art.gnome.org/backgrounds/nature/1277</id>
+    <nr>4</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129797688</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>[Backgrounds - GNOME] Gnome Luz</title>
+    <description>
+&lt;table border="0" style="margin-bottom:1em;"&gt;&lt;tr&gt;
+	&lt;td style="width:120px"&gt;&lt;a href="http://art.gnome.org/backgrounds/gnome/1280"&gt;&lt;img src="http://art.gnome.org/images/thumbnails/backgrounds/GNOME-GnomeLuz-Th.jpg" alt="Thumbnail" class="thumbnail"/&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="http://art.gnome.org/backgrounds/gnome/1280" class="h2"&gt;&lt;strong&gt;Gnome Luz&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;
+		&lt;span class="subtitle"&gt;Backgrounds - GNOME&lt;br/&gt;20 October 2005&lt;/span&gt;&lt;br/&gt;
+&lt;div style="float:left; width: 100px;"&gt;&lt;/div&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+	</description>
+    <source>http://art.gnome.org/backgrounds/gnome/1280</source>
+    <id>http://art.gnome.org/backgrounds/gnome/1280</id>
+    <nr>3</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129797688</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>[Application Themes] Gnursid</title>
+    <description>
+&lt;table border="0" style="margin-bottom:1em;"&gt;&lt;tr&gt;
+	&lt;td style="width:120px"&gt;&lt;a href="http://art.gnome.org/themes/gtk2/1134"&gt;&lt;img src="http://art.gnome.org/images/thumbnails/gtk2/GTK2-Gnursid-Th.png" alt="Thumbnail" class="thumbnail"/&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="http://art.gnome.org/themes/gtk2/1134" class="h2"&gt;&lt;strong&gt;Gnursid&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;
+		&lt;span class="subtitle"&gt;Application Themes&lt;br/&gt;19 October 2005&lt;/span&gt;&lt;br/&gt;
+&lt;div style="float:left; width: 100px;"&gt;&lt;/div&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+	</description>
+    <source>http://art.gnome.org/themes/gtk2/1134</source>
+    <id>http://art.gnome.org/themes/gtk2/1134</id>
+    <nr>2</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129759579</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>[Login Manager] Simbiose Odyssey</title>
+    <description>
+&lt;table border="0" style="margin-bottom:1em;"&gt;&lt;tr&gt;
+	&lt;td style="width:120px"&gt;&lt;a href="http://art.gnome.org/themes/gdm_greeter/1133"&gt;&lt;img src="http://art.gnome.org/images/thumbnails/gdm_greeter/GDM-SimbioseOdyssey-Th.png" alt="Thumbnail" class="thumbnail"/&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="http://art.gnome.org/themes/gdm_greeter/1133" class="h2"&gt;&lt;strong&gt;Simbiose Odyssey&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;
+		&lt;span class="subtitle"&gt;Login Manager&lt;br/&gt;19 October 2005&lt;/span&gt;&lt;br/&gt;
+&lt;div style="float:left; width: 100px;"&gt;&lt;/div&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+	</description>
+    <source>http://art.gnome.org/themes/gdm_greeter/1133</source>
+    <id>http://art.gnome.org/themes/gdm_greeter/1133</id>
+    <nr>1</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129757959</time>
+    <attributes/>
+  </item>
+</feed>

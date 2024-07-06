@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<feed>
+  <feedTitle>Debian Planet</feedTitle>
+  <feedSource>http://www.debianplanet.net/module.php?mod=node&amp;op=feed</feedSource>
+  <feedDescription>Everything Debian! News, interviews, comment.</feedDescription>
+  <feedUpdateInterval>-1</feedUpdateInterval>
+  <feedStatus>1</feedStatus>
+  <feedDiscontinued>0</feedDiscontinued>
+  <attributes>
+    <attribute name="language">en</attribute>
+  </attributes>
+  <item>
+    <title>Growing older: The year that was... (Part I)</title>
+    <description>In order to celebrate growing older by another year here is the first part of a round up of some of the important and interesting things that have happened in the Debian community in the last year.</description>
+    <source>http://www.debianplanet.net/node.php?id=1258</source>
+    <nr>15</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Debian 12 Years Old</title>
+    <description>On its 12th birthday the "universal operating system" is fully available on 12 different architectures (the released 11 plus AMD64). This wide range really does make Debian universal since everything from the smallest embedded devices to the largest mainframes can (and do) run Debian. What an achievement!</description>
+    <source>http://www.debianplanet.net/node.php?id=1257</source>
+    <nr>14</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>The return of archive.debian.org</title>
+    <description>After having disappeared &lt;a href="http://lists.debian.org/debian-project/2005/05/msg00150.html"&gt;over a year ago&lt;/a&gt; archive.debian.org, the historical archive of Debian releases has been brought back online. Phil Hands has been responsible for making archive.debian.org &lt;a href="http://lists.debian.org/debian-project/2005/08/msg00162.html"&gt;accessible again&lt;/a&gt;. He does however note that there may be some issues with the non-US components of previous releases.</description>
+    <source>http://www.debianplanet.net/node.php?id=1256</source>
+    <nr>13</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Sarge released!</title>
+    <description>Just because you read it on &lt;a href="http://linux.slashdot.org/linux/05/06/06/2132219.shtml"&gt;Slashdot&lt;/a&gt; doesn't mean its not true. (&lt;a href="http://www.debian.org/News/2005/20050606"&gt;Official announcement&lt;/a&gt;). When upgrading don't forget to read the &lt;a href="http://www.debian.org/releases/stable/releasenotes"&gt;release notes&lt;/a&gt;. A very small problem with the original CD images produced has also been &lt;a href="http://lists.debian.org/debian-devel-announce/2005/06/msg00003.html"&gt;discovered&lt;/a&gt;.</description>
+    <source>http://www.debianplanet.net/node.php?id=1238</source>
+    <nr>12</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Freeze Official</title>
+    <description>The sarge freeze is now &lt;a href="http://lists.debian.org/debian-devel-announce/2005/05/msg00001.html"&gt; official&lt;/a&gt;.
+
+The expected timeline for the release is as follows: 
+
+3rd May (Today): Freeze time and security support now available for testing
+5-8th May: BSP to bring bug count down from ~85 to ~60/70
+15th May: Debian installer finalised
+27th May: Zarro RC boogs
+30th May: Release
+
+Now that there is official security support for testing you are very much encouraged to test the upgrade path between woody and sarge and report any issues to the &lt;a href="http://bugs.debian.org"&gt;BTS&lt;/a&gt;.</description>
+    <source>http://www.debianplanet.net/node.php?id=1232</source>
+    <nr>11</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Freeze Imminent</title>
+    <description>The release team, in a recent &lt;a href="http://lists.debian.org/debian-release/2005/05/msg00008.html"&gt;IRC meeting&lt;/a&gt;. Have decided that pretty much everything necessary for the complete freeze (base and standard are already &lt;a href="http://www.debianplanet.org/node.php?id=1131"&gt;frozen&lt;/a&gt;) is in place: &lt;i&gt;"We came to the conclusion that the freeze can get into effect as of now. (Except that there was no icecream available, but well - we all have to make sacrifices.)"&lt;/i&gt;. 
+
+This follows on from the recent &lt;a href="http://lists.debian.org/debian-devel-announce/2005/04/msg00023.html"&gt;Release Update&lt;/a&gt; which contained the excellent news that most of the infrastructure needed for testing-security (one of the key release blockers) is in place. The hope among everyone I've spoken to is that this freeze will not last very long, since we are certainly in a very good situation with regards the RC bug count (significantly lower than when woody's freeze was &lt;a href="http://lwn.net/Articles/96173/"&gt;announced&lt;/a&gt;). This  is something that should be further improved by the upcoming &lt;a href=" http://lists.debian.org/debian-devel-announce/2005/05/msg00000.html"&gt;BSP&lt;/a&gt; this weekend.</description>
+    <source>http://www.debianplanet.net/node.php?id=1231</source>
+    <nr>10</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Debian SysAdmin Resources</title>
+    <description>&lt;a href="http://www.steve.org.uk/"&gt;Steve Kemp's&lt;/a&gt; &lt;a href="http://www.debian-administration.org"&gt;Debian System Administrator Resources&lt;/a&gt; site has been growing from strength to strength and is a fantastic resource for all those little hints and tips that you wanted to know.
+
+Some interesting articles that have appeared recently are: &lt;a href="http://www.debian-administration.org/?article=126"&gt;Managing USB keys and card readers with udev&lt;/a&gt;, &lt;a href="http://www.debian-administration.org/?article=118"&gt;Using dpkg-divert for replacing binaries&lt;/a&gt; and &lt;a href="http://www.debian-administration.org/?article=112"&gt;Reducing build time with distcc&lt;/a&gt;. In respect for the high quality of the site we've begun syndicating the site into our sidebar.</description>
+    <source>http://www.debianplanet.net/node.php?id=1226</source>
+    <nr>9</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>First Post! (from the DPL)</title>
+    <description>Branden Robinson, the newly elected Debian Project Leader, has posted his first &lt;a href="http://lists.debian.org/debian-devel-announce/2005/04/msg00019.html"&gt;report&lt;/a&gt; as DPL. He discusses the sarge release, problems with ARM buildds, Debian's assets, his interviews and public appearances and some discussion of &lt;a href="http://lists.debian.org/debian-project/2005/03/msg00035.html"&gt;Project Scud&lt;/a&gt;.
+
+The Debian leadership team had their first meeting recently, and although the agenda has been &lt;a href="http://lists.debian.org/debian-project/2005/04/msg00324.html"&gt;published&lt;/a&gt; the minutes have yet to be published. This will only happen once all the members in attendence have approved them. &lt;a href="http://mako.yukidoke.org/copyrighteous/"&gt;Benjamin "mako" Hill&lt;/a&gt; has also now joined their ranks.</description>
+    <source>http://www.debianplanet.net/node.php?id=1225</source>
+    <nr>8</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Sarge AMD64 support</title>
+    <description>Porter Andreas Jochens sent in an &lt;a href="http://lists.debian.org/debian-devel/2005/04/msg00884.html"&gt;update&lt;/a&gt; on the status of the AMD64 port of Debian: "Almost all packages build now on amd64 without problems using the pristine Debian sarge sources."
+
+At the moment though sarge will ship with sources that are capable of being used to build packages for the AMD64 architecture, unfortunately however the architecture will not be included in the official sarge archive due to &lt;a href=" http://lists.debian.org/debian-devel/2005/04/msg00910.html"&gt;mirror constraints&lt;/a&gt;. Miquel van Smoorenburg however pointed out  that many mirrors will end up mirroring the &lt;a href="http://debian-amd64.alioth.debian.org/"&gt;unofficial port&lt;/a&gt;, &lt;a href="http://lists.debian.org/debian-devel/2005/04/msg00912.html"&gt;wasting space by storing the sources twice&lt;/a&gt;.
+
+Andreas has suggested is that the binary port be maintained by the Debian AMD64 team and stored on &lt;a href="http://alioth.debian.org"&gt;Alioth&lt;/a&gt; as it currently is and that project officially recognises the port and includes pointers to it in the appropriate release documentation. Release manager, Steve Langasek &lt;a href="http://lists.debian.org/debian-devel/2005/04/msg00903.html"&gt;expressed his concerns&lt;/a&gt; regarding debian-installer, the support of security team, source synchronisation and the ability to do point releases.</description>
+    <source>http://www.debianplanet.net/node.php?id=1223</source>
+    <nr>7</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>386 Support Uncertain</title>
+    <description>Official Debian support for the 80386 sub-architecture in Sarge is currently uncertain - it is currently unmaintained according to a recent &lt;a href="http://lists.debian.org/debian-devel-announce/2005/04/msg00003.html"&gt;release update&lt;/a&gt;. The kernels that ship with sarge will contain support for emulating the appropriate i486+ instructions needed to maintain C++ ABI compatibility with other distributions, although there are known root security holes with the patch, and nobody has stepped up to fix them. Unless a maintainer can be found for this sub-architecture the release managers will be forced to drop official support for the 80386 both for new installs and upgrades.</description>
+    <source>http://www.debianplanet.net/node.php?id=1222</source>
+    <nr>6</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Interviews with Branden Robinson</title>
+    <description>Since becoming DPL on Monday, Branden Robinson has been interviewed by &lt;a href="http://www.linux-mag.com/content/view/1870/2107/"&gt;Linux Magazine&lt;/a&gt;, &lt;a href="http://dunnage.blogspot.com//2005/04/interview-with-branden-robinson.html"&gt;Rob Levin&lt;/a&gt; and &lt;a href="http://distrocenter.linux.com/article.pl?sid=05/04/19/164235"&gt;Linux.com&lt;/a&gt;. Lots of interesting reading especially with regards the leadership, &lt;a href="http://lists.debian.org/debian-project/2005/03/msg00035.html"&gt;Project Scud&lt;/a&gt; and the &lt;a href="http://lists.debian.org/debian-devel-announce/2005/03/msg00012.html"&gt;Vancouver proposal&lt;/a&gt;.
+
+Debian Planet are considering an interview, since however these previous interviews have been so comprehensive we're asking the readership for any questions they might like to ask Branden, or the previous DPL, Martin Michlmayr.</description>
+    <source>http://www.debianplanet.net/node.php?id=1221</source>
+    <nr>5</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Woody Powered Underwater Robot</title>
+    <description>&lt;a href="http://www.extremetech.com"&gt;ExtremeTech&lt;/a&gt; has some &lt;a href="http://www.extremetech.com/article2/0,1558,1783793,00.asp"&gt;coverage&lt;/a&gt; of MIT's AUV's (Autonomous Underwater Vehicle). These little underwater robotic devices are being used for underwater  archaeological surveys without disturbing the shipwrecks. The specialised robotic control software runs &lt;a href="http://www.extremetech.com/article2/0,1558,1783805,00.asp"&gt;atop a woody core&lt;/a&gt;. Debian is certainly the &lt;a href="http://www.debian.org/"&gt;Universal OS&lt;/a&gt;.</description>
+    <source>http://www.debianplanet.net/node.php?id=1213</source>
+    <nr>4</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Munich Debian Follow Up</title>
+    <description>There has been a considerable amount of &lt;a href="http://lwn.net/Articles/132396/"&gt;news coverage&lt;/a&gt; regarding Munich's choice of Debian as the replacement for 14,000 Windows NT workstations used by the city authorities. This is fantastic news for Debian since with more users it becomes easier to improve the quality of distribution for all.  The news is also somewhat suprising since many believed that SuSE, given its German origins, and strong backing from Novell  would be the obvious choice. There is a little bit more detail on the people behind the tender in &lt;a href="http://www.advogato.org/person/mbanck/diary.html?start=30"&gt;Michael Banck's blog&lt;/a&gt;</description>
+    <source>http://www.debianplanet.net/node.php?id=1220</source>
+    <nr>3</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>GNOME 2.10 Status</title>
+    <description>Jordi Mallach has &lt;a href="http://oskuro.net/blog/freesoftware/gnome-2.10-experimental-2005-04-18-18-37"&gt;announced&lt;/a&gt; the availability of GNOME 2.10 packages for Debian. The packages are currently spread across experimental and the pkg-gnome archive on alioth whilst waiting for some new and updated packages to enter experimental. Full instructions are in the blog linked to above however readers should be aware that currently this build depends on a new glibc which some people have had problems with.</description>
+    <source>http://www.debianplanet.net/node.php?id=1219</source>
+    <nr>2</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>XFS issues in Sarge's 2.6.8.1 kernel</title>
+    <description>There are unfortunately several problems with the XFS support included in the 2.6.8.1 kernel included with sarge. This is of course used by the "linux26" flavour in the installer, this is not however the default since sarge is shipping with 2.4.27 as the default kernel. Many users however will want to use the 2.6 variant for improved hardware support.</description>
+    <source>http://www.debianplanet.net/node.php?id=1218</source>
+    <nr>1</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883762</time>
+    <attributes/>
+  </item>
+</feed>

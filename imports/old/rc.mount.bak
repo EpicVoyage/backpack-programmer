@@ -1,0 +1,79 @@
+#!/bin/sh
+#
+# Written by Daga <daga@daga.dyndns.org>
+# Released under the terms of the GNU license agreement (v2)
+
+#if [ -a /tmp/livecd ]; then exit; fi
+
+if [ -n "`/usr/bin/grep -i floppy /proc/cmdline`" ]; then
+  echo "Mounting floppy disk..."
+  /sbin/mount /dev/fd0 /mnt/floppy
+fi
+
+FINDHOME=1
+if [ -n "`/usr/bin/grep -i nohome /proc/cmdline`" ]; then
+  FINDHOME=0
+fi
+
+echo "Mounting all available harddrive partitions..."
+grep -v 'loop' /proc/partitions| while read LINE
+do
+  LINE=`echo $LINE|cut -s '-d ' -f4`
+  if [ -z "${LINE}" ]; then
+    continue
+  fi
+
+  if [ "`echo ${LINE}|grep -e '[[:digit:]]$'`" == "${LINE}" ]; then
+    if [ -z "`grep /dev/${LINE} /etc/fstab`" ]; then
+      NUM=`echo ${LINE}|sed -r 's/^[^0-9]+([0-9]+)$/\1/'`
+      DEVICE=`echo ${LINE}|sed -r 's/^([^0-9]+)[0-9]+$/\1/'`
+      FILESYSTEM=`parted -s /dev/$DEVICE print|grep "^[[:digit:]]"|grep -v extended`
+
+      if [ -n "`echo $FILESYSTEM|grep fat32`" ]; then
+        FILESYSTEM='vfat'
+      elif [ -n "`echo $FILESYSTEM|grep ntfs`" ]; then
+        FILESYSTEM='ntfs'
+      elif [ -n "`echo $FILESYSTEM|grep ext`" ]; then
+        FILESYSTEM='ext3,ext2'
+      elif [ -n "`echo $FILESYSTEM|grep reiserfs`" ]; then
+        filesystem='reiserfs'
+      elif [ -n "`echo $FILESYSTEM|grep xfs`" ]; then
+        filesystem='xfs'
+      else
+        echo "    ** Unknown filesystem on /dev/$LINE, maybe the kernel could guess this?"
+        echo "        --> $FILESYSTEM" 
+        FILESYSTEM='auto'
+      fi
+      
+      if [ -n "$FILESYSTEM" ]; then
+        echo "    ** Using module '$FILESYSTEM' to handle /dev/$LINE"
+        echo -e "/dev/${LINE}\t/mnt/${LINE}\t${FILESYSTEM}\tdefaults,auto,exec,users,ro 0 0">>/etc/fstab 
+      fi
+    fi
+
+    if [ -z "`grep /dev/${LINE} /etc/mtab`" -a -n "${FILESYSTEM}" ]; then
+      echo "    ** Attempting to mount /mnt/${LINE}..."
+      /usr/bin/mkdir -p /mnt/${LINE}
+      /sbin/mount /mnt/${LINE}
+      DESKTOP="/usr/share/applications/${LINE}.desktop"
+      echo "[Desktop Entry]">$DESKTOP
+      echo "Encodings=UTF-8">>$DESKTOP
+      echo "Name=Remount $LINE read/write">>$DESKTOP
+      echo "Comment=Makes $LINE writable">>$DESKTOP
+      echo "Exec=sudo mount -o remount,rw,exec,users /dev/$LINE">>$DESKTOP
+      echo "TryExec=sudo">>$DESKTOP
+      echo "Terminal=false">>$DESKTOP
+      echo "Type=Application">>$DESKTOP
+      echo "StartupNotify=false">>$DESKTOP
+      echo "Icon=gnome-ccperiph.png">>$DESKTOP
+      echo "Categories=live-cd;mount;">>$DESKTOP
+    fi
+
+    if [ $FINDHOME = 1 ]; then
+      if [ -e /mnt/$LINE/.backpacker ]; then
+        mount -o remount,rw,exec /mnt/$LINE
+        mount --move /mnt/$LINE /home/user
+      fi
+    fi
+  fi
+done

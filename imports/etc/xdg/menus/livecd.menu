@@ -1,0 +1,52 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+  <Name>live-cd</Name>
+  <Directory>livecd.directory</Directory>
+
+  <!-- Read standard .directory and .desktop file locations -->
+  <DefaultAppDirs/>
+  <DefaultDirectoryDirs/>
+
+  <!-- Read in overrides and child menus from preferences-merged/ -->
+  <DefaultMergeDirs/>
+
+  <!-- Stuff in the toplevel -->
+  <Include>
+    <And>
+      <Category>live-cd</Category>
+      <Not>
+        <Or>
+          <Category>firewall</Category>
+	  <Category>mount</Category>
+	</Or>
+      </Not>
+    </And>
+  </Include>
+
+  <!-- Firewall -->
+  <Menu>
+    <Name>Firewall</Name>
+    <Directory>firewall.directory</Directory>
+    <Include>
+      <And>
+        <Category>live-cd</Category>
+	<Category>firewall</Category>
+      </And>
+    </Include>
+  </Menu>   <!-- End Firewall -->
+
+  <!-- Mount points -->
+  <Menu>
+    <Name>Mount</Name>
+    <Directory>mount.directory</Directory>
+    <Include>
+      <And>
+        <Category>live-cd</Category>
+	<Category>mount</Category>
+      </And>
+    </Include>
+  </Menu>   <!-- End Mount points -->
+
+</Menu>     <!-- End Prefs -->

@@ -1,0 +1,6 @@
+emacs
+emacs-info
+emacs-leim
+emacs-lisp
+emacs-misc
+emacs-nox

@@ -1,0 +1,24 @@
+--- rc.6.new	2006-08-20 20:43:21.000000000 -0700
++++ rc.6.live	2006-08-25 21:59:05.000000000 -0700
+@@ -12,6 +12,7 @@
+ 
+ # Set the path.
+ PATH=/sbin:/etc:/bin:/usr/bin
++EJECT="`cat /etc/eject`"
+ 
+ # If there are SystemV init scripts for this runlevel, run them.
+ if [ -x /etc/rc.d/rc.sysvinit ]; then
+@@ -242,6 +243,13 @@
+   fi
+ fi
+ 
++if [ -n "${EJECT}" ]; then
++  eject -r "/dev/${EJECT}" 2>/dev/null||eject -s "/dev/${EJECT}" 2>/dev/null
++  echo "Ejecting live-cd, hit [Enter] when finished."
++  read
++  eject -t "/dev/${EJECT}" 2>/dev/null
++fi
++
+ # Now halt (poweroff with APM or ACPI enabled kernels) or reboot.
+ if [ "$command" = "reboot" ]; then
+   echo "Rebooting."

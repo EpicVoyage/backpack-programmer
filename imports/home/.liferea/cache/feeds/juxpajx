@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<feed>
+  <feedTitle>Newsforge</feedTitle>
+  <feedSource>http://www.newsforge.com/newsforge.rss</feedSource>
+  <feedDescription>The Online Newspaper for Linux and Open Source</feedDescription>
+  <feedImage>http://images.newsforge.com/nf_anvil_bug.gif</feedImage>
+  <feedUpdateInterval>60</feedUpdateInterval>
+  <feedStatus>1</feedStatus>
+  <feedDiscontinued>0</feedDiscontinued>
+  <attributes>
+    <attribute name="language">en-us</attribute>
+    <attribute name="copyright">Copyright 2004, OSTG - Open Source Technology Group, Inc.  All Rights Reserved.</attribute>
+    <attribute name="publisher">NewsForge</attribute>
+    <attribute name="creator">webmaster@newsforge.com</attribute>
+    <attribute name="category">Information Technology</attribute>
+    <attribute name="textInput">&lt;p&gt;Search NewsForge stories&lt;form class="rssform" method="GET" ACTION="http://www.newsforge.com/search.pl"&gt;&lt;input class="rssformtext" type=text value="" name="query"&gt;&lt;input class="rssformsubmit" type=submit value="Search NewsForge"&gt;&lt;/form&gt;&lt;/p&gt;</attribute>
+  </attributes>
+  <item>
+    <title>Linux Advisory Watch - October 21, 2005</title>
+    <description> This week, advisories were released for Ruby, hylafax, Mozilla, module-assistant, Lynx, phpMyAdmin, AbiWord, netpbm, gdb, xloadimage, and openldap. The distributors include Debian, Gentoo, and Red Hat.</description>
+    <source>http://os.newsforge.com/article.pl?sid=05/10/21/0130230&amp;from=rss</source>
+    <id>http://os.newsforge.com/article.pl?sid=05/10/21/0130230&amp;from=rss</id>
+    <nr>10</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129881660</time>
+    <attributes>
+      <attribute name="creator">warthawg</attribute>
+      <attribute name="category">linux</attribute>
+      <attribute name="slash">os,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Sharing ideas and resources at create.freedesktop.org</title>
+    <description>Part of what makes open source software thrive is code sharing and reuse. The Create initiative at freedesktop.org targets this issue by bringing together developers from Inkscape, Scribus, Krita, the Open Clip Art Library, and the GIMP, among others, along with interested individuals. Together they are collaborating on a set of specifications they believe will simplify work for developers and distributions, and usability for end users.</description>
+    <source>http://software.newsforge.com/article.pl?sid=05/10/11/2055236&amp;from=rss</source>
+    <id>http://software.newsforge.com/article.pl?sid=05/10/11/2055236&amp;from=rss</id>
+    <nr>9</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129834800</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">opensource</attribute>
+      <attribute name="slash">software,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Obituary:  Michael M. Murphree</title>
+    <description>NewsForge.com regrets to report that our freelance contributor Michael M. Murphree, 41, died Monday, October 17, as a result of a heart attack. Michael worked as a system administrator and held Level 2 certification from the Linux Professional Institute. A devoted family man, he also enjoyed writing children's fiction, woodworking, and building computer systems for the less fortunate. Updated</description>
+    <source>http://trends.newsforge.com/article.pl?sid=05/10/20/1536205&amp;from=rss</source>
+    <id>http://trends.newsforge.com/article.pl?sid=05/10/20/1536205&amp;from=rss</id>
+    <nr>8</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129827600</time>
+    <attributes>
+      <attribute name="creator">warthawg</attribute>
+      <attribute name="category">news</attribute>
+      <attribute name="slash">trends,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>PostgreSQL bootcamp at the Big Nerd Ranch</title>
+    <description>Last month I spent an intense five days learning the ins and outs of the PostgreSQL database management system at the Big Nerd Ranch, a teaching and consulting company based in Atlanta which specializes in Mac OS X and Unix. The "Big Nerd Ranch Way" removes you from your normal environment to Historic Banning Mills, a beautiful resort southwest of Atlanta, where your only concern is learning. Founder and alpha nerd Aaron Hillegass and his staff offer a series of innovative courses taught by world-class professionals.</description>
+    <source>http://business.newsforge.com/article.pl?sid=05/10/11/2019213&amp;from=rss</source>
+    <id>http://business.newsforge.com/article.pl?sid=05/10/11/2019213&amp;from=rss</id>
+    <nr>7</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129820400</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">educationtraining</attribute>
+      <attribute name="slash">business,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Inveneo lights up Bay St. Louis</title>
+    <description>In the usual course of business, Inveneo provides information and communication technology for remote villages in places such as Uganda. But after Hurricane Katrina hit the US south coast at the end of August, the company went to Bay St. Louis, Mississippi, to set up a communication system for relief workers, who needed to be able to talk to each other and coordinate relief supplies for local residents.</description>
+    <source>http://trends.newsforge.com/article.pl?sid=05/10/17/1847212&amp;from=rss</source>
+    <id>http://trends.newsforge.com/article.pl?sid=05/10/17/1847212&amp;from=rss</id>
+    <nr>6</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129809600</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">news</attribute>
+      <attribute name="slash">trends,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Review: Linux in a Nutshell</title>
+    <description>There are many kinds of Linux-related books. Some instruct readers on design philosophies and programming principles, others are "beginner" books written in layman's terms, and then there are administration and security guides. Linux in a Nutshell, 5th Edition is a desk reference -- not something you'd read cover-to-cover, and you wouldn't want it to be your only source of Linux-related information, but it's handy to have around if you use the GNU/Linux operating system on a regular basis.</description>
+    <source>http://entertainment.newsforge.com/article.pl?sid=05/10/12/1533205&amp;from=rss</source>
+    <id>http://entertainment.newsforge.com/article.pl?sid=05/10/12/1533205&amp;from=rss</id>
+    <nr>5</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129798860</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">books</attribute>
+      <attribute name="slash">entertainment,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Ian Murdock responds to Debian-DCC Alliance trademark dispute</title>
+    <description>Earlier today we posted an article about the dispute between the Debian Project and the former Debian Common Core Alliance, now known as the DCC Alliance. Before press time we had not received a response from DCCA leader Ian Murdock, the founder of Progeny. Now we have.</description>
+    <source>http://trends.newsforge.com/article.pl?sid=05/10/19/1638239&amp;from=rss</source>
+    <id>http://trends.newsforge.com/article.pl?sid=05/10/19/1638239&amp;from=rss</id>
+    <nr>4</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129740180</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">news</attribute>
+      <attribute name="slash">trends,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Debian Common Core Alliance loses 'Debian' from its name</title>
+    <description>Lacking permission from the Debian project to call itself Debian anything, the Debian Common Core Alliance has agreed to change its name to the recursive DCC Alliance, but, according to Debian, has so far refused to remove Debian's logo from its own logo or issue any formal press release about the change or why it took place.</description>
+    <source>http://trends.newsforge.com/article.pl?sid=05/10/19/1444211&amp;from=rss</source>
+    <id>http://trends.newsforge.com/article.pl?sid=05/10/19/1444211&amp;from=rss</id>
+    <nr>3</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129732860</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">news</attribute>
+      <attribute name="slash">trends,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Open source and politics ride the same bus</title>
+    <description>A recent bus trip and tour of Oregon State University's Open Source Lab (OSL), and its cavernous collection of "the most important racks in open source," had political and technological progressives sitting side by side.</description>
+    <source>http://trends.newsforge.com/article.pl?sid=05/10/07/1833225&amp;from=rss</source>
+    <id>http://trends.newsforge.com/article.pl?sid=05/10/07/1833225&amp;from=rss</id>
+    <nr>2</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129732200</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">news</attribute>
+      <attribute name="slash">trends,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Try an information technology ombudsman</title>
+    <description>Poor communication and tension between information technology (IT) staff and its internal customers is a common problem for many organizations. In some instances, strained relationships keep IT from moving the organization forward. One possible approach to smoothing things out is to employ a neutral third party -- an IT ombudsman.</description>
+    <source>http://business.newsforge.com/article.pl?sid=05/10/11/1843201&amp;from=rss</source>
+    <id>http://business.newsforge.com/article.pl?sid=05/10/11/1843201&amp;from=rss</id>
+    <nr>1</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129723260</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">management</attribute>
+      <attribute name="slash">business,</attribute>
+    </attributes>
+  </item>
+</feed>

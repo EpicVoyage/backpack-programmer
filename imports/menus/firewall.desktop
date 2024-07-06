@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Firewall - block all ports
+Comment=Blocks all ports
+Exec=sudo /etc/rc.d/rc.firewall
+TryExec=sudo
+Terminal=true
+Type=Application
+StartupNotify=false
+Icon=apacheconf
+Categories=live-cd;firewall;

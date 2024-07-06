@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="icon_theme" mtime="1130145766" type="string">
+                <stringvalue>dlg-etiquette</stringvalue>
+        </entry>
+        <entry name="gtk_theme" mtime="1130145766" type="string">
+                <stringvalue>DLfun-Default</stringvalue>
+        </entry>
+</gconf>

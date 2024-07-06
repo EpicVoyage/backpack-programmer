@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="exec" mtime="1130106044" type="string">
+                <stringvalue>epiphany</stringvalue>
+        </entry>
+</gconf>

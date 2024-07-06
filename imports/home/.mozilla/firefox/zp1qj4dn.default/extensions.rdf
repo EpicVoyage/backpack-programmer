@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NS1="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$ht+sw"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:videodowloader@videodownloader.net"
+                   NS1:description="Download videos from Youtube, Google, Metacafe, iFilm, Dailymotion... and other 60+ video sites ! And all embedded objects on a webpage (movies, mp3s, flash, quicktime, etc)."
+                   NS1:creator="Javi Moya"
+                   NS1:homepageURL="http://videodownloader.net/"
+                   NS1:optionsURL="chrome://videodownloader/content/options.xul"
+                   NS1:aboutURL="chrome://videodownloader/content/about.xul"
+                   NS1:iconURL="chrome://videodownloader/content/videodownloader.png"
+                   NS1:name="VideoDownloader"
+                   NS1:version="1.1.1"
+                   NS1:installLocation="app-profile">
+    <NS1:contributor>SlovakSoft (Slovak locale)</NS1:contributor>
+    <NS1:contributor>Andreas Kleinert (German locale)</NS1:contributor>
+    <NS1:contributor>Денис Черницов (Russian locale)</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$Zw+sw"/>
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:inspector@mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="1.8.1"
+                   NS1:name="DOM Inspector"
+                   NS1:description="Inspects the structure and properties of a window and its contents."
+                   NS1:creator="mozilla.org"
+                   NS1:homepageURL="http://www.mozilla.org/projects/inspector/"
+                   NS1:appManaged="true">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$Bt+sw"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Ct+sw"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Dt+sw"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$Ct+sw"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="2.0b1pre"
+                   NS1:maxVersion="2.0b1pre" />
+  <RDF:Description RDF:about="rdf:#$vxYtN"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.4"
+                   NS1:maxVersion="0.8" />
+  <RDF:Description RDF:about="rdf:#$Zw+sw"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$it+sw"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="1.0+"
+                   NS1:maxVersion="1.0+" />
+  <RDF:Description RDF:about="rdf:#$Mx+sw"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="3.0a1" />
+  <RDF:Description RDF:about="urn:mozilla:item:{c45c406e-ab73-11d8-be73-000a95be3b12}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.0.2"
+                   NS1:name="Web Developer"
+                   NS1:description="Adds a menu and a toolbar with various web developer tools."
+                   NS1:creator="Chris Pederick"
+                   NS1:homepageURL="http://chrispederick.com/work/webdeveloper/"
+                   NS1:optionsURL="chrome://webdeveloper/content/options/options.xul"
+                   NS1:aboutURL="chrome://webdeveloper/content/about/about.xul"
+                   NS1:iconURL="chrome://webdeveloper/content/images/logo.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$ht+sw"/>
+    <NS1:targetApplication RDF:resource="rdf:#$it+sw"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$uxYtN"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="3.0a1" />
+  <RDF:Description RDF:about="rdf:#$wxYtN"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="1.6a1" />
+  <RDF:Description RDF:about="urn:mozilla:item:{cf15270e-cf08-4def-b4ea-6a5ac23f3bca}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.2.1"
+                   NS1:name="JSView"
+                   NS1:description="View the source code of external javascripts."
+                   NS1:creator="Ron Beckman"
+                   NS1:homepageURL="http://forum.softwareblaze.com"
+                   NS1:optionsURL="chrome://jsview/content/jsviewOptions.xul"
+                   NS1:aboutURL="chrome://jsview/content/about.xul"
+                   NS1:iconURL="chrome://jsview/skin/jsview.gif">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Andrew Shadoura</NS1:contributor>
+    <NS1:contributor>Team erweiterungen.de</NS1:contributor>
+    <NS1:contributor>Pedro Luiz Failla Junior</NS1:contributor>
+    <NS1:contributor>Fernando Pereira Silveira</NS1:contributor>
+    <NS1:contributor>Jason Karl Davis</NS1:contributor>
+    <NS1:contributor>Philip Chee</NS1:contributor>
+    <NS1:contributor>PAGF_LINUX</NS1:contributor>
+    <NS1:contributor>Jojaba</NS1:contributor>
+    <NS1:contributor>Krcko</NS1:contributor>
+    <NS1:contributor>Ginex</NS1:contributor>
+    <NS1:contributor>MatrixIsAllOver</NS1:contributor>
+    <NS1:contributor>Zhkl0228</NS1:contributor>
+    <NS1:contributor>Mark Heijl</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$Mx+sw"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Nx+sw"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Ox+sw"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$Bt+sw"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="2.0" />
+  <RDF:Description RDF:about="rdf:#$Et+sw"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="2.0" />
+  <RDF:Description RDF:about="rdf:#$Nx+sw"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.4"
+                   NS1:maxVersion="0.7" />
+  <RDF:Description RDF:about="urn:mozilla:item:{DDC359D1-844A-42a7-9AA1-88A850A938A8}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.9.9.7"
+                   NS1:name="DownThemAll!"
+                   NS1:description="The mass downloader for Firefox."
+                   NS1:creator="Federico Parodi - Stefano Verna"
+                   NS1:homepageURL="http://www.downthemall.net"
+                   NS1:optionsURL="chrome://dta/content/opzioni/newPref.xul"
+                   NS1:aboutURL="chrome://dta/content/about/about.xul"
+                   NS1:iconURL="chrome://dta/content/immagini/icon.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$uxYtN"/>
+    <NS1:targetApplication RDF:resource="rdf:#$vxYtN"/>
+    <NS1:targetApplication RDF:resource="rdf:#$wxYtN"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$Ox+sw"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="1.0" />
+  <RDF:Description RDF:about="rdf:#$Dt+sw"
+                   NS1:id="{718e30fb-e89b-41dd-9da7-e25a45638b28}"
+                   NS1:minVersion="0.3"
+                   NS1:maxVersion="0.3" />
+  <RDF:Seq RDF:about="urn:mozilla:item:root">
+    <RDF:li RDF:resource="urn:mozilla:item:inspector@mozilla.org"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{DDC359D1-844A-42a7-9AA1-88A850A938A8}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{cf15270e-cf08-4def-b4ea-6a5ac23f3bca}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:videodowloader@videodownloader.net"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{c45c406e-ab73-11d8-be73-000a95be3b12}"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0"
+                   NS1:name="Firefox (default)"
+                   NS1:description="The default theme"
+                   NS1:creator="Gerich and Horlander"
+                   NS1:internalName="classic/1.0"
+                   NS1:locked="true"
+                   NS1:appManaged="true"
+                   NS1:contributor="Mozilla Contributors">
+    <NS1:type NC:parseType="Integer">4</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$Et+sw"/>
+  </RDF:Description>
+</RDF:RDF>

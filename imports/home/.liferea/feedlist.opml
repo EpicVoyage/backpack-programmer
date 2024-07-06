@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<opml version="1.0">
+  <head>
+    <title>Liferea Feed List Export</title>
+  </head>
+  <body>
+    <outline text="Liferea SF News" title="Liferea SF News" description="Liferea SF News" type="rss" htmlUrl="http://sourceforge.net/projects/liferea/" xmlUrl="http://sourceforge.net/export/rss2_projnews.php?group_id=87005&amp;rss_fulltext=1" updateInterval="1440" noIncremental="true" id="tjcvgiw" lastPollTime="1129883751" lastFaviconPollTime="1129883751" sortColumn="time"/>
+    <outline title="Example Feeds" collapsed="">
+      <outline title="OSS" collapsed="">
+        <outline text="art.gnome.org" title="art.gnome.org" description="art.gnome.org" type="rss" htmlUrl="http://art.gnome.org" xmlUrl="http://art.gnome.org/backend.php" updateInterval="-1" id="nhlairu" lastPollTime="1129883751" lastFaviconPollTime="1129883751" sortColumn="time"/>
+        <outline text="Debian Planet" title="Debian Planet" description="Debian Planet" type="rss" htmlUrl="http://www.debianplanet.net/" xmlUrl="http://www.debianplanet.net/module.php?mod=node&amp;op=feed" updateInterval="-1" id="meejfbx" lastPollTime="1129883751" lastFaviconPollTime="1129883762" sortColumn="time"/>
+        <outline text="Debian Package a Day" title="Debian Package a Day" description="Debian Package a Day" type="pie" htmlUrl="http://www.livejournal.com/users/debaday/" xmlUrl="http://www.livejournal.com/users/debaday/data/atom" updateInterval="-1" id="yerotrx" lastPollTime="1129883751" lastFaviconPollTime="1129883752" sortColumn="time"/>
+        <outline text="Gnomefiles" title="Gnomefiles" description="Gnomefiles" type="rss" htmlUrl="http://www.gnomefiles.org/" xmlUrl="http://www.gnomefiles.org/files/gnomefiles.rdf" updateInterval="-1" id="ogchyqu" lastPollTime="1129883751" lastFaviconPollTime="1129883752" sortColumn="time"/>
+        <outline text="GNOME Footnotes" title="GNOME Footnotes" description="GNOME Footnotes" type="rss" htmlUrl="http://gnomedesktop.org" xmlUrl="http://www.gnomedesktop.org/backend.php" updateInterval="-1" id="hpdeylf" lastPollTime="1129883751" lastFaviconPollTime="1129883757" sortColumn="time"/>
+        <outline text="GrokLaw" title="GrokLaw" description="GrokLaw" type="rss" htmlUrl="http://www.groklaw.net" xmlUrl="http://www.groklaw.net/backend/GrokLaw.rdf" updateInterval="-1" id="wjgfger" lastPollTime="1129883751" lastFaviconPollTime="1129883752" sortColumn="time"/>
+        <outline text="Linux.com" title="Linux.com" description="Linux.com" type="rss" htmlUrl="http://www.linux.com/" xmlUrl="http://www.linux.com/index.rss" updateInterval="60" id="nuqbhqe" lastPollTime="1129883751" lastFaviconPollTime="1129883753" sortColumn="time"/>
+        <outline text="mozillaZine" title="mozillaZine" description="mozillaZine" type="rss" htmlUrl="http://www.mozillazine.org/" xmlUrl="http://www.mozillazine.org/contents.rdf" updateInterval="-1" id="ouprpjw" lastPollTime="1129883751" lastFaviconPollTime="1129883753" sortColumn="time"/>
+        <outline text="Newsforge" title="Newsforge" description="Newsforge" type="rss" htmlUrl="http://www.newsforge.com/" xmlUrl="http://www.newsforge.com/newsforge.rss" updateInterval="60" id="juxpajx" lastPollTime="1129883751" lastFaviconPollTime="1129883754" sortColumn="time"/>
+        <outline text="Planet Debian" title="Planet Debian" description="Planet Debian" type="rss" htmlUrl="http://planet.debian.org/" xmlUrl="http://planet.debian.org/rss20.xml" updateInterval="-1" id="hfwvdwv" lastPollTime="1129883751" lastFaviconPollTime="1129883755" sortColumn="time"/>
+        <outline text="Slashdot" title="Slashdot" description="Slashdot" type="rss" htmlUrl="http://slashdot.org/" xmlUrl="http://rss.slashdot.org/Slashdot/slashdot" updateInterval="60" id="qvwtbgu" lastPollTime="1129883751" lastFaviconPollTime="1129883760" sortColumn="time"/>
+        <outline text="TuxMobil" title="TuxMobil" description="TuxMobil" type="rss" htmlUrl="http://tuxmobil.org" xmlUrl="http://tuxmobil.org/tuxmobil_rss.rdf" updateInterval="1440" id="pwsaquo" lastPollTime="1129883751" lastFaviconPollTime="1129883758" sortColumn="time"/>
+      </outline>
+    </outline>
+    <outline text="Backpack Programmer's LiveCD updates" title="Backpack Programmer's LiveCD updates" description="Backpack Programmer's LiveCD updates" type="rss" htmlUrl="http://daga.dyndns.org/projects/backpack/" xmlUrl="http://daga.dyndns.org/rss/backpack.rss" updateInterval="-1" id="opjfmbi" lastPollTime="1129883792" lastFaviconPollTime="1129883793" sortColumn="time"/>
+    <outline text="Unread" title="Unread" description="Unread" type="vfolder" htmlUrl="" xmlUrl="vfolder" updateInterval="-2" id="tqmtotq" sortColumn="time">
+      <outline type="rule" text="Read status" rule="unread" value="" additive="true"/>
+    </outline>
+    <outline text="Important" title="Important" description="Important" type="vfolder" htmlUrl="" xmlUrl="vfolder" updateInterval="-2" id="bshubux" sortColumn="time">
+      <outline type="rule" text="Flag status" rule="flagged" value="" additive="true"/>
+    </outline>
+  </body>
+</opml>

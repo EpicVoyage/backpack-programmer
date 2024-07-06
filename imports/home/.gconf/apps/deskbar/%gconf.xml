@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="enabled_handlers" mtime="1145913939" type="list" ltype="string">
+                <li type="string">
+                        <stringvalue>MozillaSearchHandler</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>HistoryHandler</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>ProgramsHandler</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>PathProgramsHandler</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>EvolutionHandler</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>EmailAddressHandler</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>WebAddressHandler</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>FileFolderHandler</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>GtkBookmarkHandler</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>VolumeHandler</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>SlackwarePackageHandler</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>MozillaBookmarksHandler</stringvalue>
+                </li>
+        </entry>
+        <entry name="keybinding" mtime="1145913910" type="string">
+                <stringvalue>&lt;Alt&gt;F3</stringvalue>
+        </entry>
+</gconf>

@@ -1,0 +1,20 @@
+_________________________________________________________
+
+Read the INSTALL file for information on how to get Dufie
+built, configured, and running properly.
+_________________________________________________________
+
+Dufie: The Disk Usage Front [i] End.
+
+Dufie is a front end for the linux 'du' command (shipped
+with the fileutils package). It provides a graphical user
+interface for how much space directories and their
+contents are taking up on your hard drive(s).
+_________________________________________________________
+
+Special thanks to Fractal for the About-box logo.
+_________________________________________________________
+
+Bugs, questions, comments, and compliments can be sent to
+umphress@gmail.com. No flames, please :P
+_________________________________________________________

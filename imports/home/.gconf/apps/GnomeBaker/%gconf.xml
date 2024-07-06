@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="PlaySound" mtime="1130320836" type="bool" value="true">
+        </entry>
+        <entry name="AskOnQuit" mtime="1130320836" type="bool" value="true">
+        </entry>
+        <entry name="OnTheFly" mtime="1130320790" type="bool" value="true">
+        </entry>
+        <entry name="RockRidge" mtime="1130320790" type="bool" value="true">
+        </entry>
+        <entry name="Joliet" mtime="1130320790" type="bool" value="true">
+        </entry>
+        <entry name="ShowFileBrowser" mtime="1130320790" type="bool" value="true">
+        </entry>
+        <entry name="AlwaysScanOnStartup" mtime="1130320836" type="bool" value="true">
+        </entry>
+        <entry name="WriteMode" mtime="1130320790" type="string">
+                <stringvalue>default</stringvalue>
+        </entry>
+        <entry name="CreateISOOnly" mtime="1130320790" type="bool" value="false">
+        </entry>
+        <entry name="CleanTempDir" mtime="1130320836" type="bool" value="true">
+        </entry>
+        <entry name="ShowHumanFilesizes" mtime="1130320836" type="bool" value="true">
+        </entry>
+        <entry name="ShowHiddenFiles" mtime="1130320836" type="bool" value="false">
+        </entry>
+        <entry name="BurnFree" mtime="1130320790" type="bool" value="false">
+        </entry>
+        <entry name="FastBlank" mtime="1130320790" type="bool" value="false">
+        </entry>
+        <entry name="TempDir" mtime="1130320836" type="string">
+                <stringvalue>/tmp/GnomeBaker/user</stringvalue>
+        </entry>
+        <entry name="Eject" mtime="1130320790" type="bool" value="true">
+        </entry>
+        <entry name="Dummy" mtime="1130320790" type="bool" value="false">
+        </entry>
+        <entry name="DvdWriteSpeed" mtime="1130320790" type="int" value="2">
+        </entry>
+        <entry name="WriteSpeed" mtime="1130320790" type="int" value="4">
+        </entry>
+        <entry name="WriteDevice" mtime="1130320790" type="string">
+                <stringvalue>Device01</stringvalue>
+        </entry>
+        <entry name="ReadDevice" mtime="1130320790" type="string">
+                <stringvalue>Device01</stringvalue>
+        </entry>
+</gconf>

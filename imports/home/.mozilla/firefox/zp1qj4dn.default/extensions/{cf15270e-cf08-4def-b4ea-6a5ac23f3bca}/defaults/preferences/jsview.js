@@ -1,0 +1,10 @@
+pref('extensions.{cf15270e-cf08-4def-b4ea-6a5ac23f3bca}.description','chrome://jsview/locale/jsview.properties');
+pref('jsview.activateOnclick',false);
+pref('jsview.chooseBehavior','chrome://jsview/locale/jsview.properties');
+pref('jsview.clearTemp',false);
+pref('jsview.disableContext',true);
+pref('jsview.disableStatus',true);
+pref('jsview.disableToolsOptions',false);
+pref('jsview.framePref',false);
+pref('jsview.extapp','');
+pref('jsview.temploc','');

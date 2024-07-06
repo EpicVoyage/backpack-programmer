@@ -1,0 +1,8 @@
+add	/home/user/.mozilla/firefox/zp1qj4dn.default/extensions/{c45c406e-ab73-11d8-be73-000a95be3b12}/install.rdf
+add	/home/user/.mozilla/firefox/zp1qj4dn.default/extensions/{c45c406e-ab73-11d8-be73-000a95be3b12}/install.js
+add	/home/user/.mozilla/firefox/zp1qj4dn.default/extensions/{c45c406e-ab73-11d8-be73-000a95be3b12}/license.txt
+add	/home/user/.mozilla/firefox/zp1qj4dn.default/extensions/{c45c406e-ab73-11d8-be73-000a95be3b12}/chrome/webdeveloper.jar
+add	/home/user/.mozilla/firefox/zp1qj4dn.default/extensions/{c45c406e-ab73-11d8-be73-000a95be3b12}/chrome.manifest
+register	profile	package	webdeveloper
+register	profile	skin	classic/1.0
+register	profile	locale	en-US

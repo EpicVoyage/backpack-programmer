@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="burnproof" mtime="1130105856" type="bool" value="true">
+        </entry>
+</gconf>

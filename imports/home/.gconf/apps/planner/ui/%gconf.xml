@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="main_window_position_y" mtime="1130113798" type="int" value="25">
+        </entry>
+        <entry name="main_window_position_x" mtime="1130113798" type="int" value="0">
+        </entry>
+        <entry name="main_window_height" mtime="1130113798" type="int" value="584">
+        </entry>
+        <entry name="main_window_width" mtime="1130113798" type="int" value="954">
+        </entry>
+        <entry name="main_window_maximized" mtime="1130113798" type="bool" value="false">
+        </entry>
+        <entry name="active_view" mtime="1130113790" type="string">
+                <stringvalue>gantt_view</stringvalue>
+        </entry>
+</gconf>

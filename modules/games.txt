@@ -1,0 +1,13 @@
+#32:nethackQT
+32:nethack-tty
+32:hermes
+32:clanlib
+32:pingus
+32:supertux
+kdegames
+xgames
+gnuchess
+32:njam
+fortune-mod-starwars
+fortune-mod-chucknorris
+fortune-mod-hitchhiker

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="scrollbar_position" mtime="1128540633" type="string">
+                <stringvalue>right</stringvalue>
+        </entry>
+        <entry name="background_darkness" mtime="1129707253" type="float" value="0.51948052644729614">
+        </entry>
+        <entry name="background_type" mtime="1128540610" type="string">
+                <stringvalue>transparent</stringvalue>
+        </entry>
+        <entry name="title" mtime="1128540589" type="string">
+                <stringvalue>Backpack user</stringvalue>
+        </entry>
+        <entry name="visible_name" mtime="1128540578" type="string">
+                <stringvalue>Backpack User</stringvalue>
+        </entry>
+</gconf>

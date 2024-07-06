@@ -1,0 +1,4 @@
+# patched
+auth    sufficient pam_rootok.so
+auth    required   pam_permit.so
+account required   pam_permit.so

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="groupPerWindow" mtime="1129963682" type="bool" value="true">
+        </entry>
+        <entry name="defaultGroup" mtime="1129963625" type="int" value="0">
+        </entry>
+</gconf>

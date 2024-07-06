@@ -1,0 +1,1598 @@
+<?xml version="1.0"?>
+<feed>
+  <feedTitle>Planet Debian</feedTitle>
+  <feedSource>http://planet.debian.org/rss20.xml</feedSource>
+  <feedDescription>Planet Debian - http://planet.debian.org/</feedDescription>
+  <feedUpdateInterval>-1</feedUpdateInterval>
+  <feedStatus>1</feedStatus>
+  <feedDiscontinued>0</feedDiscontinued>
+  <feedLastModified>Fri, 21 Oct 2005 08:23:54 GMT</feedLastModified>
+  <attributes>
+    <attribute name="language">en</attribute>
+  </attributes>
+  <item>
+    <title>Isaac Clerencia: XOrg 6.9RC1, trying Composite again</title>
+    <description>&lt;p&gt;
+XOrg 6.9 RC1 was released some days ago, and yesterday &lt;a href="http://www.livejournal.com/users/gravityboy/19991.html"&gt;David Nusinow uploaded it to Debian experimental&lt;/a&gt;. XOrg 6.9 RC1 features &lt;a href="http://lists.freedesktop.org/archives/xorg/2005-June/008356.html"&gt;EXA&lt;/a&gt;, a new 2d acceleration architecture for X11, developed by &lt;a href="http://www.kdedevelopers.org/blog/14"&gt;Trolltech KDE hacker Zack Rusin&lt;/a&gt;, that should improve Composite performance a lot.
+&lt;/p&gt;
+	&lt;p&gt;
+I tried again xcompmgr, kompmgr and transset and they behaved a bit better than they did the last time I tried, but it&amp;#8217;s still not acceptable for permanent desktop usage. I&amp;#8217;m really looking forward to the next XOrg releases &lt;img src="http://people.warp.es/~isaac/blog/wp-images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /&gt;
+&lt;/p&gt;</description>
+    <source>http://people.warp.es/~isaac/blog/index.php/xorg-69rc1-trying-composite-again-31</source>
+    <id>http://people.warp.es/~isaac/blog/index.php/xorg-69rc1-trying-composite-again-31</id>
+    <nr>60</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129879177</time>
+    <attributes>
+      <attribute name="creator">isaac</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>James Morrison: Attempted suicide #2</title>
+    <description>&lt;div&gt;So, on my way home again, another vehicle (a mini-van) decided to illegally take the right of way away from me.  This time the driver decided to run a red light and almost hit me.  WHY CAN'T PEOPLE DRIVE?&lt;br /&gt;
+&lt;br /&gt; After my flat tire, I took my bicyle into the store where I got it for a free tune-up and to get the tire fixed while I was there.  They had my bicycle for a week, because they didn't call me when it was done.  When I picked it up, the back tire was flat and the front derailer cable wasn't tighten and they had somehow messed up the rear derailer.  At this point, I've decided it's not worth going back there, and I'll fix the gears myself.  I know, I won't get them right the first, second, third time, but it will be worth the effort.&lt;br /&gt;
+&lt;br /&gt;  Randomness: Ataxx is a pretty cool game, it's in the gnome-games package.  My planet is back.&lt;/div&gt;</description>
+    <source>http://phython.blogspot.com/2005/10/attempted-suicide-2.html</source>
+    <id>tag:blogger.com,1999:blog-6893636.post-112986963992024357</id>
+    <nr>59</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129869639</time>
+    <attributes>
+      <attribute name="creator">Jim</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Uwe Hermann: Flock - Firefox-based Social Browser Launched</title>
+    <description>&lt;p&gt;&lt;a href="http://www.flock.com/"&gt;Flock&lt;/a&gt; &lt;a href="http://slashdot.org/article.pl?sid=05/10/21/0230209&amp;amp;tid=95&amp;amp;tid=154&amp;amp;tid=185&amp;amp;tid=1"&gt;is&lt;/a&gt; &lt;a href="http://www.zdnet.com.au/news/software/soa/Advanced_browser_gives_taste_of_Web_2_0/0,2000061733,39218173,00.htm"&gt;upon&lt;/a&gt; &lt;a href="http://flickr.com/photos/tags/flock"&gt;us&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;(via &lt;a href="http://blog.dhreutter.de/index.php/archives/2005/10/21/a-new-browser-flock/"&gt;Daniel Reutter&lt;/a&gt;)&lt;/p&gt;
+
+&lt;!--
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"&gt;
+&lt;rdf:Description rdf:about="http://www.hermann-uwe.de/blog/flock-firefox-based-social-browser-launched" dc:identifier="http://www.hermann-uwe.de/blog/flock-firefox-based-social-browser-launched" dc:title="Flock - Firefox-based Social Browser Launched" trackback:ping="http://www.hermann-uwe.de/trackback/468" /&gt;
+&lt;/rdf:RDF&gt;
+--&gt;</description>
+    <source>http://www.hermann-uwe.de/blog/flock-firefox-based-social-browser-launched</source>
+    <id>http://www.hermann-uwe.de/blog/flock-firefox-based-social-browser-launched</id>
+    <nr>58</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129864599</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Joe Wreschnig: Vorbis comments and tracktotal</title>
+    <description>&lt;p&gt;Breaking radio silence to complain about something both trivial and technical, so it&amp;#8217;s probably best if everyone skips this post. Unless you write a CD ripper or audio tagger. Then please read this post, because I&amp;#8217;m going to explain why you&amp;#8217;re wrong. (Someone emailed me about why Quod Libet &lt;a href="http://www.sacredchao.net/quodlibet/ticket/204"&gt;acts this way&lt;/a&gt;, and I figured I&amp;#8217;d make my answer public, with the hope it helps things.)&lt;/p&gt;
+	&lt;p&gt;&lt;strong&gt;History&lt;/strong&gt;&lt;br /&gt;
+Decades ago, before there was Ogg Vorbis, people used an obsolete standard called MP3, and tagged it with something called ID3 (in particular, ID3v2). One of the possible tags was TRCK, for the track number. It was stored as a string in &amp;#8220;x/y&amp;#8221; format, for track number x out of y total tracks. Perhaps this could be improved upon; maybe not (I&amp;#8217;ll make a case for not later). Regardless, that&amp;#8217;s how hundreds of thousands, if not millions, of files were tagged.&lt;/p&gt;
+	&lt;p&gt;&lt;strong&gt;Ogg Vorbis Comments&lt;/strong&gt;&lt;br /&gt;
+These days we have something better &amp;#8212; Ogg Vorbis &lt;a href="http://www.xiph.org/vorbis/doc/v-comment.html"&gt;and its tagging format&lt;/a&gt;. Vorbis specified a tag called &lt;em&gt;tracknumber&lt;/em&gt;, analogous to TRCK.&lt;/p&gt;
+	&lt;blockquote&gt;&lt;p&gt;TRACKNUMBER: The track number of this piece if part of a specific larger collection or album&lt;/p&gt;&lt;/blockquote&gt;
+	&lt;p&gt;Now, this is a bit ambiguous. In particular, TRCK says how you should store the total number of tracks, and the Vorbis comment specification doesn&amp;#8217;t. A strict reading indicates you can&amp;#8217;t, but then the same standard is designed to be particularly loose about the data stored in the tags. So a lot of programs, &lt;a href="http://easytag.sourceforge.net"&gt;including really popular ones&lt;/a&gt;, just kept their ID3 format and wrote tracknumber=x/y. Everyone was happy.&lt;/p&gt;
+	&lt;p&gt;Then someone &amp;#8212; I wish I knew who, so I could write this to them personally &amp;#8212; decided trying to parse the track number in this format was too hard, and so decided they would make a &lt;em&gt;tracktotal&lt;/em&gt; tag that stored, as a single number, the number of tracks.&lt;/p&gt;
+	&lt;p&gt;&lt;strong&gt;Whoever Did This Is Wrong&lt;/strong&gt;&lt;br /&gt;
+Whoever decided to do this was pretty dumb. There&amp;#8217;s a number of false assumptions here, roughly in decreasing order of annoyance:&lt;/p&gt;
+	&lt;ul&gt;
+&lt;li&gt;When you make a new standard, people won&amp;#8217;t follow it (assuming otherwise is one of the stupidest design decisions possible). Lots of programs still wrote the x/y format. Quod Libet still does. I think it&amp;#8217;s a better format. So now all that happens is everyone needs to implement both formats.&lt;/li&gt;
+	&lt;li&gt;When you make a new standard, people won&amp;#8217;t follow it (as bad as it is, they made this mistake twice). Anything that does Vorbis tags probably does ID3 tags, and ID3 isn&amp;#8217;t going away any time soon. So you still need the x/y parser no matter what.&lt;/li&gt;
+	&lt;li&gt;When you make a new standard, &lt;a href="http://lists.xiph.org/pipermail/vorbis/2003-October/011720.html"&gt;people get it wrong&lt;/a&gt;. So now we all need to support totaltracks, tracktotal, and x/y.&lt;/li&gt;
+	&lt;li&gt;Every other new tagging standard uses something much closer to x/y. Apple&amp;#8217;s MP4 metadata, for example, uses two bytes in a single &lt;em&gt;trck&lt;/em&gt; value. APEv2 uses Track=x/y. This is pointless differentiation.&lt;/li&gt;
+	&lt;li&gt;x/y is not hard to parse. There&amp;#8217;s a horrible function called atoi that does it, and a lot of better ones.&lt;/li&gt;
+	&lt;li&gt;Using a simple numeric string still needs atoi and friends, because you don&amp;#8217;t want &amp;#8220;2&amp;#8243; to sort after &amp;#8220;11&amp;#8243;.&lt;/li&gt;
+	&lt;li&gt;You&amp;#8217;re just trading parsing for reconstruction later. Quod Libet displays &amp;#8220;Track [tracknumber]&amp;#8221; which gets it right every time. Otherwise you have two strings &amp;#8220;Track [tracknumber]&amp;#8221; and &amp;#8220;Track [tracknumber] of [tracktotal]&amp;#8221; (no, you can&amp;#8217;t just have &amp;#8220;of [tracktotal]&amp;#8221;, that ruins i18n).&lt;/li&gt;
+	&lt;li&gt;Users would rather enter a single &amp;#8220;tracknumber=1/21&amp;#8243; than &amp;#8220;tracknumber=1; tracktotal=21&amp;#8243;.&lt;/li&gt;
+	&lt;li&gt;All else being equal, tracknumber=x/y is shorter. Maybe not a big deal, until we see a proliferation of discnumber (requiring disctotal, and totaldiscs), partnumber (requiring parttotal, and totalparts), and &amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+	&lt;p&gt;The result is that every program still needs to understand x/y &amp;#8212; &lt;em&gt;even if every Vorbis file used the new format&lt;/em&gt; &amp;#8212; and the new format, and &lt;em&gt;also&lt;/em&gt; needs to do the work to construct track numbers in the new format, assuming it wants to use them. That&amp;#8217;s why Quod Libet converts everything to x/y format.&lt;/p&gt;
+	&lt;p&gt;I urge authors of tagging applications and CD rippers to abandon stupid standards. Instead, you should be spending time fixing your ID3v2 readers and writers, because they all suck too.&lt;/p&gt;
+	&lt;p&gt;&lt;strong&gt;P.S.&lt;/strong&gt;&lt;br /&gt;
+If anyone knows what program is putting ISO-8859-1 values into Vorbis tags, please let me know. I have spiked cluebat for you.&lt;/p&gt;
+	&lt;p&gt;&lt;strong&gt;A Summary of Other Things&lt;/strong&gt;&lt;br /&gt;
+I moved into a new apartment building next door to my old one, owned by the same student co-op, so it doesn&amp;#8217;t actually seem like I moved at all. School started and is going well. I saw DOOM earlier this week for free, and enjoyed it. I&amp;#8217;ve learned a lot about Python i18n over the past few months and am writing a brief howto explaining how to do it properly.
+&lt;/p&gt;</description>
+    <source>http://www.sacredchao.net/~piman/journal/archives/2005/10/20/vorbis-comments-and-tracktotal/</source>
+    <id>http://www.sacredchao.net/~piman/journal/archives/2005/10/20/vorbis-comments-and-tracktotal/</id>
+    <nr>57</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129854235</time>
+    <attributes>
+      <attribute name="creator">piman</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>David Nusinow: Yay! Shiny!</title>
+    <description>Xorg 6.9 RC1 packages for x86 are in incoming and will hit experimental tomorrow. Enjoy!</description>
+    <source>http://www.livejournal.com/users/gravityboy/19991.html</source>
+    <id>http://www.livejournal.com/users/gravityboy/19991.html</id>
+    <nr>56</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129853857</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Erich Schubert: Gaim will get voice functions</title>
+    <description>&lt;p&gt;Gaim has some &lt;a href="http://gaim.sourceforge.net/index.php?id=162"&gt;nice to
+read news&lt;/a&gt;. Including upcoming SIP/SIMPLE support (from gaim-vv).&lt;/p&gt;
+&lt;p&gt;But the paragraph I liked most is the following:&lt;/p&gt;
+&lt;p&gt;&lt;blockquote&gt;"I (Sean) [the main gaim lead devel] have been hired by Google,
+moved to Seattle, and have been working on the Google Talk team for about a
+month and a half. [...] Currently, I'm working on making it as easy as possible
+for other clients to use Google Talk's voice features. You can expect Gaim and
+other clients to be interoperable with Google Talk's voice features in the near
+future."&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;So google is still playing "good guys". At least as long as it's bad for
+their competitors (Skype, MSN, Yahoo Messenger...)?
+&lt;/p&gt;</description>
+    <source>http://blog.drinsama.de/erich/en/2005102101-gaim-to-get-voice-functions</source>
+    <id>http://blog.drinsama.de/erich/en/en/2005102101-gaim-to-get-voice-functions</id>
+    <nr>55</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129846460</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Jose Carlos Garcia Sogo: Homer is Omar</title>
+    <description>&lt;p&gt;Making an &lt;a href="http://news.independent.co.uk/media/article320877.ece"&gt;arab
+version&lt;/a&gt; of The Simpsons can be nice to introduce them in Arab world. Renaming
+Homer as Omar, or Bart as Badr, can be good if those names are going to help
+people understood better the roles. Calling them Al Shamshoon is a bit too much.&lt;/p&gt;
+&lt;p&gt;But of course, changing chapters to susbtitute Duff beer by soft drinks and 
+doughnuts by Arab kahk cookies is completely crazy. I strongly think that our world
+is not going to be better by givin each group just what they want, but by making everyone
+understand and respect other cultures. And sorry, Homer is a pig.&lt;/p&gt;</description>
+    <source>http://www.tribulaciones.org/blog/life/homer_is_omar-20-10-2005</source>
+    <id>http://www.tribulaciones.org/blog/life/homer_is_omar-20-10-2005</id>
+    <nr>54</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129845749</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Matthew Garrett</title>
+    <description>"&lt;i&gt;&lt;a href="http://trends.newsforge.com/article.pl?sid=05/10/19/1638239&amp;amp;from=rss"&gt;the pieces that have mentioned tthe DCCA since then have all properly referred to it as the DCC Alliance&lt;/a&gt;&lt;/i&gt;"&lt;br /&gt;&lt;br /&gt;Google &lt;a href="http://news.google.com/news?hl=en&amp;amp;ned=us&amp;amp;ie=UTF-8&amp;amp;scoring=d&amp;amp;q=dcca+linux&amp;amp;btnG=Search+News"&gt;seems&lt;/a&gt; to &lt;a href="http://news.google.com/news?hl=en&amp;amp;ned=us&amp;amp;ie=UTF-8&amp;amp;scoring=d&amp;amp;q=%22debian+common+core%22&amp;amp;btnG=Search+News"&gt;disagree&lt;/a&gt;.</description>
+    <source>http://www.livejournal.com/users/mjg59/51450.html</source>
+    <id>http://www.livejournal.com/users/mjg59/51450.html</id>
+    <nr>53</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129841275</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Ari Pollak: zsh function to quickly look at the documentation for a package, complete with tab completion</title>
+    <description>&lt;pre&gt;# Function Usage: doc packagename
+#                 doc pac
+doc() { cd /usr/share/doc/$1 &amp;&amp; ls }
+_doc() { _files -W /usr/share/doc -/ }
+compdef _doc doc&lt;/pre&gt;&lt;br /&gt;Thanks to Clint for the completion stuff.</description>
+    <source>http://www.livejournal.com/users/go_team_ari/9790.html</source>
+    <id>http://www.livejournal.com/users/go_team_ari/9790.html</id>
+    <nr>52</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129841177</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Romain Francoise: Obligatory package pimping</title>
+    <description>&lt;p&gt; Two new packages this week in &lt;a href="http://packages.debian.org/unstable/editors/emacs-snapshot"&gt;emacs-snapshot&lt;/a&gt;: the first is savehist.el, a package to save minibuffer histories (grep, compile, shell command, M-x, etc) between sessions; the other is rcirc.el, a spartan IRC client which is noteworthy because it's the first IRC client to be shipped as part of Emacs. The more advanced &lt;a href="http://packages.debian.org/unstable/net/erc"&gt;ERC&lt;/a&gt; is to be installed at some later time, for now M-x irc points to rcirc. &lt;br /&gt;&lt;br /&gt; Get it from your nearest mirror in about 24 hours, I missed tonight's dinstall by a few minutes (uploading 57M of packages takes some time).&lt;/p&gt;</description>
+    <source>http://orebokech.com/debian/#2-9</source>
+    <id>http://orebokech.com/debian/#2-9</id>
+    <nr>51</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129839877</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Joachim Breitner: Nokia 77O</title>
+    <description>&lt;img src="http://www.joachim-breitner.de/blog/uploads/Maggie.serendipityThumb.jpg" align="left" vspace="2" hspace="2" /&gt;  Today it arrived, my Nokia 77O lnternet-Tablet that l got via the Developer-Program. My typing is still slow, so l&amp;#8217;ll keep this entry short. The picture was taken wit my new camera and uploaded  with the 77O.</description>
+    <source>http://www.joachim-breitner.de/blog/archives/106-Nokia-77O.html</source>
+    <id>http://www.joachim-breitner.de/blog/archives/106-guid.html</id>
+    <nr>50</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129824319</time>
+    <attributes>
+      <attribute name="creator">mail@joachim-breitner.de (nomeata)</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Ross Burton: The Incredible Shrinking Process</title>
+    <description>&lt;p&gt;
+      Some time ago I was very pleased when I found one of the causes for the &lt;a href="http://burtonini.com/blog/computers/eds-2005-05-16-16-55"&gt;Incredible
+      Expanding Evolution&lt;/a&gt;.  At the time I was positively pleased that the
+      Evolution Data Server's heap usage was under 1 megabyte when in use (the
+      benchmark was to run 20 bookviews).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Well, things have come on a long way since then:&lt;br /&gt;
+      &lt;img src="http://www.burtonini.com/computing/screenshots/eds-massif-20051020.png" alt="Massif chart" /&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      Now it's peaking at just under 400Kb!  The 200Kb chunk is the Berkeley DB
+      cache for my addressbook, and the size of that is tunable.  After that
+      come &lt;tt&gt;add_module&lt;/tt&gt; and &lt;tt&gt;add_alias&lt;/tt&gt; from &lt;tt&gt;libc&lt;/tt&gt;'s
+      &lt;tt&gt;gconv&lt;/tt&gt; implementation of &lt;tt&gt;iconv&lt;/tt&gt;.  Now I'm pretty sure the
+      data they are loading should be made constant and shared among all
+      processes.  Anybody know of existing work in this area?
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;small&gt;NP: &lt;cite&gt;Fear Of Fours&lt;/cite&gt;, Lamb&lt;/small&gt;
+    &lt;/p&gt;</description>
+    <source>http://www.burtonini.com/blog//computers/eds-2005-10-20-16-50</source>
+    <id>http://www.burtonini.com/blog/computers/eds-2005-10-20-16-50</id>
+    <nr>49</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129823400</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Uwe Hermann: Unsubscribing from mailing lists and RSS feeds</title>
+    <description>&lt;p&gt;&lt;a href="http://webreakstuff.com/"&gt;Frederico Oliveira&lt;/a&gt; talks about &lt;a href="http://webreakstuff.com/blog/2005/10/i-unsubscribe/"&gt;some interesting issues&lt;/a&gt; regarding the information overload most of us are experiencing. He unsubscribed from several RSS feeds in order to cut down the mass of information.&lt;/p&gt;
+&lt;p&gt;I'm goint to do the same thing, too. My first step was to reduce the amount of daily email, though. I have just finished unsubscribing from 16 mailing lists which I don't really read very often (this automatically reduces the amount of spam I get, too). I'm left with ca. 80 mailing lists now. I'll probably remove some more and concentrate on those which I really need and/or read regularly.&lt;/p&gt;
+&lt;p&gt;The next step is to unsubscribe from several RSS feeds, but that's not that much of an issue. I find tracking RSS feeds easier and more manageable than tracking mailinglists (not sure why). For the statistics freaks, I currently subscribe to ca. 320 feeds, but I read way more of them regularly than I do with mailing lists...&lt;/p&gt;
+
+&lt;!--
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"&gt;
+&lt;rdf:Description rdf:about="http://www.hermann-uwe.de/blog/unsubscribing-from-mailing-lists-and-rss-feeds" dc:identifier="http://www.hermann-uwe.de/blog/unsubscribing-from-mailing-lists-and-rss-feeds" dc:title="Unsubscribing from mailing lists and RSS feeds" trackback:ping="http://www.hermann-uwe.de/trackback/467" /&gt;
+&lt;/rdf:RDF&gt;
+--&gt;</description>
+    <source>http://www.hermann-uwe.de/blog/unsubscribing-from-mailing-lists-and-rss-feeds</source>
+    <id>http://www.hermann-uwe.de/blog/unsubscribing-from-mailing-lists-and-rss-feeds</id>
+    <nr>48</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129821859</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Erich Schubert: VMWare player PXE image?</title>
+    <description>&lt;p&gt;I wonder if you can make a PXE (Netboot) image for VMWare player.
+That would basically give a free VMWare for everyone, wouldn't it?
+Or at least a kernel which will mount a NFS root.
+&lt;/p&gt;</description>
+    <source>http://blog.drinsama.de/erich/en/linux/2005102001-vmware-player</source>
+    <id>http://blog.drinsama.de/erich/en/en/linux/2005102001-vmware-player</id>
+    <nr>47</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129816204</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Alexander Wirt: Its a long time ago</title>
+    <description>I haven't blogged for a long time and much things happened like then... Even more work than before and HE is now a fresh student: &lt;br /&gt;
+&lt;p&gt;&lt;img width="640" height="480" border="0" hspace="5" align="center" src="http://www.formorer.de/blogs/uploads/marc.jpg" alt="" /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;
+More news later &lt;img src="http://www.formorer.de/blogs/templates/default/img/emoticons/smile.png" alt=":-)" class="emoticon" /&gt;&lt;br /&gt;</description>
+    <source>http://www.formorer.de/blogs/index.php?/archives/32-Its-a-long-time-ago.html</source>
+    <id>http://www.formorer.de/blogs/index.php?/archives/32-guid.html</id>
+    <nr>46</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129812846</time>
+    <attributes>
+      <attribute name="creator">formorer@formorer.de (Alexander Wirt)</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Barry Hawkins: The unfortunate state of public transportation in Atlanta</title>
+    <description>&lt;p&gt;My wife&amp;#8217;s car was recently totaled and as a result we have been sharing one automobile for almost a month.  As a result, I have taken &lt;a href="http://www.itsmarta.com"&gt;MARTA&lt;/a&gt; a few times. MARTA is Atlanta&amp;#8217;s implementation of public transportation, and its woeful shortcomings are burned afresh in my mind.  For most people in Atlanta, public transportation serves three purposes:&lt;/p&gt;
+	&lt;ol&gt;
+	&lt;li&gt;You have to go to the airport.&lt;/li&gt;
+	&lt;li&gt;You have to go to a concert or sports venue.&lt;/li&gt;
+	&lt;li&gt;You are poor.&lt;/li&gt;
+	&lt;/ol&gt;
+	&lt;p&gt;This is primarily why public transprotation in Atlanta sucks.  The first few trips where I was in Manhattan for weeks at a time, I got such a kick out of seeing &lt;em&gt;everyone&lt;/em&gt; use public transportation.  It was so refreshing.  I wish Atlanta&amp;#8217;s public transportation would shape up; I love the idea of not having to drive a car.&lt;/p&gt;</description>
+    <source>http://www.yepthatsme.com/2005/10/20/the-unfortunate-state-of-public-transportation-in-atlanta/</source>
+    <id>http://www.yepthatsme.com/2005/10/20/the-unfortunate-state-of-public-transportation-in-atlanta/</id>
+    <nr>45</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129806340</time>
+    <attributes>
+      <attribute name="creator">Barry Hawkins</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>MJ Ray: Selling, the web, chipping and bloody hacking</title>
+    <description>&lt;p&gt;&lt;a href="http://www.iabuk.net/news/article.php?news_id=51"&gt;The Internet Advertising Bureau thinks the UK spend could be over a billion&lt;/a&gt;
+for the first time. It's now 5.8% of the national advertising spend and is
+growing at a pretty remarkable rate. Is Christmas coming early for online?
+&lt;/p&gt;&lt;p&gt;
+&lt;a href="http://forums.oscommerce.com/index.php?automodule=blog&amp;amp;cmd=showentry&amp;amp;blogid=1&amp;amp;eid=393"&gt;
+OSCommerce - the future will be templated.&lt;/a&gt;
+We're doing more OSCommerce work and 2.2 MS2 is a fairly typical
+PHP application, with some structure, but also lots of spaghetti code.
+The next version is looking a lot better, including this announcement
+from the lead developer.
+Templating and styling has to be the most-requested work.
+I find it a little worrying that OSCommerce is not more openly developed,
+but it'll be good when the new release ships.
+&lt;/p&gt;&lt;p&gt;
+Jakob Neilsen has announced
+&lt;a href="http://www.useit.com/alertbox/designmistakes.html"&gt;
+the top ten web design mistakes of 2005&lt;/a&gt;
+and "Legibility Problems" are number one.
+This isn't a surprise to me. Many websites, including some big names,
+are totally broken if your browser defaults are light text on a
+dark background, because that's easier on your eyes.
+I once spotted the Disability Rights Commission getting this wrong.
+Even planet.debian.org is missing a:link {color: ...}.
+&lt;/p&gt;&lt;p&gt;
+The second top mistake is bad linking, including:
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;"In particular, don't open pages in new windows"&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;
+.which is another thing which I find irritating on many sites.
+If I want a new window, I'll pick the link for a "new window" from
+the context menu, or by shift-clicking.
+Does 
+&lt;a href="http://www.mozilla.org/"&gt;
+Mozilla&lt;/a&gt;
+or Firefox or something have an "ignore _blank link targets" option yet?
+It's only a matter of time.
+&lt;/p&gt;&lt;p&gt;
+My own company's web site has been updated and I've tried to take
+these on board. We don't do any of the worst things, but
+there are always things we can do better.
+Our site isn't that high a priority - there's so much else to do.
+&lt;/p&gt;&lt;p&gt;
+The W3C's internationalisation working group has issued
+&lt;a href="http://www.w3.org/TR/2005/NOTE-timezone-20051013/"&gt;
+a note on working with time zones.&lt;/a&gt;
+I get a lot of unusual time zone requests while programming,
+but I'll remember these explanations and
+I think I usually follow the recommendations in s1.5 anyway.
+&lt;/p&gt;&lt;p&gt;
+Also from W3C is
+&lt;a href="http://www.w3.org/TR/2005/WD-mobile-bp-20051017/"&gt;
+a Working Draft of "Mobile Web Best Practices 1.0"&lt;/a&gt;
+which they'd like feedback on, if you use or develop
+for mobile web devices.
+At first glance, it seems that many of the items are stronger versions of the
+&lt;a href="http://www.w3.org/TR/WCAG/"&gt;
+Web Content Accessibility Guidelines.&lt;/a&gt;
+&lt;/p&gt;&lt;p&gt;
+&lt;a href="http://news.bbc.co.uk/1/hi/technology/4315172.stm"&gt;
+PlayStation chipping is legal in Australia&lt;/a&gt;
+but not in the UK, where it was ruled illegal last year.
+Chipping is the practice of adding a part to the games console
+so that it can play imported titles. If the chipping and
+the risk of breaking it costs less than the difference between
+imported and domestic releases, some people will want to do it.
+It's competition between markets. I remember similar things
+for the old cartridge-based machines of my youth.
+&lt;/p&gt;&lt;p&gt;
+UK law-makers seem to be trying to kill off that trade
+in favour of foreign companies that want to
+tightly control the consoles long after they've been sold.
+The ruling from Australia might bring the start of a backlash
+against the increasingly restrictive UK laws, but it's more likely
+that the EU, US and others will press Australia to fall into line.
+Copyright seems to be one of the few areas where free trade
+is being reduced, rather than increased.
+&lt;/p&gt;&lt;p&gt;
+And finally, I remember
+&lt;a href="http://blog.wooyd.org/?p=25"&gt;
+the feeling of getting sparc32 Linux working.&lt;/a&gt;
+&lt;/p&gt;</description>
+    <source>http://mjr.towers.org.uk/blog/2005-2.html#sellwebchiphack</source>
+    <id>http://mjr.towers.org.uk/blog/2005-2.html#sellwebchiphack</id>
+    <nr>44</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129804825</time>
+    <attributes>
+      <attribute name="creator">MJ Ray</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Uwe Hermann: smashmyipod.com - You donate, we smash!</title>
+    <description>&lt;p&gt;&lt;a href="http://smashmyipod.com/"&gt;This&lt;/a&gt; has got to be the funniest cause someone has ever requested donations for:&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;
+After we collect $400 in donations, we will take that money to a local Apple Store. We will purchase the iPod, open it right inside the store, and destroy it right on the spot. The whole thing will be shot on film, and displayed on this site. This is only a social experiment, for the entertainment of the donors, and visitors of this site.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The $400 are raised, so expect the video anytime soon...&lt;/p&gt;
+
+&lt;!--
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"&gt;
+&lt;rdf:Description rdf:about="http://www.hermann-uwe.de/blog/smashmyipod-com-you-donate-we-smash" dc:identifier="http://www.hermann-uwe.de/blog/smashmyipod-com-you-donate-we-smash" dc:title="smashmyipod.com - You donate, we smash!" trackback:ping="http://www.hermann-uwe.de/trackback/463" /&gt;
+&lt;/rdf:RDF&gt;
+--&gt;</description>
+    <source>http://www.hermann-uwe.de/blog/smashmyipod-com-you-donate-we-smash</source>
+    <id>http://www.hermann-uwe.de/blog/smashmyipod-com-you-donate-we-smash</id>
+    <nr>43</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129800043</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Andres Salomon: wow</title>
+    <description>&lt;p&gt;8th Ave at 3am is a pretty scary place.  Port Authority had closed the subway entrance, so after my bus got into NYC, I had to find another way in.  Naturally, I wandered the wrong way, but I found an entrance after a while.&lt;/p&gt;
+	&lt;p&gt;On the way out of NYC (last Wed), I had some time to kill before my bus left, so I wandered around a bit.  I wanted to check my mail, so I stopped into a Starbucks figuring they&amp;#8217;d have an open access point.  I&amp;#8217;m not sure whether theirs was amongst the 8 or so active networks that showed up when I scanned.  The strongest signal came from an AP with an ESSID of &amp;#8220;Porn Palace&amp;#8221;, so that&amp;#8217;s the one I used.  I assume it was one of the fine establishments operating across the street, selling various adult toys and videos.&lt;/p&gt;
+	&lt;p&gt;Ooh, almost 5am already.  Tomorrow&amp;#8217;s going to be fun.&lt;/p&gt;</description>
+    <source>http://squishy.cc/blog/?p=64</source>
+    <id>http://squishy.cc/blog/?p=64</id>
+    <nr>42</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129797924</time>
+    <attributes>
+      <attribute name="creator">dilinger</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Adam Rosi-Kessel: Menino v. Hennigan Debate</title>
+    <description>&lt;p&gt;
+A couple of weeks ago, I asked &lt;a href="http://adam.rosi-kessel.org/weblog/boston/debate_video.html"&gt;why the Boston mayoral debate video wasn&amp;#8217;t available online&lt;/a&gt;.  It turns out that that the great folks at &lt;a href="http://www.wgbh.org"&gt;WGBH, our public television station&lt;/a&gt; do have a streaming copy on their website, but it doesn&amp;#8217;t show up in a few Google searches. So here it is&amp;#8212;&lt;a href="http://greaterboston.tv/features/gb_20050928_mayor.html"&gt;the Boston mayoral debate between Tom Menino and Maura Hennigan&lt;/a&gt;.
+&lt;/p&gt;</description>
+    <source>http://adam.rosi-kessel.org/weblog/boston/menino_hennigan_debate.html</source>
+    <id>http://adam.rosi-kessel.org/weblog/boston/menino_hennigan_debate.html</id>
+    <nr>41</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129773509</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Kai Hendry: Apache1.3 to Apache2 upgrade</title>
+    <description>&lt;p&gt;&lt;img src="http://pictures.natalian.org/kodak/2004/nov/18/11:07:06/500x333" alt="Getting TOE-ed along" /&gt;&lt;/p&gt;
+
+	&lt;p&gt;Went through a tricky upgrade from Apache 1.3 to Apache2 on &lt;a href="http://lists.debian.org/debian-apache/2005/10/msg00054.html" title=""&gt;debian-apache.&lt;/a&gt;&lt;/p&gt;
+
+	&lt;p&gt;Somehow the init.d script went missing and all hell broke loose. ;)&lt;/p&gt;
+
+	&lt;p&gt;Thanks to Adam Conrad for helping me out.&lt;/p&gt;</description>
+    <source>http://natalian.org/archives/2005/10/20/apache13-to-apache2-upgrade/</source>
+    <id>http://natalian.org/?p=366</id>
+    <nr>40</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129766193</time>
+    <attributes>
+      <attribute name="creator">hendry</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Branden Robinson: Sometimes You Hear the Tires</title>
+    <description>&lt;p&gt;I was in a multiple-car accident yesterday.&lt;/p&gt;
+
+&lt;p&gt;I've been having to tell this story a fair amount in person and on IRC,
+so I thought I'd blog about it.&lt;/p&gt;
+
+&lt;p&gt;Short version: it was a fender-bender.  I'm doing fine, nobody was hurt,
+Michelle wasn't in the car, and 75% of the cars involved were driven away
+from the scene &amp;mdash; including mine, by me.&lt;/p&gt;
+
+&lt;p&gt;Want the long version?  Well, I'm gonna tell it anyway.&lt;/p&gt;
+
+&lt;p&gt;I had just pulled to a stop at a traffic light, heading northbound on &lt;a href="http://maps.google.com/maps?q=E+106th+St+%26+N+Keystone+Ave,+Carmel,+IN+46032&amp;ll=39.900387,-86.112900&amp;spn=0.024803,0.064294&amp;iwloc=A&amp;hl=en"&gt;Keystone
+Avenue where it intersects 106th Street&lt;/a&gt;, in &lt;a href="http://www.co.hamilton.in.us/"&gt;Hamilton County&lt;/a&gt;.  The line of cars
+at the light was pretty long, and people love to try hauling ass on the
+stretch between 96th Street and 106th.  Apparently the person behind me was
+one of them.  The line of cars stopped in the left lane (where I was) at
+the light was pretty long, and much shorter in the right &amp;mdash; the cars
+over there were still moving at a good clip.  I looked in my rearview
+mirror, thinking "if someone's trying to match pace with the cars in the
+right-hand lane, they're gonna need to brake pretty hard to stop."  It was
+about 1815, so it was starting to get dark.  A pair of headlights approach.
+Fast.  Oh boy.  I don't stop right up on people's tails, so if I'm hit,
+hopefully I won't go into the car ahead.  I look forward again.  Yeah,
+there's some room here.  Screech.  I didn't tense up; I felt a strange
+sense of calm and curiosity, as I'd never been in a car accident before.  I
+bought my car, a Volkswagen Golf, in part because of its fairly good safety
+ratings.  It has lots of air bags, and I always use a seat belt.  Plus, in
+this instance I figured I wouldn't get hit a high speed.  "Strange Deja Vu"
+by &lt;a href="http://www.dreamtheater.net/"&gt;Dream Theater&lt;/a&gt;, from the
+&lt;em&gt;Scenes from a Memory&lt;/em&gt; CD, was playing.  Normally I listen to &lt;a href="http://news.minnesota.publicradio.org/programs/allthings/"&gt;All Things
+Considered&lt;/a&gt; while commuting home, but I was annoyed because when I got
+in the car, I heard &lt;a href="http://www.npr.org/templates/story/story.php?storyId=2101289"&gt;Nina
+Totenberg&lt;/a&gt; signing off a report, which means I'd just missed some
+Supreme Court coverage.  Damn.&lt;/p&gt;
+
+&lt;p&gt;Anyway.  BONK.  I got hit.  Ouch.  My teeth
+had chomped together too hard.  Maybe they should install rubber
+mouthpieces in the doors of cars so you can grab them right before a crash.
+You know, car crashes never sound like the stock sound effects that have
+been around for about 50 years.  I guess that's because they build cars to
+crumple these days instead of act like steel shrapnel bombs.  Damn that
+&lt;a href="http://www.nader.org/"&gt;Ralph Nader&lt;/a&gt;.  My wreck doesn't sound
+&lt;strong&gt;cool&lt;/strong&gt; and stuff.  And I get to walk away, well, get back
+in the car and &lt;em&gt;drive&lt;/em&gt; away, instead of my wife collecting on my
+life insurance policy.  But I digress again.&lt;/a&gt;
+
+&lt;p&gt;A middle-aged woman in a Honda Civic skidded into me, and knocked me
+into the Buick Park Avenue ahead of me, which in turn tapped the minivan
+ahead of him.  I blinked a bit and tried to reorient myself, and then
+turned off the CD player.  We all got out of our cars.  The woman in back
+was very distressed, and immediately and repeatedly said the thing your
+insurance card tells you never to say after an accident.  Oh well.  Being a
+middle-aged woman, she'd probably have to wreck a school bus full of
+children &amp;mdash; twice &amp;mdash; before her premium would go up.  Mine, on
+the other hand &amp;mdash; we'll see.&lt;/p&gt;
+
+&lt;p&gt;Called 911.  Reported the incident.  Tried to call my wife, but she
+decided not to answer.  I later found out she was gabbing it up with my
+mom.  Isn't it nice when your wife gets along with your mother?  &lt;em&gt;I
+COULD BE BLEEDING OUT ON THE COLD ASPHALT, BUT YOU TWO JUST KEEP ON
+TALKING.&lt;/em&gt; Michelle and I have the same model of cell phone, and we have
+call waiting with caller ID, so I &lt;em&gt;know&lt;/em&gt; she knew it was me.
+Anyway, I try a couple of times, then give up and leave voice mail.&lt;/p&gt;
+
+&lt;p&gt;Turns out the guy in front, in the minivan, was a Deputy Prosecutor for
+Hamilton County.  He said something about being experienced in car wrecks,
+but I don't clearly remember it.  Anyway, perhaps in part because he
+decided he was only "tapped" and didn't need to file an insurance claim,
+and perhaps in part out of professional courtesy, when the cops showed up,
+they let him go very quickly, so I didn't get any of his information.&lt;/p&gt;
+
+&lt;p&gt;Everybody was fine, polite, and decent about the whole thing.  The
+couple ahead of me, whom I got knocked into, didn't have their insurance
+info on them (or maybe this is a euphemism for "don't have insurance").
+But, except for the deputy prosecutor guy, who was outta there, we all
+traded names, addresses, and phone numbers.  I hope the Debian Project
+doesn't mind that I used my Debian Project Leader business cards for this
+purpose.  These people (and the &lt;a href="http://www.ci.carmel.in.us/CPD/police.html"&gt;Carmel Police
+Department&lt;/a&gt;) now have my GPG key fingerprint.  Uh oh.&lt;/p&gt;
+
+&lt;p&gt;Anyway, that's about it.  Appointment tomorrow with the insurance agent,
+to get help filling out &lt;code&gt;INDIANA OPERATOR'S VEHICLE CRASH REPORT,
+State Form 38656 (R6/7-91) Stock 301 Effective 1-92&lt;/code&gt;, which has to be
+filed with the &lt;a href="http://www.in.gov/isp/"&gt;Indiana State Police&lt;/a&gt;
+within ten business days, or my driver's license will be suspended.  Aww,
+yeah.  Gotta move fast, because on Friday I leave for M&amp;eacute;rida, Spain,
+to attend the &lt;a href="http://www.opensourceworldconference.com/conferencia_en.html"&gt;2nd
+Annual Open Source World Conference&lt;/a&gt; in Extremadura.  Also have an
+appointment with the claims adjustor tomorrow.  Then I'm hoping to just
+leave my car at the dealership so they can work on it over the week when
+I'm gone.  My wife and my mom, those talkative two from a couple of
+paragraphs ago, will be coming along with me.  My mom's got a jones to
+visit Spain, and I've had a jones to take my wife to Europe.  We'll have a
+couple of extra days to see what Spain is like &amp;mdash; I'll be there from
+22 October to 28 October.  I hope one day to visit Barcelona and hang out
+with some proper &lt;a href="http://en.wikipedia.org/wiki/Anarcho-syndicalism"&gt;anarcho-syndicalists&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- $Id: car_crash.txt 150 2005-10-19 22:58:47Z branden $ --&gt;
+
+&lt;!--
+    Copyright (C) 2005 G. Branden Robinson
+--&gt;</description>
+    <source>http://necrotic.deadbeast.net/~branden/blog/exuberance/Life/car_crash.html</source>
+    <id>http://necrotic.deadbeast.net/~branden/blog/exuberance/Life/car_crash.html</id>
+    <nr>39</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129761485</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Amaya Rodrigo: A 5&#x20AC; Cactus</title>
+    <description>&lt;a href="http://xana.scru.org/bamamba/cactac.html"&gt;Clint&lt;/a&gt;, this is the cactus that brought so much singing and happiness into my life today, for just 5 &#x20AC;.&lt;br /&gt;&lt;br /&gt;&lt;div align="center"&gt;&lt;a href="http://fotos.amayita.com/album30/dscn6362"&gt;&lt;img src="http://fotos.amayita.com/albums/album30/dscn6362.thumb.jpg" width="150" height="113" /&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <source>http://www.livejournal.com/users/amayita/59122.html</source>
+    <id>http://www.livejournal.com/users/amayita/59122.html</id>
+    <nr>38</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129760662</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Jonathan McDowell: </title>
+    <description>&lt;p&gt;
+From an ubuntu-announce mail just received:
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A slim default installation, occupying just 400 megabytes
+&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Now I'm not picking on &lt;a href="http://www.ubuntu.com/"&gt;Ubuntu&lt;/a&gt; in
+particular here, but the word &lt;i&gt;just&lt;/i&gt; really does seem to indicate that Tom
+Womack's proclamation that "Disk space is cheap" just continues to get truer
+and truer. My first well used Linux install was on a 40MB disk and I'm
+prepared to bet there are plenty of people who started with less. Even these
+days people like &lt;a href="http://www.openwrt.org/"&gt;OpenWRT&lt;/a&gt; are producing
+distros that fit in 8MB of flash. I think it's a sad reflection that 400MB is
+considered a small footprint for a mainstream distro.
+&lt;/p&gt;</description>
+    <source>http://www.earth.li/~noodles/blog/disk-space-is-cheap.html</source>
+    <id>http://www.earth.li/~noodles/blog/disk-space-is-cheap</id>
+    <nr>37</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129757880</time>
+    <attributes>
+      <attribute name="creator">Jonathan McDowell &lt;noodles-blog@earth.li&gt;</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Jose Carlos Garcia Sogo: I am a spy</title>
+    <description>&lt;p&gt;And that was so secret that I didn't even 
+&lt;a href="http://mako.cc/copyrighteous/"&gt;know&lt;/a&gt; about it.&lt;/p&gt;</description>
+    <source>http://www.tribulaciones.org/blog/life/i-am-a-spy_19-10-2005</source>
+    <id>http://www.tribulaciones.org/blog/life/i-am-a-spy_19-10-2005</id>
+    <nr>36</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129754345</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Clint Adams: Not a saguaro, I imagine</title>
+    <description>&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;p&gt;
+I want to see a &lt;a href="http://www.livejournal.com/users/amayita/58739.html"&gt;5&#x20AC; cactus&lt;/a&gt;.
+&lt;/p&gt;&lt;/div&gt;</description>
+    <source>http://xana.scru.org/bamamba/cactac.html</source>
+    <id>tag:xana.scru.org,2005:/bamamba/cactac</id>
+    <nr>35</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129745975</time>
+    <attributes>
+      <attribute name="creator">clint</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Amaya Rodrigo: The price of happiness</title>
+    <description>Say you are broke. Say you are damn scared. Say you feel so much out of control. Buy a big, beautiful cactus. Fire up your favourite music, somewhat louder than you would normally. Do some gardening, and take as much help from both cats as they can offer. Let them play and sing aloud. All you need is a 5&#x20AC; cactus. 5&#x20AC; is the price of happiness.</description>
+    <source>http://www.livejournal.com/users/amayita/58739.html</source>
+    <id>http://www.livejournal.com/users/amayita/58739.html</id>
+    <nr>34</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129745063</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Ari Pollak: The only way to read Planet</title>
+    <description>You should be good text file get at a place as we set window type a different countries, and fun way of code which is said I'm a drink!  We point and displays it can be to the server and Free Software weblog at Debconf this has a place as a working at this unusually cheap used Google AOL, real: post Microsoft Apple hype going to be rid of the second one internal structure, explained how that he'd been a few more important. Ian Murdock Developers!  As if I needed to take the man claiming to look at some relevance and he said the test cases.&lt;br /&gt;&lt;br /&gt;Obviously this before and a bit of Launchpad team: have several staff who didn't plan to finally on the code,  we want it.</description>
+    <source>http://www.livejournal.com/users/go_team_ari/9625.html</source>
+    <id>http://www.livejournal.com/users/go_team_ari/9625.html</id>
+    <nr>33</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129742552</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Rapha&#xEB;l Hertzog: Serial overrun on Linux</title>
+    <description>&lt;p&gt;Working with serial lines can sometimes give you big headaches. I have an embedded PC based on 386 SX 40 processor. This PC doesn&amp;#8217;t make much but it has programs using the serial line intensively. Things didn&amp;#8217;t work as well as expected so I looked carefully what was going on &amp;#8230; the beast was loosing bytes ! My information has been promptly confirmed by the /proc/tty/driver/serial entry. If you have &amp;#8220;oe: X&amp;#8221; (where X is a positive number) there, it means that one of your UART detected overrun errors.&lt;/p&gt;
+
+&lt;p&gt;So what&amp;#8217;s an overrun ? An overrun happens when the UART receives data while its FIFO buffer is full. Why is the FIFO full ? Because Linux didn&amp;#8217;t treat the serial interruption quickly enough. Why is Linux so slow ? Linux is not a real time OS and it doesn&amp;#8217;t guarantee any response time to interruption, so Linux is not so slow but my PC really is &amp;#8230; what happens is that interruption related to the network are treated before serial interruptions. Furthermore IDE disk interruptions can take too long too. Worst case is of course, you&amp;#8217;re treating a disk interruption, then you have to treat the network interruption and only after that you can treat the serial interruption which in fact happened right after the beginning of the disk interruption&lt;/p&gt;
+
+&lt;p&gt;So fixing serial overrun is a rather complex problem since it&amp;#8217;s really a kernel related problem. Googling on the subject I have found several ideas to explore :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;configure IDE disk to use DMA &lt;strong&gt;hdparm -d 1 /dev/hda&lt;/strong&gt;, use of DMA will shorten the time where IRQ will be masked to the kernel (in my case it doesn&amp;#8217;t work since I&amp;#8217;m using DiskOnModule which do not support DMA)&lt;/li&gt;
+&lt;li&gt;make disk IRQ interruptible with &lt;strong&gt;hdparm -u 1 /dev/hda&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;use &lt;a href="http://cae.best.vwh.net/irqtune/"&gt;&lt;strong&gt;irqtune&lt;/strong&gt;&lt;/a&gt; to re-prioritize the IRQ on the interruption controller. This software is no more maintained and it doesn&amp;#8217;t work out of the box on kernel 2.4.x.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Using &lt;strong&gt;hdparm -u&lt;/strong&gt; wasn&amp;#8217;t enough to solve my problem&amp;#8230; so I continued to look for a solution and I found one ! I recompiled my kernel with the &lt;a href="http://www.zip.com.au/~akpm/linux/schedlat.html#downloads"&gt;low latency&lt;/a&gt; patch and the &lt;a href="http://www.kernel.org/pub/linux/kernel/people/rml/preempt-kernel/v2.4/"&gt;preemptible kernel&lt;/a&gt; patch. Those are usually used for multimedia applications where you need good responsiveness in order to deliver content in real-time but the fact is that they do work for my purpose too !&lt;/p&gt;
+
+&lt;p&gt;My serial overruns are completely gone at 9600 bauds. However I can still have some when running at 115200 bauds. Moreover I can create serial overrun by running a &lt;strong&gt;find / -type f | grep -v /proc/ | xargs md5sum&lt;/strong&gt; in the background&amp;#8230; I can&amp;#8217;t make miracles with this slow processor&amp;#8230; if you have more ideas to further improve the situation, I&amp;#8217;m willing to try !&lt;/p&gt;</description>
+    <source>http://www.ouaza.com/wordpress/2005/10/19/serial-overrun-on-linux/</source>
+    <id>http://www.ouaza.com/wordpress/2005/10/19/serial-overrun-on-linux/</id>
+    <nr>32</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129742094</time>
+    <attributes>
+      <attribute name="creator">Buxy</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Scott James Remnant: Parallel Peer Programming</title>
+    <description>&lt;p&gt;Here at Canonical Towers we have several staff who worship at the altar of Extreme Programming, and as such many of the methodologies and rituals prescribed by that religion find their way into our day-to-day working practices.  A few of these came together in an interesting way a few weeks ago, and it was suggested by a cow-orker that I blog about it so he could give the &lt;span class="caps"&gt;URL&lt;/span&gt; to people.&lt;/p&gt;
+
+&lt;p&gt;The first ritual is that of the &lt;a href="http://c2.com/cgi/wiki?PythonSprint"&gt;sprint&lt;/a&gt;, I don&amp;#8217;t think this is orthodox XP but rather something inspired from it that we picked up from the Python community.  With all of the Canonical developers scattered across the globe mostly working from their own homes, it&amp;#8217;s become a useful tool; particularly for the Launchpad team.&lt;/p&gt;
+
+&lt;p&gt;The basic idea for those that haven&amp;#8217;t heard of it is simple, and perhaps obvious; you get a selection of the team together in one place, sit them around the same table with particular goals to complete.  In effect it&amp;#8217;s highly compressed facetime and high bandwidth interaction to nail those tasks that need it, before you head off again and work at a more sedate pace.&lt;/p&gt;
+
+&lt;p&gt;The second is directly from XP doctrine and is that peculiar observance known as &lt;a href="http://c2.com/cgi/wiki?PairProgramming"&gt;pair programming&lt;/a&gt;, something that is often coupled with sprints.  For anybody who hasn&amp;#8217;t encountered this before, it&amp;#8217;s something I&amp;#8217;ve always found rather odd.  You get two programmers together, both itching to code, and you take one of them&amp;#8217;s laptop away; and you don&amp;#8217;t just force them to fight over the keyboard either, the laptop-less soul isn&amp;#8217;t allowed to touch it.&lt;/p&gt;
+
+&lt;p&gt;The theory here is that it frees the deprived individual of the hassle of coding and allows them to direct the programmer in ways that may not be immediately obbious, or alternately think about the next bit of work that needs doing.  Another interesting side-effect is it can be an interesting way to learn code you&amp;#8217;ve not worked with before, if you&amp;#8217;re the one doing the coding and you&amp;#8217;re being guided what to do by a sage who already knows it.&lt;/p&gt;
+
+&lt;p&gt;I have a funny story here, so I&amp;#8217;m going to digress from the main stream for a moment to tell it.  A few months ago I was working in the London office, Mark had been up all night coding and had then given me responsibility to get his changes landed onto the Launchpad mainline.  I&amp;#8217;m not that hot on quite a bit of Launchpad, and fade to utterly clueless the nearer the code gets to the web application itself; and when trying to merge the two there were conflicts which I needed Mark&amp;#8217;s help to resolve.&lt;/p&gt;
+
+&lt;p&gt;Now as anybody who&amp;#8217;s met Mark knows, he&amp;#8217;s a pretty good example of a Type-A personality, yet he suggested that we do a spot of pair programming to get the code in and I&amp;#8217;d be the one with the laptop as it&amp;#8217;d help me get to grips with the affected parts.  This hilighted something I&amp;#8217;ve always seen as a problem with pair programming, dealing with it when the a person with the keyboard has a totally different way of working to you.  In particular, I&amp;#8217;m an emacs user, whereas Mark is a die-hard vim user; but also right down to the working directory I would work from, how I test results, etc.&lt;/p&gt;
+
+&lt;p&gt;When you&amp;#8217;re the one without the laptop, this can be quite infuriating, as you know exactly how to solve a problem and the idiot with the keyboard is dithering about doing things you don&amp;#8217;t understand just to get there.  If you&amp;#8217;re a Type-A personality, you generally snatch the laptop away at this point and do it yourself; or at least you would, if you could drive the strange editor the other person uses.&lt;/p&gt;
+
+&lt;p&gt;I swear Mark was sulking as he gave the laptop back and let me do it.&lt;/p&gt;
+
+&lt;p&gt;Anyway, there is some relevance to that and we&amp;#8217;ll come to it in a moment.&lt;/p&gt;
+
+&lt;p&gt;The third and final methodology is the concept of &lt;a href="http://c2.com/cgi/wiki?UnitTest"&gt;unit tests&lt;/a&gt; and more specifically &lt;a href="http://c2.com/cgi/wiki?TestDrivenDevelopment"&gt;test driven development&lt;/a&gt;.  For anyone who hasn&amp;#8217;t come across this before, I highly recommend it; I was suspicious too when &lt;a href="http://www.robertcollins.net/"&gt;Robert Collins&lt;/a&gt; took it upon himself to teach me the true way, but now I&amp;#8217;m sold.&lt;/p&gt;
+
+&lt;p&gt;Simply the idea is that if you have any code that doesn&amp;#8217;t have another piece of code in a test suite that checks that it&amp;#8217;s working correctly, that code is broken.  More particularly unit testing involves checking just one feature or requirement at a time, and stacking them together to test all of the code paths.  I&amp;#8217;ve actually found that this improves the APIs I design, as I write the code in small blocks and functions to make them easier to test.&lt;/p&gt;
+
+&lt;p&gt;Test driven development takes it even further, you write the unit tests first, before you write the code they&amp;#8217;re supposed to test; usually one or two at a time.  Obviously these tests will fail at first, it&amp;#8217;s then your job to write as little code as possible to make them pass.  If your code isn&amp;#8217;t right, you add a unit test that will fail, and modify the code to make it pass.&lt;/p&gt;
+
+&lt;p&gt;This really comes into its own when you&amp;#8217;re fixing bugs later, once you&amp;#8217;ve identified the bug you write a test case or two that cause the problem; these will of course fail.  You can then modify the code to make them pass, and at the same time be sure you&amp;#8217;ve not broken other functionality because of the existing test suite.  I&amp;#8217;ve also found it really useful for particularly complicated or tricky pieces of code, especially those intricate algorithms that do particularly heavy lifting.&lt;/p&gt;
+
+&lt;p&gt;So onto the event itself, this was a sprint in our London office to indoctrinate &lt;a href="http://niemeyer.net/"&gt;Gustavo Niemeyer&lt;/a&gt; with the various projects he&amp;#8217;d be working on.  The goal for this sprint was decided to start the conversion of &lt;a href="http://wiki.launchpad.canonical.com/HCT"&gt;&lt;span class="caps"&gt;HCT&lt;/span&gt;&lt;/a&gt; to &lt;a href="http://www.bazaar-ng.org/"&gt;Bazaar-NG&lt;/a&gt;, and to do this Gustavo and I would pair program.&lt;/p&gt;
+
+&lt;p&gt;Now my last experience of pair programming had been that story with Mark (see, it had some relevance) and I knew I&amp;#8217;d be just as bad if I wasn&amp;#8217;t allowed to have the keyboard.  I was also acutely aware that if Gustavo was just sitting by and watching, he wouldn&amp;#8217;t get much benefit from it either, so he needed to be actively involved in the coding so he could learn the things he&amp;#8217;d be working on.&lt;/p&gt;
+
+&lt;p&gt;I came to what I thought was a pretty neat, and obvious, solution to these problems.  We set up my laptop with the code we&amp;#8217;d be working on, and on my display were two side-by-side terminals both running screen sessions.  Gustavo then set up two same-sized terminals on his, ssh&amp;#8217;d into my laptop from both of them and joined the screen sessions.  In the left-hand one he ran vi, and in the right-hand one I ran emacs.&lt;/p&gt;
+
+&lt;p&gt;Thus we both had keyboards, and both had editors, yet could see each other working and even steal the keyboard without danger of violence.  We didn&amp;#8217;t just sit side-by-side and code on different things though, that&amp;#8217;s not pair programming and is just ordinary programming with a bit of a voyeuristic twist.&lt;/p&gt;
+
+&lt;p&gt;What we did was: in my terminal I started writing the test cases for the code we needed, it was Gustavo&amp;#8217;s job to write the code that would make them pass.  We actually added a third terminal in which we could run the test cases themselves; so I could run them when I&amp;#8217;d added something that would fail, and Gustavo could run them when he thought he&amp;#8217;d made them pass again.&lt;/p&gt;
+
+&lt;p&gt;This turned out to be a rather fun way to work, and at one point I was almost able to try and convince myself that the code was writing itself to pass the test cases I was writing.  It also got me thinking that it&amp;#8217;d be really neat to use genetic algorithms to breed code to pass test cases.&lt;/p&gt;</description>
+    <source>http://www.netsplit.com/blog/work/canonical/parallel_peer_programming.html</source>
+    <id>tag:netsplit.com,2005/10:19:work/canonical/parallel_peer_programming</id>
+    <nr>31</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129741323</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Steinar H. Gunderson: Firefox emacs keybindings</title>
+    <description>&lt;p&gt;&lt;a href="http://www.robot101.net/2005/10/19/tweaks/"&gt;Robert&lt;/a&gt;: A quick Google search on &#x201C;Firefox emacs key bindings&#x201D;
+gives you &lt;a href="http://kb.mozillazine.org/Emacs_Keybindings_%28Firefox%29"&gt;what you want&lt;/a&gt;. (Bonus points to Google for finding a
+page that mentions &#x201C;keybindings&#x201D; when I asked it for &#x201C;key bindings&#x201D;.)&lt;/p&gt;</description>
+    <source>http://blog.sesse.net/blog/tech/2005-10-19-18-23_firefox_emacs_keybindings.html</source>
+    <id>http://blog.sesse.net/blog/tech/2005-10-19-18-23_firefox_emacs_keybindings.html</id>
+    <nr>30</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129740364</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Robert McQueen: Tweaks</title>
+    <description>&lt;p&gt;Does anyone know of a Thunderbird extension to check for words like &amp;#8220;attach&amp;#8221; and remind you if you failed to make any attachments?&lt;/p&gt;
+	&lt;p&gt;Does anyone know of a way to stop Firefox interpreting Ctrl+W as &amp;#8220;throw this window away including the wiki post/bugzilla comment/blog entry you were writing&amp;#8221;? It doesn&amp;#8217;t need to be mapped to delete word, I just don&amp;#8217;t want it to close the entire thing. It&amp;#8217;s most upsetting.
+&lt;/p&gt;</description>
+    <source>http://www.robot101.net/2005/10/19/tweaks/</source>
+    <id>http://www.robot101.net/2005/10/19/tweaks/</id>
+    <nr>29</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129729445</time>
+    <attributes>
+      <attribute name="creator">robot101</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>John Goerzen: My Wife Thinks I'm A Geek</title>
+    <description>&lt;p&gt;She's &lt;a href="http://forest.complete.org/node/179"&gt;probably right&lt;/a&gt;.&lt;/p&gt;</description>
+    <source>http://changelog.complete.org/node/404</source>
+    <id>http://changelog.complete.org/node/404</id>
+    <nr>28</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129727027</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Robert McQueen: Comments</title>
+    <description>&lt;p&gt;Just a quick post to reply to the comments I&amp;#8217;ve had on some previous posts.&lt;/p&gt;
+	&lt;p&gt;On &lt;a href="http://www.robot101.net/2005/09/25/missing-entropy/"&gt;Missing entropy&lt;/a&gt; on my server box, I received lots of comments on how to feed random other stuff into the entropy pool or make it bigger or other hacks, but &lt;a href="http://www.emplify.de/"&gt;Alexander Reelsen&lt;/a&gt; pointed me to the real cause &amp;#8212; a &lt;a href="https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=117218"&gt;kernel bug&lt;/a&gt; in older 2.4 kernels which causes the entropy pool to deadlock on SMP systems, and never get refilled. There is a &lt;a href="http://www.mirrorservice.org/sites/ftp.redhat.com/pub/redhat/linux/updates/enterprise/3ES/en/os/SRPMS/kernel-2.4.21-32.EL.src.rpm/linux-2.4.21-dev-random-updates.patch?extract=true"&gt;patch&lt;/a&gt; from RedHat which backports the fix from 2.6, and is included in recent 2.4 kernels.&lt;/p&gt;
+	&lt;p&gt;On the topic of kernels, now I&amp;#8217;ve upgraded from 2.4.29-rc1 to 2.4.32-rc1 I get lots of errors like &lt;code&gt;hw tcp v4 csum failed&lt;/code&gt; in my syslog. I&amp;#8217;m using the e100 driver which as far as I can see hasn&amp;#8217;t changed between versions, but there have been some changes to TCP checksumming code which I havn&amp;#8217;t quite been able to grok. Google finds mailing list posts with other people asking what the cause is, but nobody answering. Anyone know what&amp;#8217;s going on there?&lt;/p&gt;
+	&lt;p&gt;On &lt;a href="http://www.robot101.net/2005/10/15/windows-accessibility/"&gt;Windows accessibility&lt;/a&gt;, many people seem to not listened to the first couple of minutes of &lt;a href="http://www.union.ic.ac.uk/medic/fitness/tracks/Snippets.mp3"&gt;the tasteless song&lt;/a&gt; I linked to, and hence taken my comment completely seriously. Thanks to everyone who told me about sticky keys etc in comments, but I did already know about the existence of &lt;a href="http://www.livejournal.com/users/mjg59/15048.html"&gt;Windows accessibility support&lt;/a&gt; (warning: mjg59 in furious anger mode). :D&lt;/p&gt;
+	&lt;p&gt;On the topic of blog comments, how do I cut down on the comment spam I have to moderate without requiring people to go through a completely unaccessible captcha image thing, or the annoyance of registering and acknowledging an e-mail? Would prohibiting comments and URIs containing words like &amp;#8216;mortgage&amp;#8217;, &amp;#8216;casino&amp;#8217; and &amp;#8216;ringtone&amp;#8217; ever cause false positives?
+&lt;/p&gt;</description>
+    <source>http://www.robot101.net/2005/10/19/comments/</source>
+    <id>http://www.robot101.net/2005/10/19/comments/</id>
+    <nr>27</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129726540</time>
+    <attributes>
+      <attribute name="creator">robot101</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Steve Kemp: Planet Updates</title>
+    <description>&lt;blockquote&gt;
+	&lt;p&gt;I&amp;#8217;ll stop soon .. honest .. in the mean time two planet-related updates:&lt;/p&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&lt;a href="http://planet.debian.org/"&gt;Planet Debian&lt;/a&gt; is &lt;a href="http://planet-search.steve.org.uk"&gt;now indexed and searchable&lt;/a&gt;.
+	&lt;ul&gt;
+	&lt;li&gt;If I could remember how to do Debian CNAME updates I&amp;#8217;d have &lt;tt&gt;planet-search.debian.net&lt;/tt&gt;&amp;#8230;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;&lt;a href="http://planet.debian-administration.org/"&gt;Planet Debian Administration&lt;/a&gt; now has a shiny new logo.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/blockquote&gt;</description>
+    <source>http://blog.steve.org.uk/index.php/archives/2005/10/19/planet-updates/</source>
+    <id>http://blog.steve.org.uk/index.php/archives/2005/10/19/planet-updates/</id>
+    <nr>26</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129724827</time>
+    <attributes>
+      <attribute name="creator">Steve Kemp</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Peter Van Eynde: telenet and proxy errors</title>
+    <description>&lt;div&gt;My bother had severe problem with telenet (the local cable company) and he actually called the helpdesk while I was with him. I noticed the error they made and so could correct it. Normally they ask you to configure http://pac.telenet.be:8080 as pac file. The pack file is: &lt;tt&gt;
+&lt;pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;/* PAC FILE: VERSION MANAGEMENT WITH CVS&lt;br /&gt; * USE CVSWEB FOR UPDATING !!!&lt;br /&gt; *&lt;br /&gt; * Proxy autoconfig file&lt;br /&gt; *&lt;br /&gt; * $Revision: 1.29 $&lt;br /&gt; * $Date: 2004/04/01 06:58:30 $&lt;br /&gt; *&lt;br /&gt; */&lt;br /&gt;
+&lt;br /&gt;function FindProxyForURL(url, host)&lt;br /&gt;&amp;gt;{&amp;lt;br&amp;gt;&amp;lt;br/&amp;gt;{&lt;br /&gt;       return "DIRECT";&lt;br /&gt;&amp;gt;}&amp;lt;br&amp;gt;&amp;lt;br/&amp;gt;}&lt;br /&gt;
+&lt;br /&gt;
+&lt;/pre&gt;
+&lt;/tt&gt; Notice that there is no proxy configured. When this did not work they asked to configure proxy.telenet.be:8080 as a proxy &lt;b&gt;without disabling the pac stuff&lt;/b&gt;. This also did not work. After the long call on the expensive helpdesk I tried configuring the proxy &lt;b&gt;and&lt;/b&gt; disabling the pac. That worked.&lt;br /&gt;
+&lt;br /&gt;Of course as he was using an inferior operating system as a first step he had reinstalled everything, and lost some data he had forgotten to backup.&lt;br /&gt;
+&lt;br /&gt;I wonder when they will fix the pac file...&lt;/div&gt;</description>
+    <source>http://pvaneynd.blogspot.com/2005/10/telenet-and-proxy-errors.html</source>
+    <id>tag:blogger.com,1999:blog-7084095.post-112971322496038369</id>
+    <nr>25</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129713224</time>
+    <attributes>
+      <attribute name="creator">pvaneynd</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Peter Van Eynde: Gains and losses</title>
+    <description>&lt;div&gt;I've removed the &lt;tt&gt;hoary&lt;/tt&gt; and &lt;tt&gt;hoary24&lt;/tt&gt; sections of the CL package repository I host on p.d.o. &lt;br /&gt;On the other hand I and David D. Smith will adopt the clisp and libsigsegv packages that Will Newton took good care off up until now. We will coordinate the work through the darcs archives on cl-debian.alioth.debian.org.&lt;/div&gt;</description>
+    <source>http://pvaneynd.blogspot.com/2005/10/gains-and-losses.html</source>
+    <id>tag:blogger.com,1999:blog-7084095.post-112971282098425805</id>
+    <nr>24</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129712820</time>
+    <attributes>
+      <attribute name="creator">pvaneynd</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Sam Hocevar: Forced semi-vacation</title>
+    <description>&lt;p&gt; My laptop is away for its 3rd motherboard change. I am hence unable
+ to have much Debian activity, because it is my only computer that has a
+ screen. &lt;/p&gt;</description>
+    <source>http://sam.zoy.org/blog/2005-10-19-forced-semi-vacation</source>
+    <id>http://sam.zoy.org/blog/2005-10-19-forced-semi-vacation</id>
+    <nr>23</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129711487</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Andrew Pollock: [life] I'm feeling lucky redux</title>
+    <description>&lt;p&gt;
+Today we finally got our E3 visas in the mail, so I've resigned from
+Cybertrust, and I'll be starting at Google in Mountain View, California, in
+probably 5 or 6 weeks time.
+&lt;/p&gt;
+&lt;p&gt;
+Much bubbly to be consumed tonight.
+&lt;/p&gt;</description>
+    <source>http://blog.andrew.net.au/2005/10/19#google</source>
+    <id>http://blog.andrew.net.au/2005/10/19#google</id>
+    <nr>22</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129703886</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Benjamin Mako Hill: "Jose"</title>
+    <description>&lt;div class="document"&gt;
+&lt;p&gt;My country's national intelligence is now in the hands of a man so
+powerful that he is not publicly referred to with even a &lt;em&gt;fake&lt;/em&gt; last
+name.&lt;/p&gt;
+&lt;p&gt;Of course, it's nice to know that as mysterious as he is, &lt;a class="reference" href="http://www.suntimes.com/output/news/cst-nws-jose14.html"&gt;"Jose"&lt;/a&gt; is
+a maximum of three shorts degrees of separation from me on the social
+networking graph.  Add this to the list of benefits that come from
+knowing &lt;a class="reference" href="http://web.media.mit.edu/~nicholas/"&gt;Nicholas&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</description>
+    <source>http://mako.cc/copyrighteous/reflections/20051018-00.html</source>
+    <id>http://mako.cc/copyrighteous/reflections/20051018-00.html</id>
+    <nr>21</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129702964</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Benjamin Mako Hill: Ubuntu Talk at BLU</title>
+    <description>&lt;div class="document"&gt;
+&lt;p&gt;Last night, I decided to check out the &lt;a class="reference" href="http://www.blu.org/"&gt;Boston Linux Unix&lt;/a&gt; webpage to
+find out when the next meeting would be and what the talk would be on.&lt;/p&gt;
+&lt;p&gt;To my surprise, the talk is tomorrow and is slated to be given by none
+other than &lt;a class="reference" href="http://mako.cc/"&gt;Benjamin Mako Hill&lt;/a&gt;. Hmmm.&lt;/p&gt;
+&lt;p&gt;I vaguely remember agreeing to give a talk like this in general sense
+but don't remember ever agreeing to a specific day. In any case, I'm
+not one to disappoint and am working on my slides.&lt;/p&gt;
+&lt;p&gt;If you're interested in some post-Breezy action in Boston, please show
+up! If you can't make it, I'm trying to arrange a proper release party
+for some point after I receive my Breezy CDs (a week or two I guess).&lt;/p&gt;
+&lt;p&gt;I'm sorry for the  short notice. Of course, I'm &lt;em&gt;giving&lt;/em&gt; the talk on
+short notice so I'm not &lt;em&gt;too&lt;/em&gt; sorry.  Additionally, I am missing both a
+class and a &lt;a class="reference" href="http://www.media.mit.edu"&gt;Media Lab&lt;/a&gt; sponsors dinner that I was already double
+booked for. You should be able to cancel up to one of your prior
+engagements to attend.&lt;/p&gt;
+&lt;p&gt;Information on the talk is &lt;a class="reference" href="http://www.blu.org/cgi-bin/calendar/2005-oct"&gt;on the BLU website&lt;/a&gt;. The talk will be held
+at MIT in &lt;a class="reference" href="http://whereis.mit.edu/map-jpg?mapterms=e51&amp;amp;mapsearch=go"&gt;E51-315&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</description>
+    <source>http://mako.cc/copyrighteous/freesoftware/20051017-00.html</source>
+    <id>http://mako.cc/copyrighteous/freesoftware/20051017-00.html</id>
+    <nr>20</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129702964</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Martin 'Joey' Schulze: Oldenburger GNU/Linux-Information-Tag</title>
+    <description>&lt;p&gt;A small regional &lt;a href="http://www.ffis.de/Termine/olix2005.html"&gt;event&lt;/a&gt; covering
+Free Software and GNU/Linux took place here in Oldenburg on Saturday.
+It comprised a Debian installations party, two tracks of interesting
+talks and a small exhibition.  There were about 500 visitors, I
+guess.&lt;/p&gt;
+
+&lt;p&gt;Circa 40 people listened to the Debian talk in which I presented the
+goals of the Debian project, its internal structure, explained how the
+distribution is developed and by whom and demonstrated why well
+defined dependencies are so important.&lt;/p&gt;
+
+&lt;p&gt;Several visitors came to our booth which was located in a classroom
+together with 9 other small booths.  The exhibition room wasn't
+crowded ever, but it wasn't too boring either.  Even during the talks
+there were always a couple of visitors lingering around in the
+exhibition.&lt;/p&gt;</description>
+    <source>http://www.infodrom.org/~joey/log/?200510190719</source>
+    <id>http://www.infodrom.org/~joey/log/?200510190719</id>
+    <nr>19</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129699140</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Clint Adams: What ever happened to the second person?</title>
+    <description>&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;p&gt;
+If I'm in Times Square, why is there a sign that says &#x201E;Sex Kino &#x2014; Ganz in Farbe?&#x201D;
+And if I'm wearing a tuxedo, why am I holding a paper Air France bag?  And if
+my hair is curly, why is it red?
+&lt;/p&gt;
+
+&lt;p&gt;
+And if the Horned King is watching the Telmarines amass an army, why am I going
+to Belgrade?  And if I'm in Belgrade, why am I entertaining 12 people for $170?
+No, why am I entertaining 17 people for $40?  Why am I entertaining anyone if
+I have the Horned King to worry about?
+&lt;/p&gt;
+
+&lt;p&gt;
+If that was Bob Arctor, why wasn't he wearing his scramble suit?  If I'm
+flying above the city, carried on the wings of angels, why is some little
+boy telling me that I'm distasteful?
+&lt;/p&gt;
+
+&lt;p&gt;
+If I'm in a heated argument about Tim Burton movies, why in the hell is
+someone claiming that &lt;i&gt;Magnolia&lt;/i&gt; is worth watching?
+&lt;/p&gt;
+
+&lt;p&gt;
+And if I'm blogging, why in God's name am I not talking about keyboards?
+&lt;/p&gt;&lt;/div&gt;</description>
+    <source>http://xana.scru.org/mintings/charliesedaka.html</source>
+    <id>tag:xana.scru.org,2005:/mintings/charliesedaka</id>
+    <nr>18</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129695544</time>
+    <attributes>
+      <attribute name="creator">clint</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>John Goerzen: Just A Geek</title>
+    <description>&lt;p&gt;Recently, I bought a copy of &lt;a href="http://wilwheaton.net/"&gt;Wil Wheaton's&lt;/a&gt; book &lt;i&gt;Just A Geek&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;I've read one chapter so far.  And I have to say: &lt;b&gt;great book.&lt;/b&gt;  &lt;/p&gt;
+&lt;p&gt;This has to be one of the most insightful, brutally honest books I've ever seen.&lt;/p&gt;
+&lt;p&gt;It's also funny.  Here's a little snippet, recalling his first-ever book signing:&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;
+... a guy walked over to me, and extended his hand.&lt;/p&gt;
+&lt;p&gt;"Hi, Wil," he said, "I'm Tim O'Reilly."&lt;/p&gt;
+&lt;p&gt;HOLY MO-- WIL!  IT'S TIM O'REILLY!!  HE CAME OUT TO SEE YOU!&lt;/p&gt;
+&lt;p&gt;Before I could scream out, "I KNOW! I KNOW! I KNOW!  GREAT GOOGLY MOOGLY!" my brain said, "&lt;i&gt;Stay cool, Wil.  Don't geek out.&lt;/i&gt;"&lt;/p&gt;
+&lt;p&gt;I heeded my brain's advice . . . "It's really nice to meet you," I said. . .&lt;/p&gt;
+&lt;p&gt;Check me out.  I totally behaved myself.&lt;/p&gt;
+&lt;p&gt;"&lt;i&gt;Nicely done,&lt;/i&gt;" said my brain.  "&lt;i&gt;Have some serotonin.&lt;/i&gt;"
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Wil talks a lot about his two inner voices: his totally-honest self, and the voice he calls &lt;i&gt;Prove To Everyone Quitting Star Trek Wasn't A Bad Idea&lt;/i&gt;, or just Prove To Everyone for short.&lt;/p&gt;
+&lt;p&gt;I think we all have some of Prove To Everyone in us.  Especially Americans, and free software hackers, where competition and, well, proving onesself are expected.&lt;/p&gt;
+&lt;p&gt;It's time to loosen up a bit.&lt;/p&gt;
+&lt;p&gt;I'm going to enjoy the rest of this book.&lt;/p&gt;</description>
+    <source>http://changelog.complete.org/node/402</source>
+    <id>http://changelog.complete.org/node/402</id>
+    <nr>17</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129693572</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>John Goerzen: Control Room</title>
+    <description>&lt;p&gt;Have you ever wondered why so many Arabs hate Americans?  Why they view us as occupiers?  Why they want to be rid of both Saddam Hussein and us?&lt;/p&gt;
+&lt;p&gt;We watched &lt;a href="http://www.noujaimfilms.com/"&gt;Control Room&lt;/a&gt; tonight.  What a fascinating documentary.  There was no narration.  Just journalists talking.  Arab journalists, American journalists, Pentagon spokesmen.  Lots of different viewpoints.  Lots of insight.&lt;/p&gt;
+&lt;p&gt;It was hard to watch at times -- they showed footage of how events were covered in different countries, and it was graphic sometimes.  They also showed the journalists talking about why they covered things in a certain way.&lt;/p&gt;
+&lt;p&gt;It was very moving, and thought-provoking.&lt;/p&gt;
+&lt;p&gt;Sometimes it is useful to have a view from an outsider (to America) or an insider (to the Middle East).&lt;/p&gt;</description>
+    <source>http://changelog.complete.org/node/401</source>
+    <id>http://changelog.complete.org/node/401</id>
+    <nr>16</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129691213</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Joey Hess: argh</title>
+    <description>&lt;p&gt;My laptop's power input is broken. Not too badly yet since it seems to
+still get power in more positions than not, but I've been here before and I
+know it can go nstily downhill from here.&lt;/p&gt;
+
+&lt;p&gt;I think I know how I broke it, it's a dimly remembered farce from the
+morning before last that involved getting up to let the cat out, tripping
+over the laptop cord, putting the laptop back up only to trip over it again
+on the return trip.&lt;/p&gt;
+
+&lt;p&gt;There's a good chance it's the coord and if so I could just spend another
+$50 for third power brick and problem solved. My memory sucks and I forgot
+why I had to buy the second power brick, but I have a blog, so I know that
+it was &lt;a href="http://kitenet.net/~joey/blog/argh-2004-01-28-06-25.html"&gt;a short in the cord before&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, I've been thinking about getting another laptop anyway, but it would
+just be a cheap used laptop off of ebay to use for d-i testing and
+development. The IBM thinkpads are nice, but just don't grip me and somehow
+this pokey laptop with its not very good outdoors screen still makes me
+happy, and I'd hate for this to be the bit that killed it.&lt;/p&gt;
+
+&lt;p&gt;I think I'll invest in a multimeter first so I can find out what the
+problem is.&lt;/p&gt;</description>
+    <source>http://kitenet.net/~joey/blog/entry/argh-2005-10-19-02-33.html</source>
+    <id>http://kitenet.net/~joey/blog/entry/argh-2005-10-19-02-33.html</id>
+    <nr>15</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129689180</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Steinar H. Gunderson: VLC makes a lot of sense</title>
+    <description>&lt;p&gt;Studying signal processing, I'm a lot more happy to work with VLC-based streaming
+than anything else I've come across so far (not that I've worked a lot with
+it, but hey): It makes &lt;em&gt;so&lt;/em&gt; much more sense to deinterlace video at the client
+side than the server side, and it makes &lt;em&gt;so&lt;/em&gt; much more sense to stretch an
+anamorphic signal to 16:9 on the client side than on the server side. VLC lets
+us do this fairly painless, and both the image quality and delay seems to be
+markedly better than Windows Media. (I wish it was all a bit better documented, though,
+I wish the Debian packages would include XViD support out-of-the-box, and I wish
+the Vorbis sound output wouldn't have odd screeching in its output from time to
+time.)&lt;/p&gt;
+
+&lt;p&gt;Now, if I could only stream this to WMP and keep the sanity... :-/ (Oh, and that
+mplayer, Totem, Xine and whatnot would also take the streams, but that's really
+secondary.)&lt;/p&gt;</description>
+    <source>http://blog.sesse.net/blog/tech/2005-10-19-02-31_vlc_makes_a_lot_of_sense.html</source>
+    <id>http://blog.sesse.net/blog/tech/2005-10-19-02-31_vlc_makes_a_lot_of_sense.html</id>
+    <nr>14</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129682898</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Clint Adams: If this were San Francisco, they would gibber very differently</title>
+    <description>&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;p&gt;
+&#xAB;&#xA0;I'm gonna be brave,&#xA0;&#xBB; said the man in the striped Ralph Lauren shirt, as he cut into the
+bland and non-threatening grana padano.
+&lt;/p&gt;
+
+&lt;p&gt;
+&#xAB;&#xA0;Every time you say &#x201C;Anita&#x201D;, I'm gonna say &#x201C;hummer&#x201D;.&#xA0;&#xBB; the yuppie hipster chortled.  &#xAB;&#xA0;Anita Hummer!&#xA0;&#xBB;
+&lt;/p&gt;
+
+&lt;p&gt;
+His aging female companion shoved him playfully.
+&lt;/p&gt;
+
+&lt;p&gt;
+&#xAB;&#xA0;No musical chairs!&#xA0;&#xBB; shouted the man in the striped Ralph Lauren shirt.
+&lt;/p&gt;
+
+&lt;p&gt;
+&#xAB;&#xA0;Howdy, I'm Spike MacLure,&#xA0;&#xBB; said the man claiming to be Spike MacLure.
+&lt;/p&gt;
+
+&lt;p&gt;
+&#xAB;&#xA0;Yes, that's my real name,&#xA0;&#xBB; said the man claiming to be Spike MacLure.
+&lt;/p&gt;
+
+&lt;p&gt;
+&#xAB;&#xA0;It really is,&#xA0;&#xBB; said the man claiming to be Spike MacLure.
+&lt;/p&gt;
+
+&lt;p&gt;
+&#xAB;&#xA0;Let there be blue!&#xA0;&#xBB; cackled the man in the striped Ralph Lauren shirt.
+&lt;/p&gt;
+
+&lt;p&gt;
+&#xAB;&#xA0;I've got a backyard,&#xA0;&#xBB; said the man claiming to be Spike MacLure.
+&lt;/p&gt;
+
+&lt;p&gt;
+&#xAB;&#xA0;This is my house!&#xA0;&#xBB; lied the man in the striped Ralph Lauren shirt.
+&lt;/p&gt;&lt;/div&gt;</description>
+    <source>http://xana.scru.org/umismu/inthewhiteroom.html</source>
+    <id>tag:xana.scru.org,2005:/umismu/inthewhiteroom</id>
+    <nr>13</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129664424</time>
+    <attributes>
+      <attribute name="creator">clint</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Steve Kemp: Debian Planet Searching?</title>
+    <description>&lt;p&gt;&lt;b&gt;Debian Planet Search?&lt;/b&gt;&lt;/p&gt;
+	&lt;blockquote&gt;
+	&lt;p&gt;Would anybody have any objection to planet debian searching?&lt;/p&gt;
+	&lt;p&gt;Obviously this would require that all public entries were archived away somewhere safe &amp;#8230;&lt;/p&gt;
+	&lt;p&gt;(Related to previous questions by users about archiving to mailing lists, I guess)&lt;/p&gt;
+	&lt;/blockquote&gt;</description>
+    <source>http://blog.steve.org.uk/index.php/archives/2005/10/18/debian-planet-searching/</source>
+    <id>http://blog.steve.org.uk/index.php/archives/2005/10/18/debian-planet-searching/</id>
+    <nr>12</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129662363</time>
+    <attributes>
+      <attribute name="creator">Steve Kemp</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Joachim Breitner: Cell phone stolen, camera bought</title>
+    <description>&lt;p&gt;Isn&amp;#8217;t it ironic: I just wrote &lt;a href="http://joachim-breitner.de/tapu/"&gt;Tapu&lt;/a&gt;, a game for my mobile phone and spend quite some time typing 450 playing cards for it - and then, before ever having played the game, my cell phone, a SonyEricsson T630, gets stolen! And that in a very bold way: At night, from my dorm room, while I was sleeping there. And since the theif did not take my laptop or other expensice stuff, I assume he was not planning on stealing, therefore he (or she) is most likely from my dorm. Which makes me uncomfortable.&lt;/p&gt;&lt;p&gt;Also uncomfortable is the Siemens S35 that I still got lying around here, and so is the fact that I had to order a new SIM card, that I had to notify the loss at the police station and that I lost some contacts on the phone.&lt;/p&gt;&lt;p&gt;&lt;a href="http://joachim-breitner.de/bilder/pages/200541_1.html"&gt;&lt;img vspace="2" hspace="2" border="0" align="left" src="http://joachim-breitner.de/bilder/thumbs/20051018153638_thumb.jpg" /&gt;&lt;/a&gt;Out of frustration (ok, it was planned for a while now, but this gave me the rest), I bought myself a new camera (the old one went to pieces, as &lt;a href="http://joachim-breitner.de/blog/archives/77-Good-Bye-Camera.html"&gt;previously blogged&lt;/a&gt;). Now I own a shiny new Panasonic Lumix DMC-FZ5. It&amp;#8217;s not a pocket size camera any more, but the 12x zoom and the large lense was just too tempting. It was actually at DebConf 5 when Ralph Amissah enthuiastically showed me his Lumix, making me interested in this kind of Camera.&lt;br /&gt; &lt;/p&gt;I uploaded a &lt;a href="http://joachim-breitner.de/bilder/pages/200541_1.html"&gt;few pictures,&lt;/a&gt; though nothing special yet. Have a look at this &lt;a href="http://joachim-breitner.de/bilder/images/20051018163144.html"&gt;zoomed in picture&lt;/a&gt; versus this &lt;a href="http://joachim-breitner.de/bilder/images/20051018163200.html"&gt;wide angle picture&lt;/a&gt; for a demonstration of the 12x zoom and compare these &lt;a href="http://joachim-breitner.de/bilder/images/20051018173746.html"&gt;two&lt;/a&gt; &lt;a href="http://joachim-breitner.de/bilder/images/20051018173815.html"&gt;pictures&lt;/a&gt;, both&#xA0; fully zoomed in, first one with image stabilizer, second one without. Again, for zoom demonstration, the &lt;a href="http://joachim-breitner.de/bilder/images/20051018173914.html"&gt;wide angle view&lt;/a&gt;.</description>
+    <source>http://www.joachim-breitner.de/blog/archives/105-Cell-phone-stolen,-camera-bought.html</source>
+    <id>http://www.joachim-breitner.de/blog/archives/105-guid.html</id>
+    <nr>11</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129660334</time>
+    <attributes>
+      <attribute name="creator">mail@joachim-breitner.de (nomeata)</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Steinar H. Gunderson: Broken machine</title>
+    <description>&lt;p&gt;Due to a combination of unlucky circumstances, my workstation decided to fry
+its own CPU the other day, so I'm without one for the time being. After trying
+to replace it and breaking the heatsink in the process (the screws were &lt;em&gt;not&lt;/em&gt;
+very durable!), I've more or less given up the project, so I'll probably have
+to order something new.&lt;/p&gt;
+
+&lt;p&gt;In any case, I might be a bit less responsive with regard to answering e-mail
+for a while (reading mail without your usual .procmailrc and .muttrc is...
+not very comfortable), but I should still be able to at least keep track of
+my RC bugs :-)&lt;/p&gt;</description>
+    <source>http://blog.sesse.net/blog/tech/2005-10-18-19-52_broken_machine.html</source>
+    <id>http://blog.sesse.net/blog/tech/2005-10-18-19-52_broken_machine.html</id>
+    <nr>10</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129658688</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Uwe Hermann: EFF cracks the DocuColor Tracking Dot code</title>
+    <description>&lt;p&gt;If you haven't yet read about it, some printer brands place tiny, almost invisible yellow dots on every page you print. These dots encode certain information (date, time, printer serial number, or similar things). I think you can easily imagine the security and privacy implications. The &lt;a href="http://www.eff.org/"&gt;EFF&lt;/a&gt; has now &lt;a href="http://www.eff.org/Privacy/printers/docucolor/"&gt;cracked the DocuColor Tracking Dot code&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;They have also written a program which decodes the dot patterns. The &lt;a href="http://www.eff.org/Privacy/printers/docucolor/docucolor.cgi"&gt;code&lt;/a&gt; is released under the terms of the &lt;a href="http://www.gnu.org/copyleft/gpl.html" title="GNU General Public License"&gt;GPL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;(via &lt;a href="http://www.boingboing.net/2005/10/17/eff_cracks_hidden_sn.html"&gt;Boing Boing&lt;/a&gt; and &lt;a href="http://www.ccc.de/updates/2005/eff_copy?language=de"&gt;CCC&lt;/a&gt;)&lt;/p&gt;
+
+&lt;!--
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"&gt;
+&lt;rdf:Description rdf:about="http://www.hermann-uwe.de/blog/eff-cracks-the-docucolor-tracking-dot-code" dc:identifier="http://www.hermann-uwe.de/blog/eff-cracks-the-docucolor-tracking-dot-code" dc:title="EFF cracks the DocuColor Tracking Dot code" trackback:ping="http://www.hermann-uwe.de/trackback/460" /&gt;
+&lt;/rdf:RDF&gt;
+--&gt;</description>
+    <source>http://www.hermann-uwe.de/blog/eff-cracks-the-docucolor-tracking-dot-code</source>
+    <id>http://www.hermann-uwe.de/blog/eff-cracks-the-docucolor-tracking-dot-code</id>
+    <nr>9</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129653265</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Jesus Climent: cplay is THE player</title>
+    <description>&lt;p&gt;Although I have to say that moc (and its client/server idea) is appealing, eventhough one cannot connect to a remote server but to a local one, my player of choice is cplay. It is simplicity and usability at its best. And it is a frontend with FF/REW capabilities, with a playlist and filelist navigator, does not stop playing the current song when you navigate the file dirs...&lt;/p&gt;
+&lt;p&gt;Try it and fall in love.&lt;/p&gt;</description>
+    <source>http://www.pumuki.org/?q=node/145</source>
+    <id>http://www.pumuki.org/?q=node/145</id>
+    <nr>8</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129637006</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>MJ Ray: Central Trains to die</title>
+    <description>&lt;p&gt;The Department for Transport has
+&lt;a href="http://www.dft.gov.uk/stellent/groups/dft_railways/documents/page/dft_railways_610020.hcsp"&gt;
+announced how it will reshuffle the English midlands railways&lt;/a&gt;
+currently operated by Central Trains, Midland Mainline and Silverlink.
+There will be east and west midlands railways, with other routes
+transferred to cross-country (currently Virgin) and possibly 
+Trans-pennine Express and Chiltern.
+&lt;/p&gt;&lt;p&gt;
+For East Anglia, this means
+Norwich-Peterborough-beyond will transfer to the new east midlands railway,
+while Birmingham-Peterborough-Cambridge-Stansted will transfer to an expanded
+cross-country.
+This is probably good. Every time I've used the Birmingham service,
+it's been crowded and slow (but comfortable if you get a seat, at
+least recently). The cross-country unit runs some InterCity trains,
+so maybe Stansted might get bigger, faster trains.
+&lt;/p&gt;</description>
+    <source>http://mjr.towers.org.uk/blog/2005-2.html#cttodie</source>
+    <id>http://mjr.towers.org.uk/blog/2005-2.html#cttodie</id>
+    <nr>7</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129634416</time>
+    <attributes>
+      <attribute name="creator">MJ Ray</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Scott James Remnant: live-f1</title>
+    <description>&lt;p&gt;And while I&amp;#8217;m briefly in the blogging mood, I thought I may as well wax lyrical about another of my recent weekend projects.&lt;/p&gt;
+
+&lt;p&gt;As anybody who vaugely knows me is aware, I&amp;#8217;m a bit of an F1-nut and watch every Grand Prix religiously.  For a couple of years now the official Formula 1 website has had a Java applet that recieves the live timing data from the races and displays it on your screen.&lt;/p&gt;
+
+&lt;p&gt;Obviously this depended on Java, which is a bad thing.  But curiously the main thing that inspired this project was that the applet uses pretty small fonts, and isn&amp;#8217;t resizable; so you can&amp;#8217;t stick your laptop on the table and glance at it during the race.&lt;/p&gt;
+
+&lt;p&gt;So a race weekend a couple of weeks back, the one where &lt;a href="http://oskuro.net/blog/stuff/alonso-2005-09-24-18-47"&gt;&lt;span class="caps"&gt;FERNANDO&lt;/span&gt; &lt;span class="caps"&gt;ALONSO&lt;/span&gt;&lt;/a&gt; was busy winning the World Championship, in fact I tcpdumped the network traffic while running the Java applet and set about figuring out exactly how it worked.&lt;/p&gt;
+
+&lt;p&gt;The result a nice curses C application that does much the same thing:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.netsplit.com/2005/live-f1.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I don&amp;#8217;t plan on releasing it properly until the start of the 2006 season, when I hope to have added some useful features into it that the Java applet lacks, but it&amp;#8217;s coming along nicely.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: I didn&amp;#8217;t actually intend to live you all hanging quite like that&amp;#8230; you can play with the code today (though there&amp;#8217;s obviously no race to watch) by grabbing it with bzr from &lt;a href="http://www.netsplit.com/bzr/live-f1"&gt;http://www.netsplit.com/bzr/live-f1&lt;/a&gt;.  It&amp;#8217;s written in C and you&amp;#8217;ll need libncurses5-dev and libneon24-dev to build it.&lt;/p&gt;</description>
+    <source>http://www.netsplit.com/blog/tech/live-f1.html</source>
+    <id>tag:netsplit.com,2005/10:18:tech/live-f1</id>
+    <nr>6</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129628599</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Scott James Remnant: bzrk 0.1</title>
+    <description>&lt;p&gt;Over the weekend in a stunning example of timing, &lt;a href="http://www.fabbione.net/blog/"&gt;fabbione&lt;/a&gt; showed me a screenshot of &lt;a href="http://people.ubuntu.com/~fabbione/gitk1.png"&gt;gitk&lt;/a&gt;, the branch visualisation tool for git that he&amp;#8217;s discovered while getting the Ubuntu kernel patches into a branch.&lt;/p&gt;
+
+&lt;p&gt;He, quite rightly, was upset that we didn&amp;#8217;t have anything like this for &lt;a href="http://www.bazaar-ng.org/"&gt;bzr&lt;/a&gt;.  Well, we do now:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.netsplit.com/2005/bzrk.png"&gt;&lt;img src="http://www.netsplit.com/2005/bzrk-shot.png" class="thumb" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s implemented as a bzr plugin, so you simply run &amp;#8220;bzr visualise&amp;#8221; (or &amp;#8220;bzr viz&amp;#8221;) in a working tree and the window opens to show you the history.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://people.ubuntu.com/~scott/software/bzrk/"&gt;Download here&lt;/a&gt;&lt;/p&gt;</description>
+    <source>http://www.netsplit.com/blog/tech/bzrk.html</source>
+    <id>tag:netsplit.com,2005/10:18:tech/bzrk</id>
+    <nr>5</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129620111</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Anthony Towns: AJ Market Update</title>
+    <description>&lt;p&gt;Hrm, I&amp;#8217;m going a bit single issue; I should fix that. But not
+right now.
+
+&lt;p&gt;So it&amp;#8217;s been a couple of weeks since I &lt;a href="http://azure.humbug.org.au/~aj/blog/2005/10/04#2005-10-04-ajmarket"&gt;first posted&lt;/a&gt; about my
+little &lt;a href="http://www.erisian.com.au/market/"&gt;market experiment&lt;/a&gt;, which seems as good a time as any to
+take a look at how it&amp;#8217;s working out. On the one hand it&amp;#8217;s going fairly
+well; it&amp;#8217;s pleasing to finally have &lt;a href="http://azure.humbug.org.au/~aj/blog/2005/10/16#2005-10-16-tiffani"&gt;tiffani&lt;/a&gt; done, and I&amp;#8217;m pretty
+satisfied with how &lt;a href="http://azure.humbug.org.au/~aj/blog/2005/10/10#2005-10-10-usercategories"&gt;usercategories&lt;/a&gt; have turned out, and &lt;a href="http://www.kitenet.net/~joey/blog/"&gt;Joey
+Hess&lt;/a&gt; has started using them for the copious bugs the debian-boot
+team have to deal with, providing both an &lt;a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-boot@lists.debian.org;ordering=archfirst"&gt;archfirst&lt;/a&gt; ordering
+and a &lt;a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-boot@lists.debian.org;ordering=categorised"&gt;categorised&lt;/a&gt; ordering for the by-maintainer views.
+
+&lt;p&gt;Of course, creating those views didn&amp;#8217;t turn out as straightforward
+as it should have, and ended up involving fixing quite a few bugs in
+my initial implementation of usercategories (and, happily, coming up
+with a more pleasant algorithm for handling the ordering specification
+in &lt;tt&gt;request@&lt;/tt&gt; mails). There were a few bugs introduced for
+people who didn&amp;#8217;t use usercategories that turned up as a result of
+their implementation which also needed fixing.
+
+&lt;p&gt;To me, though, the striking difference between taking a &amp;#8220;volunteer&amp;#8221;
+attitude to Debian and a &amp;#8220;professional&amp;#8221; was in how long it took
+usercategories and tiffani to go from conception to implementation. I
+don&amp;#8217;t think they&amp;#8217;re terribly different in complexity; there&amp;#8217;s a mental
+leap in working out what you want to do (people have been thinking about
+making Packages files faster to download for years, and using ed diffs
+isn&amp;#8217;t particularly obvious; likewise I&amp;#8217;ve been thinking about generalising
+the categories the BTS shows you since I started playing with debbugs in
+&amp;#8216;99 or so, but usercategories didn&amp;#8217;t really come together even as an idea
+until debconf this year), but given that, the actual implementation for
+both ideas requires a little care, but doesn&amp;#8217;t have all that many twists
+and turns. The result? tiffani, the amateur project, took three and a half
+years to do; usercategories, the amateur project treated professionally,
+took two months.
+
+&lt;p&gt;So on that score, this still seems completely worth doing. On the
+other side of the scale, there&amp;#8217;s been people&amp;#8217;s interest in actually
+contributing. Which seems as good a place as any for a fold.
+
+&lt;p&gt;&lt;a href="http://azure.humbug.org.au/~aj/blog/2005/10/18?seemore=y#2005-10-18-ajmarket-sofar" class="seemore"&gt;Read the rest ...&lt;/a&gt;&lt;/p&gt;</description>
+    <source>http://azure.humbug.org.au/~aj/blog/2005/10/18#2005-10-18-ajmarket-sofar</source>
+    <id>http://azure.humbug.org.au/~aj/blog/2005/10/18#2005-10-18-ajmarket-sofar</id>
+    <nr>4</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129618500</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Martin 'Joey' Schulze: Linux-Kongress</title>
+    <description>&lt;p&gt;It seems that &lt;a href="http://www.linux-kongress.de/"&gt;Linux-Kongress&lt;/a&gt; which took
+place last week in Hamburg, Germany, has lost a bit of its spirit.  I
+missed Ted T'so.  However, the conference was still a nice one with
+several people attending and good discussions.&lt;/p&gt;
+
+&lt;p&gt;I was invited to attend the panel discussion that closed this year's
+conference.  The topic was "the future of distributions" and I was
+asked to represent Debian on the panel.  The discussion lead to... I
+don't know, but several aspects of distributions were bothered.&lt;/p&gt;
+
+&lt;p&gt;It was interesting to see that representatives from Red Hat and Novell
+talked about enterprise level support that only starts with five years
+of support, and is so totally different to even release cycles from
+Debian.&lt;/p&gt;</description>
+    <source>http://www.infodrom.org/~joey/log/?200510180819</source>
+    <id>http://www.infodrom.org/~joey/log/?200510180819</id>
+    <nr>3</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129616340</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Steinar H. Gunderson: amaroK</title>
+    <description>&lt;p&gt;I think &lt;a href="http://amarok.kde.org/"&gt;amaroK&lt;/a&gt; could become a really good music
+player (I rarely use any KDE stuff, but it's quite appealing), but it's
+still missing a few bits and pieces:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Volume normalization just isn't there, for some strange reason. This also 
+kills the usefulness of the crossfading.&lt;/li&gt;
+&lt;li&gt;It doesn't understand that "Foo" and "foo" is the same group, despite
+sorting case-insensitively.&lt;/li&gt;
+&lt;li&gt;It has no good way of being controlled from multiple users/places at
+once.&lt;/li&gt;
+&lt;li&gt;The suggested tracks (via last.fm, it seems -- at least I've configured
+that) are very variable; just entering group band name on last.fm seems to
+get better results.&lt;/li&gt;
+&lt;li&gt;It's too cumbersome having to choose &lt;em&gt;either&lt;/em&gt; information about the current
+track &lt;em&gt;or&lt;/em&gt; the collection.&lt;/li&gt;
+&lt;li&gt;It seems to have odd issues with non-ASCII characters in filenames.&lt;/li&gt;
+&lt;li&gt;I'm not sure if you can update the collection without having X (I'd like
+to do that server-side from a cron job).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I like it, though, even though it has everything &lt;em&gt;and&lt;/em&gt; the kitchen sink. I
+wouldn't really be surprised if suddenly a P2P client was integrated into this. :-)&lt;/p&gt;</description>
+    <source>http://blog.sesse.net/blog/tech/2005-10-18-03-30_amarok.html</source>
+    <id>http://blog.sesse.net/blog/tech/2005-10-18-03-30_amarok.html</id>
+    <nr>2</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129599909</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Steve Kemp: Fortress updated.</title>
+    <description>&lt;p&gt;&lt;b&gt;Scanner&lt;/b&gt;&lt;/p&gt;
+	&lt;p&gt;&lt;a href="http://fortress.cvsrepository.org/"&gt;Fortress&lt;/a&gt; the simple scanner, or scriptable network system is coming along nicely.&lt;/p&gt;
+	&lt;p&gt;For example the script &lt;a href="http://cvsrepository.org/cgi-bin/trac/fortress/getfile/fortress/tests/test-port-identification.lua"&gt;test-port-identification.lua&lt;/a&gt;&lt;/p&gt;
+	&lt;pre&gt;
+--
+--  Detect the ports open a host, and attempt to identify their services.
+--
+	
+--
+-- Create a helper function.
+--
+function identify_ports( host )
+	
+  print( 'Scanning: ' .. host );
+	
+  open = portscan( host );
+	
+  for i=0,table.getn(open) do
+     service = detect_service( host, open[i] );
+     print( ' Open port ' .. open[i] .. ' identified as ' .. service );
+  end
+	
+  print( table.getn(open) .. ' ports open on ' .. host );
+  print();
+end
+	
+--
+-- Now do some scans.
+--
+identify_ports( 'localhost' );
+identify_ports( 'itchy' );
+identify_ports( 'scratchy' );
+&lt;/pre&gt;
+	&lt;p&gt;This produces:&lt;/p&gt;
+	&lt;pre&gt;
+skx@lappy:~/cvs/fortress$ ./fortress tests/test-port-identification.lua
+Scanning: localhost
+ Open port 22 identified as ssh
+ Open port 25 identified as smtp
+ Open port 80 identified as www
+3 ports open on localhost
+	
+...
+...
+&lt;/pre&gt;
+	&lt;p&gt;I&amp;#8217;ve also added primitives for working with SHA1 and MD5 hashes (both strings and file contents).  Once I can get a few more primitives added I&amp;#8217;ll make a 0.3 release and see if people care.&lt;/p&gt;
+	&lt;hr /&gt;
+	&lt;p&gt;In other news, nothing much is happening.  I&amp;#8217;m waiting to hear about the results from my sleep study.  I&amp;#8217;ve had verbal results, but they don&amp;#8217;t count for much and miss important details - hopefully not too much longer as I&amp;#8217;m due back at work fairly soon ..&lt;/p&gt;</description>
+    <source>http://blog.steve.org.uk/index.php/archives/2005/10/18/fortress-updated/</source>
+    <id>http://blog.steve.org.uk/index.php/archives/2005/10/18/fortress-updated/</id>
+    <nr>1</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129598105</time>
+    <attributes>
+      <attribute name="creator">Steve Kemp</attribute>
+    </attributes>
+  </item>
+</feed>

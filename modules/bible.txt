@@ -1,0 +1,2 @@
+32:sword
+32:gnomesword

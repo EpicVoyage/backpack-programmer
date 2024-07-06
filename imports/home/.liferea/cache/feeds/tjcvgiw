@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<feed>
+  <feedTitle>Liferea SF News</feedTitle>
+  <feedSource>http://sourceforge.net/export/rss2_projnews.php?group_id=87005&amp;rss_fulltext=1</feedSource>
+  <feedDescription>SF.net Project News: Liferea (liferea project) - Liferea (Linux Feed Reader) is an aggregator for online news feeds. It supports a number of different feed formats including RSS/RDF, CDF, Atom, OCS, and OPML. Liferea is a a fast, easy to use, easy to install, news aggregator for GTK/GNOME.</feedDescription>
+  <feedImage>http://images.sourceforge.net/images/sflogo-88-1.png</feedImage>
+  <feedUpdateInterval>-1</feedUpdateInterval>
+  <feedStatus>1</feedStatus>
+  <feedDiscontinued>0</feedDiscontinued>
+  <attributes>
+    <attribute name="copyright">Copyright and acceptable usage information for this RSS may feed may be found at: http://sourceforge.net/docman/display_doc.php?docid=6048&amp;group_id=1#licensing_and_other_terms</attribute>
+    <attribute name="contentUpdateDate">Fri, 21 Oct 2005 08:20:03 GMT</attribute>
+    <attribute name="feedgenerator">SourceForge.net RSS generator</attribute>
+  </attributes>
+  <item>
+    <title>1.0 RC2</title>
+    <description>This release significantly improves performance when working with folders or feeds with huge item caches. This release also adds a new Swedish translation. (&lt;a href="http://sourceforge.net/forum/forum.php?forum_id=502444"&gt;0 comments&lt;/a&gt;)</description>
+    <source>http://sourceforge.net/forum/forum.php?forum_id=502444</source>
+    <id>http://sourceforge.net/forum/forum.php?forum_id=502444</id>
+    <nr>10</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1128978232</time>
+    <attributes>
+      <attribute name="author">llando@users.sourceforge.net (Lars Lindner)</attribute>
+      <attribute name="commentsUri">http://sourceforge.net/forum/forum.php?forum_id=502444</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>1.0 RC1</title>
+    <description>This release fixes a lot of usability issues. More importantly it&lt;br /&gt;features a complete locally installed user documentation&lt;br /&gt;available from the help menu. (&lt;a href="http://sourceforge.net/forum/forum.php?forum_id=500189"&gt;0 comments&lt;/a&gt;)</description>
+    <source>http://sourceforge.net/forum/forum.php?forum_id=500189</source>
+    <id>http://sourceforge.net/forum/forum.php?forum_id=500189</id>
+    <nr>9</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1128282137</time>
+    <attributes>
+      <attribute name="author">llando@users.sourceforge.net (Lars Lindner)</attribute>
+      <attribute name="commentsUri">http://sourceforge.net/forum/forum.php?forum_id=500189</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Cygwin port of Liferea</title>
+    <description>Yaakov Selkowitz did a Cygwin port of Liferea. Now you can run Liferea under Windows. But you need to rely on GtkHTML2 as the browser module.&lt;br /&gt;&lt;br /&gt;Binaries are available at:&lt;br /&gt;ftp://sunsite.dk/projects/cygwinports/release/GNOME/liferea/&lt;br /&gt;&lt;br /&gt;Screenshot is available at:&lt;br /&gt;&lt;a href="http://cygwinports.dotsrc.org/screenshots/liferea.jpg"&gt;http://cygwinports.dotsrc.org/screenshots/liferea.jpg&lt;/a&gt; (&lt;a href="http://sourceforge.net/forum/forum.php?forum_id=498241"&gt;0 comments&lt;/a&gt;)</description>
+    <source>http://sourceforge.net/forum/forum.php?forum_id=498241</source>
+    <id>http://sourceforge.net/forum/forum.php?forum_id=498241</id>
+    <nr>8</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1127506004</time>
+    <attributes>
+      <attribute name="author">llando@users.sourceforge.net (Lars Lindner)</attribute>
+      <attribute name="commentsUri">http://sourceforge.net/forum/forum.php?forum_id=498241</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>0.9.7b</title>
+    <description>This release fixes some keyboard handling issues introduced in 0.9.7. It also contains some translation updates. Please upgrade! (&lt;a href="http://sourceforge.net/forum/forum.php?forum_id=493499"&gt;0 comments&lt;/a&gt;)</description>
+    <source>http://sourceforge.net/forum/forum.php?forum_id=493499</source>
+    <id>http://sourceforge.net/forum/forum.php?forum_id=493499</id>
+    <nr>7</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1125827979</time>
+    <attributes>
+      <attribute name="author">llando@users.sourceforge.net (Lars Lindner)</attribute>
+      <attribute name="commentsUri">http://sourceforge.net/forum/forum.php?forum_id=493499</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>0.9.7a</title>
+    <description>This should fix the Makefile problems of the 0.9.7 tarball. (&lt;a href="http://sourceforge.net/forum/forum.php?forum_id=492560"&gt;0 comments&lt;/a&gt;)</description>
+    <source>http://sourceforge.net/forum/forum.php?forum_id=492560</source>
+    <id>http://sourceforge.net/forum/forum.php?forum_id=492560</id>
+    <nr>6</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1125422985</time>
+    <attributes>
+      <attribute name="author">llando@users.sourceforge.net (Lars Lindner)</attribute>
+      <attribute name="commentsUri">http://sourceforge.net/forum/forum.php?forum_id=492560</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>0.9.7 Makefiles are broken</title>
+    <description>The installation of the libraries of the 0.9.7 release does not work correctly. The libraries liblihtmlg.so and liblihtmlm.so are installed without the .so suffix.&lt;br /&gt;&lt;br /&gt;You can workaround this by calling "autoreconf" to rebuild the Makefiles. There will be a corrected 0.9.7b release soon. (&lt;a href="http://sourceforge.net/forum/forum.php?forum_id=492317"&gt;0 comments&lt;/a&gt;)</description>
+    <source>http://sourceforge.net/forum/forum.php?forum_id=492317</source>
+    <id>http://sourceforge.net/forum/forum.php?forum_id=492317</id>
+    <nr>5</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1125390432</time>
+    <attributes>
+      <attribute name="author">llando@users.sourceforge.net (Lars Lindner)</attribute>
+      <attribute name="commentsUri">http://sourceforge.net/forum/forum.php?forum_id=492317</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>0.9.7</title>
+    <description>This release adds some user contributed patches and &lt;br /&gt;fixes some minor problems. (&lt;a href="http://sourceforge.net/forum/forum.php?forum_id=492290"&gt;0 comments&lt;/a&gt;)</description>
+    <source>http://sourceforge.net/forum/forum.php?forum_id=492290</source>
+    <id>http://sourceforge.net/forum/forum.php?forum_id=492290</id>
+    <nr>4</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1125352336</time>
+    <attributes>
+      <attribute name="author">llando@users.sourceforge.net (Lars Lindner)</attribute>
+      <attribute name="commentsUri">http://sourceforge.net/forum/forum.php?forum_id=492290</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>0.9.6: Atom 1.0</title>
+    <description>Liferea 0.9.6 adds support for atom 1.0 feeds and fixes a few bugs. Also, a simplified Chinese translation was added. (&lt;a href="http://sourceforge.net/forum/forum.php?forum_id=490043"&gt;0 comments&lt;/a&gt;)</description>
+    <source>http://sourceforge.net/forum/forum.php?forum_id=490043</source>
+    <id>http://sourceforge.net/forum/forum.php?forum_id=490043</id>
+    <nr>3</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1124634582</time>
+    <attributes>
+      <attribute name="author">llando@users.sourceforge.net (Lars Lindner)</attribute>
+      <attribute name="commentsUri">http://sourceforge.net/forum/forum.php?forum_id=490043</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>0.9.5</title>
+    <description>This is another bugfix release to fix the remaining bugs before declaring 1.0. (&lt;a href="http://sourceforge.net/forum/forum.php?forum_id=484959"&gt;0 comments&lt;/a&gt;)</description>
+    <source>http://sourceforge.net/forum/forum.php?forum_id=484959</source>
+    <id>http://sourceforge.net/forum/forum.php?forum_id=484959</id>
+    <nr>2</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1122776864</time>
+    <attributes>
+      <attribute name="author">llando@users.sourceforge.net (Lars Lindner)</attribute>
+      <attribute name="commentsUri">http://sourceforge.net/forum/forum.php?forum_id=484959</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>0.9.4</title>
+    <description>This releases bring some minor improvements and some smaller bugfixes. (&lt;a href="http://sourceforge.net/forum/forum.php?forum_id=482976"&gt;0 comments&lt;/a&gt;)</description>
+    <source>http://sourceforge.net/forum/forum.php?forum_id=482976</source>
+    <id>http://sourceforge.net/forum/forum.php?forum_id=482976</id>
+    <nr>1</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1122062230</time>
+    <attributes>
+      <attribute name="author">llando@users.sourceforge.net (Lars Lindner)</attribute>
+      <attribute name="commentsUri">http://sourceforge.net/forum/forum.php?forum_id=482976</attribute>
+    </attributes>
+  </item>
+</feed>

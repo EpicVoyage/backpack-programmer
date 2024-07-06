@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="user_switch_enabled" mtime="1145914176" type="bool" value="false">
+        </entry>
+</gconf>

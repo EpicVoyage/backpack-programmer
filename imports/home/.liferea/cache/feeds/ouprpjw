@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<feed>
+  <feedTitle>mozillaZine</feedTitle>
+  <feedSource>http://www.mozillazine.org/contents.rdf</feedSource>
+  <feedDescription>Your source for daily Mozilla news, advocacy, interviews, builds, and more!</feedDescription>
+  <feedImage>http://www.mozillazine.org/image/mynetscape88.gif</feedImage>
+  <feedUpdateInterval>-1</feedUpdateInterval>
+  <feedStatus>1</feedStatus>
+  <feedDiscontinued>0</feedDiscontinued>
+  <feedLastModified>Fri, 21 Oct 2005 08:18:35 GMT</feedLastModified>
+  <attributes>
+    <attribute name="language">en</attribute>
+    <attribute name="copyright">Copyright 1998-2004, MozillaZine</attribute>
+    <attribute name="managingEditor">webmaster@mozillazine.org</attribute>
+    <attribute name="webmaster">webmaster@mozillazine.org</attribute>
+    <attribute name="contentUpdateDate">Thu, 20 Oct 2005 20:44:28 -0700</attribute>
+  </attributes>
+  <item>
+    <title>'Firefox One' Launch to Celebrate 100 Million Downloads</title>
+    <source>http://www.mozillazine.org/talkback.html?article=7586</source>
+    <nr>12</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883753</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>vnunet.com Interviews Mozilla Europe's Tristan Nitot</title>
+    <source>http://www.mozillazine.org/talkback.html?article=7585</source>
+    <nr>11</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883753</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Camino Update Provides Details of Camino Checkins</title>
+    <source>http://www.mozillazine.org/talkback.html?article=7581</source>
+    <nr>10</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883753</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Nightly Builds of Lightning Now Available</title>
+    <source>http://www.mozillazine.org/talkback.html?article=7580</source>
+    <nr>9</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883753</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>eWeek Reviews Mozilla Thunderbird 1.5 Beta</title>
+    <source>http://www.mozillazine.org/talkback.html?article=7579</source>
+    <nr>8</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883753</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Minutes of the mozilla.org Staff Meeting of Monday 10th October 2005</title>
+    <source>http://www.mozillazine.org/talkback.html?article=7575</source>
+    <nr>7</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883753</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Minutes of the mozilla.org Staff Meeting of Monday 3rd October 2005</title>
+    <source>http://www.mozillazine.org/talkback.html?article=7574</source>
+    <nr>6</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883753</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Minutes of the mozilla.org Staff Meeting of Monday 26th September 2005</title>
+    <source>http://www.mozillazine.org/talkback.html?article=7573</source>
+    <nr>5</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883753</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Mozilla Firefox Downloaded 100,000,000 Times</title>
+    <source>http://www.mozillazine.org/talkback.html?article=7572</source>
+    <nr>4</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883753</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>France Telecom Supporting Minimo Development</title>
+    <source>http://www.mozillazine.org/talkback.html?article=7567</source>
+    <nr>3</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883753</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Improved Spread Firefox Returns</title>
+    <source>http://www.mozillazine.org/talkback.html?article=7566</source>
+    <nr>2</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883753</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Gervase Markham's Second Times Online Column Published</title>
+    <source>http://www.mozillazine.org/talkback.html?article=7565</source>
+    <nr>1</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883753</time>
+    <attributes/>
+  </item>
+</feed>

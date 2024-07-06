@@ -1,0 +1,55 @@
+#!/bin/bash
+# Written by Daga <daga@daga.dyndns.org>
+# Released under the terms of the GNU license agreement.
+#
+# This is a custom boot script designed to launch a background
+# process for each user with the correct configuration file.
+#
+# ~/.fetchmailrc -> launches fetchmail
+# ~/.fetchyahoorc -> launches fetchyahoo
+#
+# NOTE: fetchmail and fetchyahoo have to be installed first.
+
+cut -d: -f1,6,7 /etc/passwd | while read LINE
+do
+	TMPUSER=`echo ${LINE} | cut -d: -f1 -`
+	TMPHOME=`echo ${LINE} | cut -d: -f2 -`
+	TMPSHELL=`echo ${LINE} | cut -d: -f3 -`
+
+	# Old way of finding valid usernames:
+	#if [ ${TMPSHELL} != /sbin/nologin ] && \
+	#   [ ${TMPSHELL} != /bin/nologin ] && \
+	#   [ ${TMPSHELL} != /bin/false ] && \
+	#   [ ${TMPSHELL} != /bin/sync ] && \
+	#   [ ${TMPSHELL} != /sbin/shutdown] && \
+	#   [ ${TMPSHELL} != /sbin/halt ]; then
+
+	if [ "${TMPSHELL}" == "/bin/bash" ]; then
+
+		if [ -f ${TMPHOME}/.fetchmailrc ]; then
+			echo ${TMPUSER} - .fetchmailrc found
+			su - ${TMPUSER} -c "fetchmail -d 300 -f ~/.fetchmailrc"
+		else
+			echo ${TMPUSER} - .fetchmailrc not found
+		fi
+
+		if [ -f ${TMPHOME}/.fetchyahoorc ]; then
+			echo ${TMPUSER} - .fetchyahoorc found
+			su - ${TMPUSER} -c "fetchyahoo --quiet --repeatinterval=30"
+		else
+			echo ${TMPUSER} - .fetchyahoorc not found
+		fi
+
+		#if [ -f ${TMPHOME}/.gotmailrc ]; then
+		#	echo ${TMPUSER} - .gotmailrc found
+		#	su - ${TMPUSER} -c "gotmail&"
+		#else
+		#	echo ${TMPUSER} - .gotmailrc not found
+		#fi
+	
+	fi
+
+	TMPUSER=""
+	TMPHOME=""
+	TMPSHELL=""
+done

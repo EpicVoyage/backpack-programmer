@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="last-zoomlevel" mtime="1129884136" type="int" value="100">
+        </entry>
+        <entry name="last-hpane-pos" mtime="1129884136" type="int" value="200">
+        </entry>
+        <entry name="last-vpane-pos" mtime="1129884136" type="int" value="183">
+        </entry>
+        <entry name="last-window-height" mtime="1129884136" type="int" value="598">
+        </entry>
+        <entry name="last-window-width" mtime="1129884136" type="int" value="845">
+        </entry>
+        <entry name="last-window-y" mtime="1129884136" type="int" value="112">
+        </entry>
+        <entry name="last-window-x" mtime="1129884136" type="int" value="160">
+        </entry>
+        <entry name="show-popup-windows" mtime="1129883751" type="bool" value="false">
+        </entry>
+        <entry name="keep-feeds-in-memory" mtime="1129883751" type="bool" value="false">
+        </entry>
+        <entry name="trayicon" mtime="1129883751" type="bool" value="false">
+        </entry>
+        <entry name="disable-toolbar" mtime="1129883751" type="bool" value="false">
+        </entry>
+        <entry name="disable-menubar" mtime="1129883751" type="bool" value="false">
+        </entry>
+        <entry name="last-window-maximized" mtime="1129883750" type="bool" value="false">
+        </entry>
+        <entry name="enclosure-download-path" mtime="1129883750" type="string">
+                <stringvalue>/home/user</stringvalue>
+        </entry>
+        <entry name="maxitemcount" mtime="1129883750" type="int" value="100">
+        </entry>
+</gconf>

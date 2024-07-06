@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="always_use_browser" mtime="1130105785" type="bool" value="true">
+        </entry>
+        <entry name="navigation_window_saved_geometry" mtime="1130056336" type="string">
+                <stringvalue>800x550+0+25</stringvalue>
+        </entry>
+        <entry name="side_pane_view" mtime="1128540788" type="string">
+                <stringvalue>NautilusPlacesSidebar</stringvalue>
+        </entry>
+        <entry name="sidebar_width" mtime="1128540768" type="int" value="168">
+        </entry>
+</gconf>

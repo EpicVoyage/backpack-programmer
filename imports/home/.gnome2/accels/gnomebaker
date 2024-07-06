@@ -1,0 +1,6 @@
+; gnomebaker GtkAccelMap rc-file         -*- scheme -*-
+; this file is an automated accelerator map dump
+;
+; (gtk_accel_path "<gnomebaker>/-Orphan/_About" "")
+; (gtk_accel_path "<gnomebaker>/-Orphan/Prefere_nces" "")
+; (gtk_accel_path "<gnomebaker>/-Orphan/_Quit" "<Control>q")

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$yHapf2"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="1.0"
+                   em:maxVersion="1.5.0.*" />
+  <RDF:Description RDF:about="rdf:#$aHapf2"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="1.0"
+                   em:maxVersion="1.5.0.*" />
+  <RDF:Seq RDF:about="urn:mozilla:theme:root">
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$GJapf2"
+                   em:id="{86c18b42-e466-45a9-ae7a-9b95ba6f5640}"
+                   em:minVersion="1.7"
+                   em:maxVersion="1.8" />
+  <RDF:Description RDF:about="urn:mozilla:extension:videodowloader@videodownloader.net"
+                   em:version="1.0"
+                   em:name="VideoDownloader"
+                   em:description="Download videos from Youtube, Google, Metacafe, iFilm, Dailymotion... and other 60+ video sites ! And all embedded objects on a webpage (movies, mp3s, flash, quicktime, etc)."
+                   em:creator="Javi Moya"
+                   em:homepageURL="http://videodownloader.net/">
+    <em:targetApplication RDF:resource="rdf:#$aHapf2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:extension:{c45c406e-ab73-11d8-be73-000a95be3b12}"
+                   em:version="1.0.2"
+                   em:name="Web Developer"
+                   em:description="Adds a menu and a toolbar with various web developer tools."
+                   em:creator="Chris Pederick"
+                   em:homepageURL="http://chrispederick.com/work/webdeveloper/"
+                   em:optionsURL="chrome://webdeveloper/content/options/options.xul"
+                   em:aboutURL="chrome://webdeveloper/content/about/about.xul"
+                   em:iconURL="chrome://webdeveloper/content/images/logo.png">
+    <em:targetApplication RDF:resource="rdf:#$yHapf2"/>
+    <em:targetApplication RDF:resource="rdf:#$zHapf2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$KJapf2"
+                   em:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   em:minVersion="1.0+"
+                   em:maxVersion="1.0+" />
+  <RDF:Description RDF:about="rdf:#$IJapf2"
+                   em:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   em:minVersion="1.0"
+                   em:maxVersion="3.0" />
+  <RDF:Description RDF:about="rdf:#$HJapf2"
+                   em:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   em:minVersion="1.0"
+                   em:maxVersion="1.0" />
+  <RDF:Description RDF:about="http://releases.mozilla.org/pub/mozilla.org/extensions/videodownloader/videodownloader-1.0-fx.xpi"
+                   em:name="VideoDownloader 1.0"
+                   em:version=" "
+                   em:iconURL="https://addons.mozilla.org/images/default.png"
+                   em:downloadURL="http://releases.mozilla.org/pub/mozilla.org/extensions/videodownloader/videodownloader-1.0-fx.xpi">
+    <em:state NC:parseType="Integer">1</em:state>
+    <em:progress NC:parseType="Integer">100</em:progress>
+  </RDF:Description>
+  <RDF:Description RDF:about="http://releases.mozilla.org/pub/mozilla.org/extensions/flashgot/flashgot-0.5.9.995-fx+fl+mz+ns+zm+tb.xpi">
+    <em:state NC:parseType="Integer">4</em:state>
+    <em:progress NC:parseType="Integer">100</em:progress>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:extension:root">
+    <RDF:li RDF:resource="http://releases.mozilla.org/pub/mozilla.org/extensions/videodownloader/videodownloader-1.0-fx.xpi"/>
+    <RDF:li RDF:resource="urn:mozilla:extension:{19503e42-ca3c-4c27-b1e2-9cdb2170ee34}"/>
+    <RDF:li RDF:resource="urn:mozilla:extension:videodowloader@videodownloader.net"/>
+    <RDF:li RDF:resource="urn:mozilla:extension:{c45c406e-ab73-11d8-be73-000a95be3b12}"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$JJapf2"
+                   em:id="{3db10fab-e461-4c80-8b97-957ad5f8ea47}"
+                   em:minVersion="8.0"
+                   em:maxVersion="8.1" />
+  <RDF:Description RDF:about="rdf:#$FJapf2"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="1.0"
+                   em:maxVersion="3.0" />
+  <RDF:Description RDF:about="urn:mozilla:extension:{19503e42-ca3c-4c27-b1e2-9cdb2170ee34}"
+                   em:version="0.5.9.995"
+                   em:name="FlashGot"
+                   em:description="Enables Firefox, Mozilla Suite, Netscape and Thunderbird to handle single and massive (&quot;all&quot; and &quot;selection&quot;) downloads using the most popular external download managers for Windows, Mac OS X, Linux and FreeBSD (dozens currently supported, see Extension's Home Page for details). FlashGot offers also a Build Gallery functionality which helps to synthetize full media galleries in one page, from serial contents originally scattered on several pages, for easy and fast &quot;download all&quot;."
+                   em:creator="Giorgio Maone"
+                   em:homepageURL="http://flashgot.net"
+                   em:optionsURL="chrome://flashgot/content/flashgotOptions.xul"
+                   em:aboutURL="chrome://flashgot/content/about.xul"
+                   em:iconURL="chrome://flashgot/skin/icon32.png">
+    <em:contributor>Ahmad Zhafir (Malay translation)</em:contributor>
+    <em:contributor>Anthony L. Bryan and Darius Liktorius (Metalink support)</em:contributor>
+    <em:contributor>Artek Działek, Bartosz Piec and Piotr Konieczny (Polish translation)</em:contributor>
+    <em:contributor>Axel Zechner (KGet support)</em:contributor>
+    <em:contributor>Bálint Farkas and Henriett Peller (Hungarian translation)</em:contributor>
+    <em:contributor>Basem Narmok (Arabic translation)</em:contributor>
+    <em:contributor>BDNT (Indonesian translation)</em:contributor>
+    <em:contributor>Besmir Godole (Albanian translation)</em:contributor>
+    <em:contributor>Bigbigbomb, Blackdire, Charlie Chen and George C. Tsoi (Simplified Chinese translation)</em:contributor>
+    <em:contributor>Cola99 (Traditional Chinese translation)</em:contributor>
+    <em:contributor>Diogo Mafra(Portuguese translation)</em:contributor>
+    <em:contributor>Duriel (Simplified Chinese translation)</em:contributor>
+    <em:contributor>Emilio Malaman, Tulio Padilha and Pesty (Portuguese translation)</em:contributor>
+    <em:contributor>Engin Yazılan (Turkish translation)</em:contributor>
+    <em:contributor>Frantisek Augusztin(KGet support)</em:contributor>
+    <em:contributor>Frackounet and Yann Bill (French translation)</em:contributor>
+    <em:contributor>Gaspar Alomar Trías (Catalan translation)</em:contributor>
+    <em:contributor>Gomyoung Kim (Korean translation)</em:contributor>
+    <em:contributor>Hadakadenkyu (Japanese translation)</em:contributor>
+    <em:contributor>HU Tian-Lei (Thunder hints)</em:contributor>
+    <em:contributor>iLogik (Romanian translation)</em:contributor>
+    <em:contributor>Jacques Letellier, Yann Bill and Calimero988 (French translation)</em:contributor>
+    <em:contributor>Jan Janssen (Gwget support)</em:contributor>
+    <em:contributor>Jarol (Spanish translation)</em:contributor>
+    <em:contributor>Jonathan Avraham (Hebrew translation)</em:contributor>
+    <em:contributor>Jouko Saarinen (Finnish translation)</em:contributor>
+    <em:contributor>Jure Osredkar and Miles (Slovenian translation)</em:contributor>
+    <em:contributor>Kesisidis  Dimitrios (Greek translation)</em:contributor>
+    <em:contributor>Kostas Papadimas (Greek translation)</em:contributor>
+    <em:contributor>Tomas Kordik (Czech translation)</em:contributor>
+    <em:contributor>Leif Larsson (Swedish translation)</em:contributor>
+    <em:contributor>Levent Karakas (Turkish translation)</em:contributor>
+    <em:contributor>Luca Pedrazzi (Italian translation)</em:contributor>
+    <em:contributor>M. Agras and Urko (Spanish translation)</em:contributor>
+    <em:contributor>Marius Navickas (Lithuanian translation)</em:contributor>
+    <em:contributor>Martin Joné (Norwegian Bokmål translation)</em:contributor>
+    <em:contributor>Martin Harder (Danish translation)</em:contributor>
+    <em:contributor>Michal Duda (Czech translation)</em:contributor>
+    <em:contributor>Mohsen Qorbani (Persian translation)</em:contributor>
+    <em:contributor>Ömer Fadıl USTA (Turkish translation)</em:contributor>
+    <em:contributor>Patipat Susumpow (Thai translation)</em:contributor>
+    <em:contributor>Pshadow (Traditional Chinese translation)</em:contributor>
+    <em:contributor>Ragnaar (Russian translation)</em:contributor>
+    <em:contributor>ReinekeFux and Thomas Weber (German translation)</em:contributor>
+    <em:contributor>Robert Setiadi (Indonesian translation)</em:contributor>
+    <em:contributor>splt-rmx (Bulgarian translation)</em:contributor>
+    <em:contributor>Steven Hemelaere (Dutch translation)</em:contributor>
+    <em:contributor>Unghost (Russian translation)</em:contributor>
+    <em:contributor>Wladow (Slovak translation)</em:contributor>
+    <em:contributor>Љубиша Радовановић (Serbian translation)</em:contributor>
+    <em:targetApplication RDF:resource="rdf:#$FJapf2"/>
+    <em:targetApplication RDF:resource="rdf:#$GJapf2"/>
+    <em:targetApplication RDF:resource="rdf:#$HJapf2"/>
+    <em:targetApplication RDF:resource="rdf:#$IJapf2"/>
+    <em:targetApplication RDF:resource="rdf:#$JJapf2"/>
+    <em:targetApplication RDF:resource="rdf:#$KJapf2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$zHapf2"
+                   em:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   em:minVersion="1.0+"
+                   em:maxVersion="1.0+" />
+</RDF:RDF>

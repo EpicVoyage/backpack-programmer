@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="MainWindowPositionY" mtime="1130320847" type="int" value="25">
+        </entry>
+        <entry name="MainWindowPositionX" mtime="1130320847" type="int" value="0">
+        </entry>
+        <entry name="MainWindowHeight" mtime="1130320847" type="int" value="647">
+        </entry>
+        <entry name="MainWindowWidth" mtime="1130320847" type="int" value="953">
+        </entry>
+        <entry name="MainWindowMaximized" mtime="1130320796" type="bool" value="false">
+        </entry>
+</gconf>

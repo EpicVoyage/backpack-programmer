@@ -1,0 +1,117 @@
+.\" Process with groff -man -Tascii unionfs.1
+.\"
+.TH UNIONFS 4 "January 2006" Linux
+.SH NAME
+Unionfs \- a unification file system for Linux
+.SH SYNOPSIS
+Unionfs is not a command, but rather a file system.  This manual page describes
+additional mount options that Unionfs supports.
+
+\fBmount -t unionfs \-o\fP \fIbranch-option\fP[\fB,\fP\fIunion-options\fP[\fB,\fP...]] \fBunionfs\fP \fIunion-dir\fP
+
+.SH DESCRIPTION
+Unionfs is a stackable unification file system, which can appear to merge the
+contents of several directories (branches), while keeping their physical
+content separate. Unionfs is useful for unified source tree management, merged
+contents of split CD-ROM, merged separate software package directories, data
+grids, and more. Unionfs allows any mix of read-only and read-write branches,
+as well as insertion and deletion of branches anywhere in the fan-out. To
+maintain unix semantics, Unionfs handles elimination of duplicates, 
+partial-error conditions, and more.
+
+Unionfs is part of the larger FiST project.
+
+.SH OPTIONS
+The available \fIbranch-option\fP for the mount command is:
+
+.TP
+\fBdirs=\fP\fIbranch\fP[\fB=ro\fP|\fB=nfsro\fP|\fB=rw\fP][\fB:\fP...]\fP
+specifies a colon separated list of which directories compose the union.
+Directories that come earlier in the list have a higher precedence than those
+which come later. Additionally, read-only or read-write permissions of the
+branch can be specified by appending \fB=ro\fP or \fB=rw\fP (default) to
+each directory.
+
+Is the directory a read-only NFS mount and the NFS server returns -EACCES for
+read-only exports, instead of -EROFS, append \fB=nfsro\fP to the desired
+directory if you want to use copy-on-write with NFS. If this flag is set, then
+Unionfs will apply standard Unix permissions to files on NFS (so NFS ACLs will
+break).
+
+Syntax:
+dirs=/branch1[=ro|=nfsro|=rw]:/branch2[=ro|=nfsro|=rw]:...:/branchN[=ro|=nfsro|=rw]
+
+Example:
+\fBdirs=/writable_branch=rw:/read-only_branch=ro:/nfs-mounted_branch=nfsro\fP
+
+.TP
+The available \fIunion-options\fP for the mount command are:
+.TP
+.B debug=\fIn\fP
+specifies the FiST debugging level \fIn\fP.  1 through 8 specify individual
+log-levels. If debug is set to 11 through 18, the output will include debug-10
+and all lower levels.  If you set this to a non-zero value lots of output will
+be sent to the kernel ring buffer, some of which may be sensitive. The default
+value for this option is 0 which will produce no output.
+
+.TP
+.B delete=\fIvalue\fP
+controls how Unionfs deletes and renames objects.  Possible values
+are \fBall\fP, and \fBwhiteout\fP with the default behavior being \fBall\fP.
+
+.TP
+\fBimap=\fP\fIforwardmap\fP\fB:\fP\fIreversemap\fP[\fB:\fP\fIreversemap\fP[\fB:\fP...]]
+specifies a colon separated list of files that are used as the inode map files
+(see \fBunionimap(8)\fP for how to create inode map files).
+You should specify the forward map first, followed by the reverse maps.  The
+order of the reverse maps does not matter. The default behavior for the imap
+option if left blank is to not use persistent inode mappings.
+
+Syntax: imap=forwardmap:reversemap1:reversemap2:...:reversemapN
+
+Example: \fBimap=/tmp/foo.forward:/tmp/foo.reverse:/tmp/foo.reverse2\fP
+
+.SH EXAMPLES
+.TP
+.B mount -t unionfs -o dirs=/branch_rw=rw:/branch_ro=ro unionfs /union
+creates a Union in directory `/union' with the branch-directories `/branch_rw'
+(writable) and `/branch_ro' (read-only).
+
+.TP
+.B mount -t unionfs -o dirs=/branch_rw=rw:/branch_ro=ro,debug=1,delete=whiteout unionfs /union
+unifies the directories `/branch_rw', `/branch_ro' in `/union', sets the
+log-level to `1' and the Unionfs delete and rename behaviour to `whiteout'.
+
+.SH BUGS
+The NFS server returns -EACCES for read-only exports, instead of -EROFS.  This
+means we can't reliably detect a read-only NFS export.  If you want to use
+copy-on-write with NFS, set the per-branch option `nfsro'.  If this flag
+is set, then Unionfs will apply standard Unix permissions to files on this
+nfs-mouted branch.
+
+Modifying a Unionfs branch directly, while the union is mounted is currently
+unsupported.  Any such change can cause Unionfs to oops, however it could even
+\fBRESULT IN DATA LOSS\fP.
+
+The PPC module loading algorithm has an O(N^2) loop, so it takes a while to
+load the Unionfs module, because we have lots of symbols.
+
+Older versions of Reiser4 don't work with Unionfs, because they can't handle
+seeking through directories properly.
+
+To see a somewhat comprehensive list of Unionfs bugs visit
+https://bugzilla.filesystems.org
+
+.SH AUTHORS
+Charles Wright <cwright@cs.sunysb.edu>,
+Mohammad Zubair <mzubair@ic.sunysb.edu>,
+Erez Zadok <ezk@cs.sunysb.edu>
+.SH "SEE ALSO"
+.BR unionctl(8),
+.BR unionimap(8),
+.BR uniondbg(8),
+http://www.fsl.cs.sunysb.edu/
+
+\"  LocalWords:  groff Tascii unionfs copyup currentuser dirs ro rw imap uid
+\"  LocalWords:  copyupuid copyupgid gid copyupmode FiST tryleft Erez
+\"  LocalWords:  passup setattr Zubair unionctl uniondbg

@@ -1,0 +1,14 @@
+Todo:
+
+* Possibly parse df output on startup
+* Add configuration options
+* A right-click (context) menu
+* Color-code some important items (ie: required packages)
+* Dependency checking for packages (what's missing, what's unused)
+* Some configurable options like sort direction
+* A whole lot more :)
+
+
+Bugs:
+
+* Probably

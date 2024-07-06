@@ -1,0 +1,7 @@
+32:libapparmor
+32:apparmor-parser
+32:apparmor-utils
+32:apparmor-docs
+32:perl-dbd-sqlite
+32:perl-gettext
+32:perl-timedate

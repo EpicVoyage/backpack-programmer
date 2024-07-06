@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<feed>
+  <feedTitle>Backpack Programmer's LiveCD updates</feedTitle>
+  <feedSource>http://daga.dyndns.org/rss/backpack.rss</feedSource>
+  <feedDescription>Updates and releases to the Backpack Programmer's LiveCD</feedDescription>
+  <feedUpdateInterval>-1</feedUpdateInterval>
+  <feedStatus>1</feedStatus>
+  <feedDiscontinued>0</feedDiscontinued>
+  <feedLastModified>Sat, 15 Oct 2005 22:39:58 GMT</feedLastModified>
+  <attributes>
+    <attribute name="language">en-us</attribute>
+  </attributes>
+  <item>
+    <title>New RSS feed for The Backpack Programmer's LiveCD</title>
+    <description>
+   In order to simplify checking for new versions of the Backpack Programmer's LiveCD, this RSS feed has been created (Thanks, srwalter, for the recommendation).
+
+   A new version is under development. It will use Slackware 10.2 and Dropline Gnome 2.12.
+  </description>
+    <source>http://daga.dyndns.org/projects/backpack</source>
+    <id>http://daga.dyndns.org/projects/backpack</id>
+    <nr>1</nr>
+    <newStatus>0</newStatus>
+    <readStatus>1</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129883793</time>
+    <attributes/>
+  </item>
+</feed>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="needs_terminal" mtime="1128542661" type="bool" value="false">
+        </entry>
+        <entry name="enabled" mtime="1128542661" type="bool" value="true">
+        </entry>
+        <entry name="command" mtime="1130106064" type="string">
+                <stringvalue>/usr/lib/firefox/firefox &quot;%s&quot;</stringvalue>
+        </entry>
+</gconf>

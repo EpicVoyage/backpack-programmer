@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="primary_color" mtime="1145913994" type="string">
+                <stringvalue>#76848F</stringvalue>
+        </entry>
+        <entry name="secondary_color" mtime="1145913994" type="string">
+                <stringvalue>#76848F</stringvalue>
+        </entry>
+        <entry name="color_shading_type" mtime="1145913995" type="string">
+                <stringvalue>horizontal-gradient</stringvalue>
+        </entry>
+        <entry name="picture_filename" mtime="1145913994" type="string">
+                <stringvalue>/usr/share/pixmaps/backgrounds/gnome/translucent/tentacles.svg</stringvalue>
+        </entry>
+        <entry name="picture_options" mtime="1145913994" type="string">
+                <stringvalue>stretched</stringvalue>
+        </entry>
+</gconf>

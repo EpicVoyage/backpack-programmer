@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Mozilla Firefox
+Comment=Browse the Web
+Exec=firefox %u
+Icon=mozilla-firefox.png
+Terminal=false
+Type=Application
+Categories=Application;Network
+StartupWMClass=Firefox-bin
+StartupNotify=true
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;x-directory/webdav;x-directory/webdav-prefer-directory;image/gif;image/jpeg;image/png;

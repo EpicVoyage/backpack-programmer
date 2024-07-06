@@ -1,0 +1,37 @@
+Source: unionfs
+Section: misc
+Priority: optional
+Maintainer: Eduard Bloch <blade@debian.org>
+Build-Depends: debhelper (>> 4.1.0), bzip2
+Standards-Version: 3.6.1
+
+Package: unionfs-modules-_KVERS_
+Architecture: i386
+Recommends: kernel-image-_KVERS_, unionfs-utils
+Provides: unionfs-modules
+Description: Unionfs linux kernel module
+ This package contains the unionfs loadable kernel modules for the
+ kernel-image-_KVERS_ package.
+ .
+ If you compiled a custom kernel, you will most likely need to compile a
+ custom version of this module as well. The unionfs-source
+ package has been provided for this purpose.
+Source: unionfs
+Section: misc
+Priority: optional
+Maintainer: Alex de Landgraaf <alex@delandgraaf.com>
+Build-Depends: debhelper (>> 4.1.0), bzip2
+Standards-Version: 3.6.1
+
+Package: unionfs-modules-_KVERS_
+Architecture: i386
+Depends: unionfs-utils
+Recommends: kernel-image-_KVERS_
+Provides: unionfs-modules
+Description: Unionfs linux kernel module
+ This package contains the unionfs loadable kernel modules for the
+ kernel-image-_KVERS_ package.
+ .
+ If you compiled a custom kernel, you will most likely need to compile a
+ custom version of this module as well. The unionfs-source
+ package has been provided for this purpose.

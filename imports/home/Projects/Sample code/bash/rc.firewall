@@ -1,0 +1,67 @@
+#!/bin/sh
+# Written by Daga <daga@daga.dyndns.org>
+# Released under the terms of the GNU license agreement.
+#
+# This is a sample startup firewall script for Slackware-
+# based systems. It normally resides in
+#
+# /etc/rc.d/rc.firewall
+
+echo "Starting IPTables firewall..."
+IPTABLES=/usr/sbin/iptables
+
+#flush all the tables
+echo "Flushing routing tables..."
+$IPTABLES -F
+$IPTABLES -X
+
+# RFCs dictate that "DROP" should be "REJECT," but
+# not replying to connection attempts on closed ports
+# significantly slows down port scans.
+echo "Setting default policies..."
+$IPTABLES -P INPUT DROP
+$IPTABLES -P OUTPUT ACCEPT
+$IPTABLES -P FORWARD DROP
+
+echo "Dropping invalid packets..."
+$IPTABLES -A OUTPUT -m state -p icmp --state INVALID -j REJECT
+
+echo "Dropping packets designed to bypass firewall..."
+$IPTABLES -A INPUT -p tcp --tcp-flags SYN,RST SYN,RST -j DROP
+$IPTABLES -A INPUT -p tcp --tcp-flags SYN,FIN SYN,FIN -j DROP
+
+echo "Dropping other packets requesting certain unneeded much information..."
+$IPTABLES -A INPUT -p icmp --icmp-type timestamp-request -j DROP
+$IPTABLES -A INPUT -p icmp --icmp-type address-mask-request -j DROP
+
+echo "Allowing related and established connections..."
+$IPTABLES -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+echo "Allowing connections from ourselves..."
+$IPTABLES -A INPUT -s 127.0.0.1 -j ACCEPT
+$IPTABLES -A INPUT -s 192.168.1.50 -j ACCEPT
+$IPTABLES -A INPUT -s 192.168.1.95 -j ACCEPT
+
+echo "Allowing access to ports 22,80,443..."
+$IPTABLES -A INPUT -p tcp --dport 22 -j ACCEPT
+$IPTABLES -A INPUT -p tcp --dport 80 -j ACCEPT
+$IPTABLES -A INPUT -p tcp --dport 443 -j ACCEPT
+
+echo "Allowing Bittorrent..."
+$IPTABLES -A INPUT -p tcp --dport 6969 -j ACCEPT
+$IPTABLES -A INPUT -p tcp --dport 6881:6999 -j ACCEPT
+
+#echo "Disable certain users from internet access..."
+#$IPTABLES -A OUTPUT -m owner --uid-owner 1008 -j DROP
+
+#echo "logging everything else..."
+#$IPTABLES -A INPUT -j LOG --log-level info
+#$IPTABLES -A FORWARD -j LOG --log-level info
+
+echo "Limiting connection rate for SSH to four per minutes..."
+$IPTABLES -A INPUT -p tcp --dport 22 -i eth0 -m state --state NEW -m recent --set
+$IPTABLES -I INPUT -p tcp --dport 22 -i eth0 -m state --state NEW -m recent --update --seconds 60 --hitcount 4 -j DROP
+
+echo "Rejecting and Dropping everything else (safe-guard)..."
+$IPTABLES -A INPUT -j REJECT
+$IPTABLES -A FORWARD -j DROP

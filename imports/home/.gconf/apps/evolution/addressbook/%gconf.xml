@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="sources" mtime="1130057056" type="list" ltype="string">
+        <li type="string">
+                <stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1130057055.3806.13@backpack&quot; name=&quot;On This Computer&quot; base_uri=&quot;file:///home/user/.evolution/addressbook/local&quot; readonly=&quot;no&quot;&gt;&lt;source uid=&quot;1130057055.3806.14@backpack&quot; name=&quot;Personal&quot; relative_uri=&quot;system&quot;&gt;&lt;properties&gt;&lt;property name=&quot;completion&quot; value=&quot;true&quot;/&gt;&lt;/properties&gt;&lt;/source&gt;&lt;/group&gt;
+</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1130057055.3806.15@backpack&quot; name=&quot;On LDAP Servers&quot; base_uri=&quot;ldap://&quot; readonly=&quot;no&quot;/&gt;
+</stringvalue>
+        </li>
+        </entry>
+</gconf>

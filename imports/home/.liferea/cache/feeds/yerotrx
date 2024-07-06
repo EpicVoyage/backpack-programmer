@@ -1,0 +1,416 @@
+<?xml version="1.0"?>
+<feed>
+  <feedTitle>Debian Package a Day</feedTitle>
+  <feedSource>http://www.livejournal.com/users/debaday/data/atom</feedSource>
+  <feedDescription>&lt;pre&gt;Debian Package a Day&lt;/pre&gt;</feedDescription>
+  <feedUpdateInterval>-1</feedUpdateInterval>
+  <feedStatus>1</feedStatus>
+  <feedDiscontinued>0</feedDiscontinued>
+  <feedLastModified>Mon, 15 Nov 2004 15:01:13 GMT</feedLastModified>
+  <attributes>
+    <attribute name="author">Debian Package a Day</attribute>
+    <attribute name="contentUpdateDate">2004-11-15T15:01:13Z</attribute>
+  </attributes>
+  <item>
+    <title>xpp - X Printing Panel</title>
+    <description>&lt;blockquote&gt;Graphical substitute for the lp/lpr command.  With xpp, you can control every printing option known to the CUPS print system (the cupsys package).  Best results are available with usage of the appropriate PPD file for your printer.  Each user can save their own customized printing preferences.&lt;br /&gt;&lt;br /&gt;Home Page: &lt;a href="http://cups.sourceforge.net/xpp/"&gt;http://cups.sourceforge.net/xpp/&lt;/a&gt;&lt;br /&gt;&lt;/blockquote&gt;&lt;br /&gt;Also recommended by Malte S.:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;My favorite printer frontend. Good for people who sometimes print .ps files or similar. You don't have to learn the whole syntax of lpr or alike.&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;Funny. I never thought lpr was too difficult to learn. But then I grew up writing sendmail.cf files. &lt;i&gt;*shudder*&lt;/i&gt; Fortunately, I had that portion of my brain surgically excised.&lt;br /&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/xpp"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/39875.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:39875</id>
+    <nr>25</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1100530873</time>
+    <attributes>
+      <attribute name="pubDate">2004-11-15T15:01:13Z</attribute>
+      <attribute name="contentUpdateDate">2004-11-15T15:01:13Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>installwatch - Track installation of local software</title>
+    <description>&lt;blockquote&gt;Installwatch is used to track the changes made during the installation of local (i.e. non-deb) software.&lt;/blockquote&gt;&lt;br /&gt;This is the package on which checkinstall depends that was recommended by Malte S. yesterday. It is just amazing how much useful and powerful software is out there just waiting to be discovered. And the amazing thing is it's all free to use and improve. After years and years of using Debian, there is always another cool package to discover.&lt;br /&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/installwatch"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/39629.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:39629</id>
+    <nr>24</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1100271667</time>
+    <attributes>
+      <attribute name="pubDate">2004-11-12T15:01:07Z</attribute>
+      <attribute name="contentUpdateDate">2004-11-12T15:01:07Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>checkinstall - installation tracker</title>
+    <description>&lt;blockquote&gt;CheckInstall keeps track of all the files created or modified by your installation script ("make install" "make install_modules", "setup", etc), builds a standard binary package and installs it in your system giving you the ability to uninstall it with your distribution's standard package management utilities.&lt;/blockquote&gt;&lt;br /&gt;Suggested by Malte S.:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;I think it's really useful if you've got a tarball archive with software that you have to compile with the usual:&lt;br /&gt;&lt;pre&gt;&lt;code&gt;./configure
+make
+make install&lt;/code&gt;&lt;/pre&gt;&lt;br /&gt;Makes removal and reinstalling really easy!&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/checkinstall"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/39176.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:39176</id>
+    <nr>23</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1100185265</time>
+    <attributes>
+      <attribute name="pubDate">2004-11-11T15:01:05Z</attribute>
+      <attribute name="contentUpdateDate">2004-11-11T15:01:05Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>3ddesktop - "Three-dimensional" desktop switcher</title>
+    <description>&lt;blockquote&gt;3D-Desktop is an OpenGL program for switching virtual desktops in a seamless 3-dimensional manner.  The current desktop is mapped into a fullscreen 3D environment where you may choose other screens.  Several different visualization modes are available.  A window manager compatible with the GNOME pager standard is required.&lt;br /&gt;&lt;br /&gt;The transition from working desktop to fullscreen 3D environment is seamless: when the pager activates you see your current desktop appear to zoom out to a point in space where you can see your other virtual desktops allowing you to select another.&lt;br /&gt;&lt;br /&gt;The program is rather memory-hungry and it is CPU intensive, but it's accessible from the command line, which makes it perfect for show floors and impressing your non-UN*X-using friends.&lt;/blockquote&gt;&lt;br /&gt;Ratha G. writes:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;Have you done 3ddesk?  I just stumbled onto it and it is quite pretty, if a little frivolous.&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/3ddesktop"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/38986.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:38986</id>
+    <nr>22</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1100099967</time>
+    <attributes>
+      <attribute name="pubDate">2004-11-10T15:19:27Z</attribute>
+      <attribute name="contentUpdateDate">2004-11-10T15:19:27Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>aiksaurus - an English-language thesaurus (utility)</title>
+    <description>&lt;blockquote&gt;Aiksaurus is an English-language thesaurus that is suitable for integration with word processors, email composers, and other authoring software.&lt;/blockquote&gt;&lt;br /&gt;Another suggestion from Andre L.:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;Aiksaurus is an English-language thesaurus.  When you lookup a word it gives you synonyms.  To interact with it directly use either aiksaurus (command-line) or gaiksurus (GTK GUI).  It is also available as a library so other programs, for example abiword, can access it.  One of the many great new packages coming in Sarge.&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;Upstream: &lt;a href="http://www.aiksaurus.com"&gt;http://www.aiksaurus.com&lt;/a&gt; (usually down) and &lt;a href="http://aiksaurus.sourceforge.net/"&gt;http://aiksaurus.sourceforge.net/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/aiksaurus"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/38798.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:38798</id>
+    <nr>21</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1100098863</time>
+    <attributes>
+      <attribute name="pubDate">2004-11-10T15:01:03Z</attribute>
+      <attribute name="contentUpdateDate">2004-11-10T15:01:03Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>ding - Dictionary lookup program for Unix</title>
+    <description>&lt;blockquote&gt;This is "Ding"&lt;br /&gt;&lt;ul&gt;&lt;li&gt;a dictionary lookup program for Unix,&lt;/li&gt;&lt;br /&gt;&lt;li&gt;DIctionary Nice Grep,&lt;/li&gt;&lt;br /&gt;&lt;li&gt;a Tk based Front-End to [ae]grep, ispell, dict, ...&lt;/li&gt;&lt;br /&gt;&lt;li&gt;Ding {n} :: thing&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;This package needs agrep(1) or egrep(1) as a back end.  agrep is preferable, because it supports fault tolerant searching.&lt;br /&gt;&lt;br /&gt;You have to install some translation dictionary word list with a word/phrase in two languages in one line with some kind of separator between them.  The default configuration of ding uses the German-English dictionary which can be found in the trans-de-en package, but you can use every other translation word lists with one entry per line.&lt;br /&gt;&lt;br /&gt;Homepage: &lt;a href="http://www-user.tu-chemnitz.de/~fri/ding/"&gt;http://www-user.tu-chemnitz.de/~fri/din&lt;wbr /&gt;g/&lt;/a&gt;&lt;/blockquote&gt;&lt;br /&gt;Andre L. suggested Ding:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;Ding is an English/German and German/English dictionary.  To look up a word (e.g. "lust") you just type it in.Searches are simultaneously done in both languages with yoursearch word highlighted in the results.  The text file containing the dictionary is part of the trans-de-en package.&lt;br /&gt;&lt;br /&gt;The name ding is allegedly short for &lt;b&gt;di&lt;/b&gt;ctionary&lt;b&gt;n&lt;/b&gt;ice &lt;b&gt;g&lt;/b&gt;rep, but is also a multilingual pun.&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/ding"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/38416.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:38416</id>
+    <nr>20</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1099942996</time>
+    <attributes>
+      <attribute name="pubDate">2004-11-08T19:43:16Z</attribute>
+      <attribute name="contentUpdateDate">2004-11-08T19:43:16Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>exiftran - transform digital camera jpeg images</title>
+    <description>&lt;blockquote&gt;exiftran is a command line utility to transform digital image jpeg images. It can do lossless rotations like jpegtran, but unlike jpegtran it cares about the EXIF data: It can rotate images automatically by checking the exif orientation tag, it updates the exif informaton if needed (image dimension, orientation), it also rotates the exif thumbnail. It can process multiple images at once.&lt;/blockquote&gt;&lt;br /&gt;I'm pretty sure several people mentioned this package in comments regarding the jpegtran command (from the libjpeg-progs package), but props go to Giulio M. for submitting it.&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/exiftran"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/38238.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:38238</id>
+    <nr>19</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1099666856</time>
+    <attributes>
+      <attribute name="pubDate">2004-11-05T15:00:56Z</attribute>
+      <attribute name="contentUpdateDate">2004-11-05T15:00:56Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>guidedog - NAT/masquerading/port-forwarding configuration tool for KDE</title>
+    <description>&lt;blockquote&gt;Guidedog is a KDE utility which allows to use easily activate and configure your machine for packet routing, Network Address Translation/IP Masquerading (NAT) and port-forwarding.&lt;br /&gt;&lt;br /&gt;If you are using the functions of this program, it is recommended that you setup/configure a firewall to protect your machine - guidedog does not setup a firewall for you. To configure a firewall, the Guarddog program, by the same author, is recommended.&lt;br /&gt;&lt;br /&gt;Guidedog requires iptables, and therefore Linux kernel 2.4+.&lt;/blockquote&gt;&lt;br /&gt;This is Martin S.'s second package suggestion and he contrasts this to yesterday's guarddog package saying that guidedog...&lt;br /&gt;&lt;blockquote&gt;&lt;em&gt;...offers easy routing and IPNAT masquerading. With a click or two you can use the machine guidedog runs on to connect your whole local network to the internet.&lt;br /&gt;&lt;br /&gt;I never seen anything that comprehensive and user friendly for these kind of configuration task except MiamiDx (for AmigaOS). But MiamiDx's automatic firewall configuration wasn't that flexible as the one in guarddog.&lt;/em&gt;&lt;/blockquote&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/guidedog"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/37981.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:37981</id>
+    <nr>18</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1099580456</time>
+    <attributes>
+      <attribute name="pubDate">2004-11-04T15:00:56Z</attribute>
+      <attribute name="contentUpdateDate">2004-11-04T15:00:56Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>guarddog - firewall configuration utility for KDE</title>
+    <description>&lt;blockquote&gt;Guarddog is a firewall configuration utility for KDE. It is aimed at two groups of users: novice to intermediate users who are not experts in TCP/IP networking and security, and those users who don't want the hassle of dealing with cryptic shell scripts and ipchains/iptables parameters.&lt;/blockquote&gt;&lt;br /&gt;This is the first of two packages suggested by Martin S. where he says that guarddog...&lt;br /&gt;&lt;blockquote&gt;&lt;em&gt;...is an awesome tool for configuring a firewall without writing all the firewall manually. I would say that for the purpose of protecting a notebook or desktop machine that dials into the internet, guarddog is really fine. It might be that you can do a more fine grained firewall by hand, but actually in my oppinion guarddog is rather flexible. &lt;br /&gt;&lt;br /&gt;It has an internet zone, which contains all IP addresses not being in an other zone, and it has a local zone, containing the machine guarddog runs on, and when you have a local network you can define an additional zone for it easily. You can even have a demilitarised zone if you like to (see &lt;a href="http://www.simonzone.com/software/guarddog/#screenshots"&gt;screenshots&lt;/a&gt;).&lt;br /&gt;&lt;br /&gt;Then you connect the zones and can specify which services in a certain zone should be available to which other zones. By default guarddog is configured in a way that &lt;u&gt;nothing&lt;/u&gt; is allowed. That way to have to find out about the program before using it. The whole design of the software is in the way that for every service you want to use you have to poke to hole into the firewall.  I like this security oriented design in a GUI configuration tool for firewalls. guarddog is generating iptables-Rules and works nicely with Kernel 2.6.&lt;/em&gt;&lt;/blockquote&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/guarddog"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/37837.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:37837</id>
+    <nr>17</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1099494055</time>
+    <attributes>
+      <attribute name="pubDate">2004-11-03T15:00:55Z</attribute>
+      <attribute name="contentUpdateDate">2004-11-03T15:00:55Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>quintuple-agent - Secure store for secrets (passphrases, etc.)</title>
+    <description>This is a followup to yesterday's kuvert package.&lt;br /&gt;&lt;blockquote&gt;quintuple-agent serves as a cache for secrets, so that you don't have to enter them over and over again. You enter a secret once, and quintuple-agent stores it for a configurable timespan. Programs needing the secret can query the agent for it instead of bothering you.&lt;br /&gt;&lt;br /&gt;Included are wrappers for PGP 2 and GnuPG.&lt;/blockquote&gt;&lt;br /&gt;&amp;amp;rw says:&lt;br /&gt;&lt;blockquote&gt;&lt;em&gt;Don't get me wrong, it's not a "password safe", it's a &lt;u&gt;cache&lt;/u&gt;, not a facilty for permanent storage (which, wrt. passwords and -phrases, should reside only inside your skull anyway).&lt;/em&gt;&lt;/blockquote&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/quintuple-agent"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/37427.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:37427</id>
+    <nr>16</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1099407652</time>
+    <attributes>
+      <attribute name="pubDate">2004-11-02T15:00:52Z</attribute>
+      <attribute name="contentUpdateDate">2004-11-02T15:00:52Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>kuvert - A wrapper that encrypts or signs outgoing mail</title>
+    <description>Whew. Sorry about outage. Mental issues, you know?&lt;br /&gt;&lt;blockquote&gt;kuvert automatically signs and/or encrypts outgoing mail using the PGP/MIME standard (rfc3156), based on the availability of the recipient's key in your keyring. Other than similar wrappers, kuvert does not store the passphrases on disk but keeps them just in memory; if available, kuvert prefers to store the key passphrases with quintuple-agent. kuvert works as a wrapper around your MTA.&lt;br /&gt;&lt;br /&gt;Homepage: &lt;a href="http://www.snafu.priv.at/mystuff/kuvert/"&gt;http://www.snafu.priv.at/mystuff/ku&lt;wbr /&gt;vert/&lt;/a&gt;&lt;/blockquote&gt;&lt;br /&gt;&amp;amp;rw (yeah, Robert Waldner, that's right) says:&lt;br /&gt;&lt;blockquote&gt;&lt;em&gt;kuvert is the perfect tool for us lazy paranoids out there. 'nuff said.&lt;/em&gt;&lt;/blockquote&gt;&lt;br /&gt;I seriously doubt there are that many paranoid people out there. But plenty of lazy people (don't forget to vote, Americans).&lt;br /&gt;&lt;br /&gt;More information on this package can be found on &lt;a href="http://www.snafu.priv.at/mystuff/kuvert/whatiskuvert.html"&gt;whatiskuvert&lt;/a&gt; and the &lt;a href="http://packages.debian.org/kuvert"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Update:&lt;/b&gt; Fix homepage URL (which isn't really much of a homepage anyway, seriously). &lt;i&gt;sigh&lt;/i&gt;</description>
+    <source>http://www.livejournal.com/users/debaday/37223.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:37223</id>
+    <nr>15</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1099340841</time>
+    <attributes>
+      <attribute name="pubDate">2004-11-01T17:26:03Z</attribute>
+      <attribute name="contentUpdateDate">2004-11-01T20:27:21Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>vsound - Virtual loopback sound recorder and real audio converter</title>
+    <description>&lt;blockquote&gt;This program allows you to record the output of any standard OSS program (one that uses /dev/dsp for sound) without having to modify or recompile the program. It uses sox to convert and save the raw data into the desired file format and can help to convert real audio files to some other non-proprietary format.&lt;/blockquote&gt;&lt;br /&gt;Andre L. hits one out of the park with:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;One of the deep abstractions underlying UNIX and the operating systems it influenced, including GNU/Linux, is that everything should be a file. Want your program to talk to a terminal? Just have it read/write from a special file. Same thing goes for the network. &lt;b&gt;Or the sound card&lt;/b&gt;. The OSS part of the Linux kernel provides the special file /dev/dsp to let programs access the sound card; sounds are generated by writing to /dev/dsp. By redirecting /dev/dsp away from the sound card one can record the byte stream generated by any program. This is precisely what vsound does, using a trick called LD_PRELOAD. Thus vsound provides a virtual audio loopback cable.&lt;br /&gt;&lt;br /&gt;All this is a long way of saying vsound lets you record the audio output of any program compiled to use OSS, i.e. most programs which use audio. Some programs require the "--timing" option, see the man page for details.&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/vsound"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/36958.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:36958</id>
+    <nr>14</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1096310103</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-27T18:35:03Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-27T18:35:03Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>rblcheck - Tool to Query RBL Servers</title>
+    <description>&lt;blockquote&gt;This program is a very basic interface to DNS Blackhole Lists.  The basic idea of the filter is that when someone is blacklisted for email abuse of some sort, a new domain name is resolved of the form "2.0.0.127.domain.name.com", where 2.0.0.127 is the abusive IP address in reverse (for example, 2.0.0.127 would be the IP address 127.0.0.2), and "domain.name.com" is the base domain name of the filtering service.&lt;/blockquote&gt;&lt;br /&gt;Yet another from Robert Waldner, my hero!&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;Personally, I use rblcheck out of cron to regularly check if a machine I feel somehow responsible over (read: those I've set up for friends/customers who now maintain it by themselves) landed on one of the various RBLs, &lt;b&gt;before&lt;/b&gt; their lusers come screaming bloody hell because they can't get that urgent mail out.&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/rblcheck"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/36696.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:36696</id>
+    <nr>13</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1096038002</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-24T15:00:02Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-24T15:00:02Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>vpnc - Cisco-compatible VPN client</title>
+    <description>&lt;blockquote&gt;vpnc is a VPN client compatible with cisco3000 VPN Concentrator (also known as Cisco's EasyVPN equipment). vpnc runs entirely in userspace and does not require kernel modules except of the tun driver to communicate with the network layer.&lt;br /&gt;&lt;br /&gt;It supports most of the features needed to establish connection to the VPN concentrator: MD5 and SHA1 hashes, 3DES and AES ciphers, PFS and various IKE DH group settings.&lt;/blockquote&gt;&lt;br /&gt;Thorsten R. suggested this alternate way to secure network links:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;Virtual private networking in cisco vpns under linux? vpnc is easy to set up and only requires a module from the standard kernel. If you use wlan you should investigate vpn, it's the standard choice for making wlan waterproof.&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/vpnc"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/36452.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:36452</id>
+    <nr>12</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1095957310</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-23T16:35:10Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-23T16:35:10Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>exmh - An X user interface for MH mail.</title>
+    <description>&lt;blockquote&gt;Exmh uses the regular MH programs to manipulate your mail folders and messages.  This means it is compatible with command-line use of MH programs, and its actions should be familiar if you are an experienced MH user.  If you are a new  MH  user, then the details of running MH programs is hidden behind the graphical interface.&lt;/blockquote&gt;&lt;br /&gt;Yet another package suggestion from Robert Waldner:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;exmh is a graphical frontend to (n)mh, a mail-system that stores every  mail in a single, plain-text, file, but without the complexity that is maildir. It's special strength is in preserving your sanity even if you get 2k+ emails/day. You get all the features of a graphical MUA but (IMHO) without the usual downsides. It's also happy with more than one instance of it running. And you don't have to learn Emacs just for a MUA. Plus it's easily combinable with kuvert, which'll transparently handle GnuPG/PGP signing and/or encrypting depending on your preferences and the recipients capabilities.&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/exmh"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/36126.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:36126</id>
+    <nr>11</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1095869191</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-22T16:06:31Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-22T16:06:31Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>busybox - Tiny utilities for small and embedded systems.</title>
+    <description>&lt;blockquote&gt;BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for the most common utilities you would usually find on your desktop system (i.e., ls, cp, mv, mount, tar, etc.).  The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts.&lt;br /&gt;&lt;br /&gt;This package installs the BusyBox binary but does not install symlinks for any of the supported utilities.  You can use /bin/busybox --install to install BusyBox to the root directory (you do not want to do this to your your Debian system, except in dire emergencies!).&lt;/blockquote&gt;&lt;br /&gt;This package was suggested as a alternative to &lt;a href="http://www.livejournal.com/users/debaday/35014.html"&gt;sash&lt;/a&gt;:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;Get the busybox package, run 'make allyesconfig', and then run 'make menuconfig' to enable static linking, and maybe tweak the config a bit.  Build it.&lt;br /&gt;&lt;br /&gt;You get a shell with almost a complete system inside, and all in the size of 1.3MB or so (i386). "all" does not include strace and tcpdump, but almost everything else, including very simple rpm, dpkg, dhcp client, dhcp server, httpd, telnetd, telnet, strings, grep, awk, sed, top and vi.  And many more.&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/busybox"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/35972.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:35972</id>
+    <nr>10</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1095785525</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-21T16:52:05Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-21T16:52:05Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>openvpn - Virtual Private Network daemon</title>
+    <description>&lt;blockquote&gt;An application to securely tunnel IP networks over a single UDP port, with support for TLS-based session authentication and key exchange, packet encryption, packet authentication, and packet compression.&lt;/blockquote&gt;&lt;br /&gt;Another one from Robert Waldner:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;OpenVPN is great, especially because it gets everything about right that's wrong with IPSec and FreeS/WAN (read: ease of installation, configuration and usage). Especially nice is the possibility to, easily!, and securely bridge LANs together over a WAN. In our (limited) tests, we also got about twice the performance compared to FreeS/WAN, and that's with AES256. Another feature is that you don't have to patch your kernel to death just to get useful encryption.&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;Additional information from &lt;a href="http://openvpn.sourceforge.net/"&gt;http://openvpn.sourceforge.net/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;With OpenVPN, you can:&lt;br /&gt;&lt;br /&gt;&lt;ul&gt;&lt;li&gt;tunnel any IP subnetwork or virtual ethernet adapter over a single UDP or TCP port,&lt;/li&gt;&lt;br /&gt;&lt;li&gt;create cross-platform tunnels between any of the operating systems supported by OpenVPN including Linux, Solaris, OpenBSD, FreeBSD, NetBSD, Mac OS X, and Windows 2000/XP,&lt;/li&gt;&lt;br /&gt;&lt;li&gt;configure a scalable, load-balanced VPN server farm using one or more machines which can handle thousands of dynamic connections from incoming VPN clients (OpenVPN 2.0),&lt;/li&gt;&lt;br /&gt;&lt;li&gt;use all of the encryption, authentication, and certification features of the OpenSSL library to protect your private network traffic as it transits the internet,&lt;/li&gt;&lt;br /&gt;&lt;li&gt;use any cipher, key size, or HMAC digest (for datagram authentication) supported by the OpenSSL library,&lt;/li&gt;&lt;br /&gt;&lt;li&gt;choose between static-key based conventional encryption or certificate-based public key encryption,&lt;/li&gt;&lt;br /&gt;&lt;li&gt;use static, pre-shared keys or TLS-based dynamic key exchange,&lt;/li&gt;&lt;br /&gt;&lt;li&gt;use real-time adaptive link compression and traffic-shaping to manage link bandwidth utilization,&lt;/li&gt;&lt;br /&gt;&lt;li&gt;tunnel networks whose public endpoints are dynamic such as DHCP or dial-in clients,&lt;/li&gt;&lt;br /&gt;&lt;li&gt;tunnel networks through connection-oriented stateful firewalls without having to use explicit firewall rules,&lt;/li&gt;&lt;br /&gt;&lt;li&gt;tunnel networks over NAT, and&lt;/li&gt;&lt;br /&gt;&lt;li&gt;create secure ethernet bridges using virtual tap devices.&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/openvpn"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/35599.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:35599</id>
+    <nr>9</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1095692402</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-20T15:00:02Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-20T15:00:02Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>ntlmaps - NTLM Authorization Proxy Server</title>
+    <description>&lt;blockquote&gt;'NTLM Authorization Proxy Server' (APS) is a proxy software that allows you to authenticate via an MS Proxy Server (e.g. ISA server) using the proprietary NTLM protocol. Since version 0.9.5 APS has an ability to behave as a standalone proxy server and authenticate http clients at web servers using NTLM method. It can change arbitrary values in your client's request header so that those requests will look like they were created by MS IE. It is written in Python v1.5.2 language.&lt;br /&gt;&lt;br /&gt;Main features:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;supports NTLM authentication via parent proxy server (Error 407 Proxy Authentication Required)&lt;/li&gt;&lt;br /&gt;&lt;li&gt;supports NTLM authentication at web servers (Error 401 Access Denied/Unauthorized)&lt;/li&gt;&lt;br /&gt;&lt;li&gt;supports translation of NTLM scheme to standard "Basic" authentication scheme&lt;/li&gt;&lt;br /&gt;&lt;li&gt;supports the HTTPS 'CONNECT' method for transparent tunnelling through parent proxy server&lt;/li&gt;&lt;br /&gt;&lt;li&gt;has ability to change arbitrary values in client's request headers;&lt;/li&gt;&lt;br /&gt;&lt;li&gt;supports unlimited number of client connections&lt;/li&gt;&lt;br /&gt;&lt;li&gt;supports connections from external hosts&lt;/li&gt;&lt;br /&gt;&lt;li&gt;supports HTTP 1.1 persistent connections&lt;/li&gt;&lt;br /&gt;&lt;li&gt;stores user's credentials in config file or requests password from a console during the start time&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;br /&gt;More from Robert Waldner:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;Ever been behind a proxy that only lets you out if you can authenticate via NTLM? Yeah, your browser probably can do that, but what about wget, apt-get, lynx, ftp? Here's ntlmaps for you, just point your $http_proxy to localhost, and it'll transparently handle all the auth stuff for you. And it'll also do that for your other Debian machines on the LAN. (If you're a bastard, you could also tunnel an ssh session through https through ntlmaps, and get transparent ssh-access to your outside machines even if the firewall wouldn't permit that normally.  Well, that's what I use it for, usually. If you're a real BOFH, you'll port-forward to your own proxy through that ssh-session, and bypass all the URL-filtering, logging and other restrictions that would be in place behind that firewall. Of course, you could also run something like vtun or OpenVPN through ssh, and get complete IP-connectivity.  BTDT.)&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/ntlmaps"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/35503.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:35503</id>
+    <nr>8</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1095438300</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-17T16:25:00Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-17T16:25:00Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>k3b - A sophisticated KDE cd burning application</title>
+    <description>&lt;blockquote&gt;K3b is a GUI frontend to the cd recording programs cdrdao and cdrecord.  Its aim is to provide a very user friendly interface to all the tasks that come with cd recording.&lt;br /&gt;&lt;br /&gt;(huge feature list suppressed)&lt;/blockquote&gt;&lt;br /&gt;Another one from Andre L.:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;K3B is the KDE CD/DVD burning frontend.  The interface is so simple even Hillary Rosen could figure it out:  First you select new audio disc or new data disc.  Then you drag and drop filenames into the right window.  Then you click burn.  Then you eject.  It really is that easy.&lt;br /&gt;&lt;br /&gt;The first time I ran it there were some permissions problems, but the error messages were intelligible and--get this--suggested the right fix.  After just one use I put my printout of the &lt;/i&gt;CD Writing HOWTO&lt;i&gt; into the recycling bin.  Cuz baby, I ain't never again running mkisofs by hand.&lt;br /&gt;&lt;br /&gt;Like most other KDE apps it runs fine under X11 regardless of window manager or desktop environment.  I usually run it through an ssh tunnel, since the burner at work isn't attached to my desktop machine.&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;Upstream: &lt;a href="http://www.k3b.org/"&gt;http://www.k3b.org/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/k3b"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/35264.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:35264</id>
+    <nr>7</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1095346803</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-16T15:00:03Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-16T15:00:03Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>sash - Stand-alone shell</title>
+    <description>&lt;blockquote&gt;sash serves as an interactive substitute for /bin/sh, for use when /bin/sh is unusable.  It's statically linked, and includes many standard utilities as builtins (type "help" at the prompt for a reference list).  If you've installed sash before rendering your system unbootable, and you have some knowledge of how your system is supposed to work, you might be able to repair your system using init=/bin/sash at the boot prompt.&lt;br /&gt;&lt;br /&gt;Some people also prefer to have sash available as the shell for a root account (perhaps an under an alternate name such as sashroot) Configuration support is included for people who want this.&lt;br /&gt;&lt;br /&gt;Note: sash is not intended to serve as /bin/sh, and has few of the interactive features present in bash or ksh.  It's designed to be simple and robust, for people who need to do emergency repair work on a system.&lt;br /&gt;&lt;br /&gt;Also note: sash doesn't include a built-in fsck -- fsck is too big and complicated.  If you need fsck, you'll have to get at least one partition or disk working well enough to run fsck.  More generally, sash is but one tool of many (backups, backup recovery tools, emergency boot disks or partitions, spare parts, testing of disaster plans, etc.) to help you recover a damaged system.&lt;/blockquote&gt;&lt;br /&gt;Another sage recommendation from Robert Waldner:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;sash saved my a** more than times than I'll ever admit to publically. Sometimes for reasons of not-thinking, sometimes after, in the Chinese sense, "interesting" hardware trouble. If you've ever typoed `rm -f` in the wrong terminal you definitely want it.&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/sash"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/35014.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:35014</id>
+    <nr>6</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1095260402</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-15T15:00:02Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-15T15:00:02Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>logjam - Client for LiveJournal-based sites</title>
+    <description>&lt;blockquote&gt;LogJam is a GUI client for LiveJournal.com and sites based on LiveJournal. It lets you post, edit old entries, manage your friends, save your journal to a local offline copy, and whatever other useful LiveJournal-related features we can think of.&lt;br /&gt;&lt;br /&gt;If you would like automatic music detection from XMMS or beep-media-player, you should install the logjam-xmms package.&lt;/blockquote&gt;&lt;br /&gt;Rob S. pointed out a useful utility to all Debian-loving LiveJournal users.&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;Since the readers of debaday are also LiveJournal users, I suggest "logjam", a LiveJournal client for GTK2. Unlike other LJ clients, it doesn't feel the need to pretend it's AIM in its interface.&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/logjam"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/34629.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:34629</id>
+    <nr>5</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1095174002</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-14T15:00:02Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-14T15:00:02Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>zssh - interactive file transfers over ssh</title>
+    <description>&lt;blockquote&gt;zssh (Zmodem SSH) is a program for interactively transferring files to a remote machine while using the secure shell (ssh). It is intended to be a convenient alternative to scp, allowing to transfer files without having to open another session and re-authenticate oneself.&lt;br /&gt;&lt;br /&gt;Files are transferred through the zmodem protocol, using the rz and sz commands.&lt;/blockquote&gt;&lt;br /&gt;Submitted anonymously.&lt;br /&gt;&lt;br /&gt;Of course, one could also make discreet use of the ssh-agent and use scp without re-authenticating (at least not explicitly).&lt;br /&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/zssh"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/34541.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:34541</id>
+    <nr>4</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1095087602</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-13T15:00:02Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-13T15:00:02Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>slocate - A secure replacment of findutil's locate</title>
+    <description>&lt;blockquote&gt;This locate can index all files on your system, but only files and directories which the invoking user has access to will be displayed.&lt;br /&gt;&lt;br /&gt;Note: If your computer is not up 24/7 you should consider installing anacron since the database is only updated once a night.&lt;/blockquote&gt;&lt;br /&gt;Submitted anonymously.&lt;br /&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/slocate"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/34234.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:34234</id>
+    <nr>3</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1094828403</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-10T15:00:03Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-10T15:00:03Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>mmv - Move/Copy/Append/Link multiple files</title>
+    <description>&lt;blockquote&gt;mmv is a program to move/copy/append/link multiple files according to a set of wildcard patterns. This multiple action is performed safely, i.e. without any unexpected deletion of files due to collisions of target names with existing filenames or with other target names.&lt;/blockquote&gt;&lt;br /&gt;Submitted anonymously.&lt;br /&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/mmv"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/33924.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:33924</id>
+    <nr>2</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1094745077</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-09T15:51:17Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-09T15:51:17Z</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>ddrescue - copies data from one file or block device to another</title>
+    <description>&lt;blockquote&gt;dd_rescue is a tool to help you to save data from crashed partition.  It tries to read and if it fails, it will go on with the next sectors where tools like dd will fail. If the copying process is interrupted by the user it is possible to continue at any position later.  It can copy backwards.&lt;/blockquote&gt;&lt;br /&gt;Thorsten R. proudly brings us today's package:&lt;br /&gt;&lt;blockquote&gt;&lt;i&gt;If your harddisk starts getting seriously broken and you need to recover data from the damaged device, then you need ddrescue (dd will give up on broken hardware). Plug the hdd into a working system, fire up ddrescue and throw in some emergency prayers ...&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;&lt;br /&gt;More information on this package can be found on the &lt;a href="http://packages.debian.org/ddrescue"&gt;Debian web site&lt;/a&gt;.&lt;br /&gt;&lt;small&gt;(If there is a &lt;a href="http://www.debian.org/distrib/packages"&gt;package&lt;/a&gt; you would like to see featured here, go to the &lt;a href="http://livejournal.com/userinfo.bml?user=debaday"&gt;userinfo&lt;/a&gt; page and follow the directions there to submit your entry.)&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;Now available in &lt;a href="http://www.livejournal.com/users/debaday/data/rss"&gt;RSS&lt;/a&gt; and &lt;a href="http://www.livejournal.com/users/debaday/data/atom"&gt;ATOM&lt;/a&gt; flavors too.</description>
+    <source>http://www.livejournal.com/users/debaday/33766.html</source>
+    <id>urn:lj:livejournal.com:atom1:debaday:33766</id>
+    <nr>1</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1094655606</time>
+    <attributes>
+      <attribute name="pubDate">2004-09-08T15:00:06Z</attribute>
+      <attribute name="contentUpdateDate">2004-09-08T15:00:06Z</attribute>
+    </attributes>
+  </item>
+</feed>

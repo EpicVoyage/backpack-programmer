@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<feed>
+  <feedTitle>Slashdot</feedTitle>
+  <feedSource>http://rss.slashdot.org/Slashdot/slashdot</feedSource>
+  <feedDescription>News for nerds, stuff that matters</feedDescription>
+  <feedImage>http://images.slashdot.org/topics/topicslashdot.gif</feedImage>
+  <feedUpdateInterval>60</feedUpdateInterval>
+  <feedStatus>1</feedStatus>
+  <feedDiscontinued>0</feedDiscontinued>
+  <feedLastModified>Fri, 21 Oct 2005 08:06:37 GMT</feedLastModified>
+  <attributes>
+    <attribute name="language">en-us</attribute>
+    <attribute name="copyright">Copyright 1997-2005, OSTG - Open Source Technology Group, Inc.  All Rights Reserved.</attribute>
+    <attribute name="publisher">OSTG</attribute>
+    <attribute name="creator">pater@slashdot.org</attribute>
+    <attribute name="category">Technology</attribute>
+    <attribute name="textInput">&lt;p&gt;Search Slashdot stories&lt;form class="rssform" method="GET" ACTION="http://slashdot.org/search.pl"&gt;&lt;input class="rssformtext" type=text value="" name="query"&gt;&lt;input class="rssformsubmit" type=submit value="Search Slashdot"&gt;&lt;/form&gt;&lt;/p&gt;</attribute>
+  </attributes>
+  <item>
+    <title>Ships Turned Away As Aussie Customs' IT System Melts Down</title>
+    <description>An anonymous reader writes "Urgent shipments of medicine and goods for the holiday season have been turned away by customs officials due to a massive computer problem. The initial budget for the system upgrade was said to be A$80 million but has since blown out to A$250 million. Customs officials and the government have been forced to admit that they might actually have to revert to the old system if things don't improve. One cargo user said on national TV that he used to process 300 orders daily but the new system is so complex and unusable, he's happy if he can manage 100 orders per day. The system failure is expected to have a massive impact especially on the retail sector this Christmas."&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=1328"/&gt;</description>
+    <source>http://rss.slashdot.org/Slashdot/slashdot?m=1328</source>
+    <id>http://it.slashdot.org/article.pl?sid=05/10/21/065242&amp;from=rss</id>
+    <nr>10</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129875060</time>
+    <attributes>
+      <attribute name="creator">CowboyNeal</attribute>
+      <attribute name="category">biz</attribute>
+      <attribute name="slash">it,if-it-ain't-broke</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Ancient Greek Computer Reconstructed</title>
+    <description>afaik_ianal writes "A working reconstruction of an ancient Greek computer, the Antikythera mechanism, which was found at the bottom of the ocean in 1900 has been unveiled and is on display at the Technopolis museum, in Athens. The device is believed to have been used to calculate the positions of various celestial bodies including the sun and the moon on any given date. While some guesswork was required in the reconstruction, the bulk of the design is based on updated X-ray photographs of the device."&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=1327"/&gt;</description>
+    <source>http://rss.slashdot.org/Slashdot/slashdot?m=1327</source>
+    <id>http://science.slashdot.org/article.pl?sid=05/10/21/0232241&amp;from=rss</id>
+    <nr>9</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129866660</time>
+    <attributes>
+      <attribute name="creator">CowboyNeal</attribute>
+      <attribute name="category">tech</attribute>
+      <attribute name="slash">science,old-made-new-again</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Firefox-based Social Browser Flock Launches</title>
+    <description>daria42 writes "The much-hyped Flock, a new browser based on Mozilla Firefox and integrating features like RSS feeds, blogging tools, the del.icio.us social bookmarking and Flickr photo sharing services has just launched a public developer preview to the world. Flock is being driven by a team of developers being led by Bart Decrem, a well-known open source developer who co-founded the ill-fated Eazel project back in 1999 and has been involved with both the Mozilla and GNOME foundations. On his blog this week he says Flock won't be forking the Firefox codebase."&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=1326"/&gt;</description>
+    <source>http://rss.slashdot.org/Slashdot/slashdot?m=1326</source>
+    <id>http://slashdot.org/article.pl?sid=05/10/21/0230209&amp;from=rss</id>
+    <nr>8</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129861920</time>
+    <attributes>
+      <attribute name="creator">CowboyNeal</attribute>
+      <attribute name="category">internet</attribute>
+      <attribute name="slash">mainpage,hitting-the-streets</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>The World's Smallest Car</title>
+    <description>starexplorer writes "Start your Nano-engines? LiveScience.com is reporting that researchers at Rice University have designed the world's smallest car that is no more than 4 nanometers across. It has a chassis, axles and a pivoting suspension. The wheels are buckyballs. Why do it? The team wants to build a fleet of nanotrucks to carry atoms and molecules around minature factories." So it's not exactly self-powered, but it rolls. It's a start!&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=1325"/&gt;</description>
+    <source>http://rss.slashdot.org/Slashdot/slashdot?m=1325</source>
+    <id>http://science.slashdot.org/article.pl?sid=05/10/21/0020216&amp;from=rss</id>
+    <nr>7</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129856880</time>
+    <attributes>
+      <attribute name="creator">CowboyNeal</attribute>
+      <attribute name="category">robotics</attribute>
+      <attribute name="slash">science,short-rides</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Ontario to Match U.S. DST Change</title>
+    <description>Devastator writes "CBC is reporting that Ontario will be the first Canadian province to change daylight savings rules to reflect the changes happening in the U.S in 2007. Attorney General Michael Bryant says 'the province's economy was the deciding factor and that if Ontario isn't on the same time as the United States, it will be hurt financially.'"&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=1324"/&gt;</description>
+    <source>http://rss.slashdot.org/Slashdot/slashdot?m=1324</source>
+    <id>http://slashdot.org/article.pl?sid=05/10/20/2233201&amp;from=rss</id>
+    <nr>6</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129851540</time>
+    <attributes>
+      <attribute name="creator">CowboyNeal</attribute>
+      <attribute name="category">usa</attribute>
+      <attribute name="slash">mainpage,wrapped-around-our-finger</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>VMWare Inc. Releases Free Virtual Machine Runtime</title>
+    <description>rfinnvik writes "VMWare Inc. has released a new free (as in beer) virtual machine runtime called VMware Player. According to VMWare, this free VM runtime makes it possible for anyone to run virtual machines created in their Workstation, GSX or ESX products. It also runs virtual machines created in Microsoft's virtualization products. The runtime is available for both Windows and Linux."&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=1323"/&gt;</description>
+    <source>http://rss.slashdot.org/Slashdot/slashdot?m=1323</source>
+    <id>http://it.slashdot.org/article.pl?sid=05/10/20/2227225&amp;from=rss</id>
+    <nr>5</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129847820</time>
+    <attributes>
+      <attribute name="creator">CowboyNeal</attribute>
+      <attribute name="category">tech</attribute>
+      <attribute name="slash">it,just-like-the-real-thing</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Quake 4 Linux</title>
+    <description>Crusader writes "id Software has released the Linux client and server for Quake 4. There's a FAQ page with installation instructions, notes, and download links."&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=1322"/&gt;</description>
+    <source>http://rss.slashdot.org/Slashdot/slashdot?m=1322</source>
+    <id>http://games.slashdot.org/article.pl?sid=05/10/20/1831234&amp;from=rss</id>
+    <nr>4</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129844460</time>
+    <attributes>
+      <attribute name="creator">CmdrTaco</attribute>
+      <attribute name="category">quake</attribute>
+      <attribute name="slash">games,games-people-play</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>eBay Wants Voice Phone Free In Five Years</title>
+    <description>kmk writes "In a few short years, users can expect to make telephone calls for free, with no per-minute charges, as part of a package of services through which carriers make money on advertising or transaction fees, eBay's chief executive said on Wednesday."&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=1321"/&gt;</description>
+    <source>http://rss.slashdot.org/Slashdot/slashdot?m=1321</source>
+    <id>http://slashdot.org/article.pl?sid=05/10/20/1633219&amp;from=rss</id>
+    <nr>3</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129841880</time>
+    <attributes>
+      <attribute name="creator">CmdrTaco</attribute>
+      <attribute name="category">communications</attribute>
+      <attribute name="slash">mainpage,well-sure-don't-we-all</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Homer Becomes Omar</title>
+    <description>geekster writes "With Omar as Homer, and Badr substituted for Bart, The Simpsons is now playing on Arab television. But in order not to risk offending an Arab audience, the characters in Al Shamshoon, as the show is now called, have modified some of their most distinguishable traits." And you thought internationalization was hard for software!&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=1320"/&gt;</description>
+    <source>http://rss.slashdot.org/Slashdot/slashdot?m=1320</source>
+    <id>http://slashdot.org/article.pl?sid=05/10/20/169240&amp;from=rss</id>
+    <nr>2</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129838880</time>
+    <attributes>
+      <attribute name="creator">CmdrTaco</attribute>
+      <attribute name="category">tv</attribute>
+      <attribute name="slash">mainpage,something-i-never-thought-of</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>M.I.T. Explains Why Bad Habits Are Hard to Break</title>
+    <description>Ant writes "CNET News.com says habitual activity (e.g., smoking, eating fatty foods, gambling, etc.) changes neural activity patterns in a specific region of the brain when habits are formed. These neural patterns created by habit can be changed or altered. But when a stimulus from the old days returns, the dormant pattern can reassert itself, according to a new study from the M.I.T., putting an individual in a neural state akin to being on autopilot... The neural patterns get established in the basal ganglia, a brain region critical to habits, addiction and procedural learning."&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=1319"/&gt;</description>
+    <source>http://rss.slashdot.org/Slashdot/slashdot?m=1319</source>
+    <id>http://science.slashdot.org/article.pl?sid=05/10/20/1559245&amp;from=rss</id>
+    <nr>1</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129836540</time>
+    <attributes>
+      <attribute name="creator">CmdrTaco</attribute>
+      <attribute name="category">science</attribute>
+      <attribute name="slash">science,also-because-vices-are-fun</attribute>
+    </attributes>
+  </item>
+</feed>

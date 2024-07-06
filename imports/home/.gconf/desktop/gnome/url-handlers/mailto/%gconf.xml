@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="enabled" mtime="1130106065" type="bool" value="true">
+        </entry>
+        <entry name="command" mtime="1130106064" type="string">
+                <stringvalue>evolution %s</stringvalue>
+        </entry>
+</gconf>

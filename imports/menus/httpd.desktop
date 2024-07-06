@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Start Apache
+Comment=Start the Apache web server
+Exec=sudo /bin/sh /etc/rc.d/rc.httpd restart
+TryExec=sudo
+Terminal=true
+Type=Application
+StartupNotify=false
+Icon=gnome-server-config
+Categories=live-cd;server;

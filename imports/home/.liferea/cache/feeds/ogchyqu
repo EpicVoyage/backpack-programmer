@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<feed>
+  <feedTitle>Gnomefiles</feedTitle>
+  <feedSource>http://www.gnomefiles.org/files/gnomefiles.rdf</feedSource>
+  <feedDescription>GNOME/GTK+ Software</feedDescription>
+  <feedUpdateInterval>-1</feedUpdateInterval>
+  <feedStatus>1</feedStatus>
+  <feedDiscontinued>0</feedDiscontinued>
+  <feedLastModified>Fri, 21 Oct 2005 08:30:00 GMT</feedLastModified>
+  <attributes>
+    <attribute name="textInput">&lt;p&gt;Search GNOME/GTK+ applications&lt;form class="rssform" method="GET" ACTION="http://www.gnomefiles.org/search.php"&gt;&lt;input class="rssformtext" type=text value="" name="search"&gt;&lt;input class="rssformsubmit" type=submit value="Search Gnomefiles.org"&gt;&lt;/form&gt;&lt;/p&gt;</attribute>
+  </attributes>
+  <item>
+    <title>GBrowser (ver. 0.4.1)</title>
+    <description>&lt;i&gt;GBrowser is a file manager, terminal emulator and image viewer.&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+Fixes compile errors with Debian Unstable/AMD64. Fixed crash if famd is not running.</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=1142</source>
+    <nr>15</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129877958</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>gmusicbrowser (ver. 0.939)</title>
+    <description>&lt;i&gt;Jukebox for large collections of mp3/ogg/flac files&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+-fixed a major bug in 0.938, that was preventing gmusicbrowser from quitting (and saving tags/options) when asked to after having opened and closed some windows (random editing dialog and alternate layouts in particular)&lt;br /&gt;
+-broken filenames are now accepted (not much tested)&lt;br /&gt;
+</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=1052</source>
+    <nr>14</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129861875</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>SAM (Servo Auctuation Man (ver. 0.6.1)</title>
+    <description>&lt;i&gt;SAM (Servo Actuation Manipulator) is a GTK+ based X windows application for controlling anywhere from 1 to 254(so far) servo motors via a serial port connection, specifically this program was made for the Scott Edwards Electronics Mini SSC II.&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+Prealpha release</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=1148</source>
+    <nr>13</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129860314</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>OpenVPN-Admin (ver. 1.1.3)</title>
+    <description>&lt;i&gt;OpenVPN-Admin is a GUI for OpenVPN it is writen in Mono and runs under Linux and Windows.&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+This is a updated release for Linux, now works with gtk# 2.0 (&amp;gt;=2.3.91),.new build system based on auto-tools, some small bug fixes and a support for empty passwords in certificate wizard. &lt;br /&gt;
+ &lt;br /&gt;
+This release makes some source code reorganization to help on next release that will have new features.</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=1147</source>
+    <nr>12</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129859234</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>PyKaraoke (ver. 0.3.1)</title>
+    <description>&lt;i&gt;CDG/MIDI/MPEG Karaoke Player&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+New in v0.3.1 is:&lt;br /&gt;
+&lt;br /&gt;
+* Full-screen player mode (CDG and MPG)&lt;br /&gt;
+* Supports the latest WxPython (v2.6)&lt;br /&gt;
+* Improved CPU usage&lt;br /&gt;
+* Better handling of zip filenames</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=762</source>
+    <nr>11</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129851587</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>NetworkManager (ver. 0.5.1)</title>
+    <description>&lt;i&gt;Network connection manager for most RPM and Debian-based distros.&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+==============================================&lt;br /&gt;
+NetworkManager-0.5.1&lt;br /&gt;
+Overview of changes since NetworkManager-0.5.0&lt;br /&gt;
+==============================================&lt;br /&gt;
+&lt;br /&gt;
+* NetworkManager&lt;br /&gt;
+	* Don't drop the last scanned AP (Dan Williams)&lt;br /&gt;
+	* Broadcast state change when disconnected (Robert Love)&lt;br /&gt;
+	* The Slackware backend now builds (Nico)&lt;br /&gt;
+	* Don't install unsued config files (Dan Williams)&lt;br /&gt;
+	* Add a test for libnm_glib_unregister_callback (Christopher Aillon)&lt;br /&gt;
+	* Requires wireless-tools 28pre9 (Christopher Aillon)&lt;br /&gt;
+&lt;br /&gt;
+* nm-applet&lt;br /&gt;
+	* Use g_get_host_name () if we've got it (Christopher Aillon)&lt;br /&gt;
+	* Fix an unitialized variable (Robert Love)&lt;br /&gt;
+	* Fix sensitivity of VPN items (Robert Love)&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+==============================================&lt;br /&gt;
+NetworkManager-0.5.0&lt;br /&gt;
+Overview of changes since NetworkManager-0.4.1&lt;br /&gt;
+==============================================&lt;br /&gt;
+&lt;br /&gt;
+* NetworkManager&lt;br /&gt;
+   * Initscripts are now generated&lt;br /&gt;
+   * Not waiting as long for scans to complete (Bill Moss).&lt;br /&gt;
+   * Fix several D-BUS object leaks (John Palmieri, Dan Williams,                                      Christopher Aillon)  &lt;br /&gt;
+ * VPN now advertises state changes&lt;br /&gt;
+   * Make --without-named work (j@bootlab.org)&lt;br /&gt;
+   * Make --with-dhcdbd work correctly (j@bootlab.org)&lt;br /&gt;
+   * Fix timeout scan values (Bill Moss)&lt;br /&gt;
+   * Send notifications of device strength changing so clients do     not have to poll.&lt;br /&gt;
+   * Don't return a UDI device if it doesn't exist (Tomislav Vujec)&lt;br /&gt;
+   * Strip whitespace from the VPN banner (Bill Moss)&lt;br /&gt;
+   * VPN Manager rewritten to better support signals (Dan Williams)&lt;br /&gt;
+   * Don't allow clients to determine what states we should be     scanning in, add logic to scan when we need to.&lt;br /&gt;
+   * Blacklist some common ESSIDs such that multiple access points     with these ESSIDs aren't treated as the same network.&lt;br /&gt;
+   * Support for D-BUS enabled named (Dan Williams)&lt;br /&gt;
+   * Only '#' is a valid comment in resolv.conf (Robert Love)&lt;br /&gt;
+   * Don't try to set auth mode on the AP from the allowed list if     it's NULL (Bill Moss)&lt;br /&gt;
+   * Add internal scanning code so we don't have to use iwlib's     code any longer (Dan Williams)&lt;br /&gt;
+   * libnm now uses guints instead of gints for its callback IDs.&lt;br /&gt;
+   * libnm_glib_unregister_callback () now works.&lt;br /&gt;
+   * Fix our scanning interval (Robert Love)&lt;br /&gt;
+   * Updates to backends for Gentoo, SuSE, RedHat, Debian, and     Slackware (Robert Love, Peter Jones, Bill Nottingham,                j@bootlab.org)&lt;br /&gt;
+       - Dialup support in RedHat backend&lt;br /&gt;
+       - ISDN support in SUSE backend&lt;br /&gt;
+       - Other fixes&lt;br /&gt;
+&lt;br /&gt;
+* nm-applet&lt;br /&gt;
+   * The applet is no longer threaded (Dan Williams)&lt;br /&gt;
+   * Dialogs no longer block the UI when shown&lt;br /&gt;
+   * Passphrase dialog now treats Esc keypresses properly&lt;br /&gt;
+   * Create Network and Connect to Network dialogs now have&lt;br /&gt;
+     different window titles&lt;br /&gt;
+   * New icons for connecting to a network and to a VPN     (Diana Fong)&lt;br /&gt;
+   * Context menu items have been cleaned up&lt;br /&gt;
+   * Pressing enter in the passphrase entry should activate the      default action.&lt;br /&gt;
+   * Fix icon animation smoothness&lt;br /&gt;
+   * Display more data in the Connection Information dialog      (Robert Love)</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=1146</source>
+    <nr>10</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129835676</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Geany (ver. 0.1)</title>
+    <description>&lt;i&gt;A fast and lightweight IDE using GTK2.&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+First release.</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=1145</source>
+    <nr>9</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129821452</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Screem (ver. 0.15.5)</title>
+    <description>&lt;i&gt;Screem is an IDE for Web Development, and HTML/XML Editor.&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+This development release fixes the long standing crash with the automatic broken link fixing when moving files/directories in the file pane as well as a number of other bugs.&lt;br /&gt;
+&lt;br /&gt;
+This release will most likely become the 0.16.0 stable release unless there are any huge bugs.&lt;br /&gt;
+&lt;br /&gt;
+Latest stable release is 0.14.3</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=259</source>
+    <nr>8</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129818624</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Zim (ver. 0.05)</title>
+    <description>&lt;i&gt;A desktop wiki&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+Second beta test version.</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=1144</source>
+    <nr>7</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129814233</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Jackbeat (ver. 0.5.4)</title>
+    <description>&lt;i&gt;JACK audio sequencer&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+The JACK client name handling has been improved. Errors are now better detected and reported. Usability has been slightly improved&lt;br /&gt;
+</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=481</source>
+    <nr>6</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129806897</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>VMware Player (ver. 1.0)</title>
+    <description>&lt;i&gt;Plays VMWare virtual machines.&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+First version.</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=1143</source>
+    <nr>5</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129793853</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Comix (ver. 1.3.1)</title>
+    <description>&lt;i&gt;A GTK comic book viewer for cbz, cbt and cbr archives.&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+Fixed a bug with old cached images sometimes being shown when a new archive/directory had been opened.</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=1055</source>
+    <nr>4</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129767579</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Gtkmm (ver. 2.8.1)</title>
+    <description>&lt;i&gt;gtkmm is the official C++ interface for GTK+.&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+2.8.1:&lt;br /&gt;
+* Build: Check for GTK+ 2.8.&lt;br /&gt;
+* ScrolledWindow: get_*scrollbar_visible(): &lt;br /&gt;
+  get_hscrollbar_visible() returned &lt;br /&gt;
+  vscrollbar_visible() and vice-versa. Fixed.&lt;br /&gt;
+  Bug #317309 (Bartek Kostrzewa)&lt;br /&gt;
+* UIManager: get_action_groups(): &lt;br /&gt;
+  Memory management fix. &lt;br /&gt;
+  Bug #31865 (Colin Law)&lt;br /&gt;
+* Fix SUN Solaris Forte build problem. &lt;br /&gt;
+  Bug #314283 (Felipe Zipitria)&lt;br /&gt;
+* Documentation corrections.&lt;br /&gt;
+  Bug #311176 (Marco Scholten)&lt;br /&gt;
+&lt;br /&gt;
+2.6.5:&lt;br /&gt;
+* ScrolledWindow: get_*scrollbar_visible(): &lt;br /&gt;
+  get_hscrollbar_visible() returned &lt;br /&gt;
+  vscrollbar_visible() and vice-versa. Fixed.&lt;br /&gt;
+  Bug #317309 (Bartek Kostrzewa)&lt;br /&gt;
+* UIManager: get_action_groups(): &lt;br /&gt;
+  Memory management fix. &lt;br /&gt;
+  Bug #31865 (Colin Law)&lt;br /&gt;
+* Fix SUN Solaris Forte build problem. &lt;br /&gt;
+  Bug #314283 (Felipe Zipitria)&lt;br /&gt;
+* Documentation corrections.&lt;br /&gt;
+  Bug #311176 (Marco Scholten)</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=547</source>
+    <nr>3</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129746422</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>GtkOrphan (ver. 0.1.0)</title>
+    <description>&lt;i&gt;A graphical tool to find and remove orphaned libraries&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+First version</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=1141</source>
+    <nr>2</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129739379</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>WP Clipart and Viewer (ver. 0.8)</title>
+    <description>&lt;i&gt;wxGTK-based image viewer/editor with very large collection of Public Domain clipart. Downloadable from ibiblio, browsable on homepage.&lt;/i&gt;&lt;br/&gt; &amp;nbsp; &lt;br /&gt;
+&lt;b&gt;About this version&lt;/b&gt;&lt;br/&gt;
+Viewer is the same since 0.6, clipart total is now about 5,400 images. Viewer is available separately.&lt;br /&gt;
+Package with clipart is 93MB.</description>
+    <source>http://www.gnomefiles.org/app.php?soft_id=1139</source>
+    <nr>1</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129703824</time>
+    <attributes/>
+  </item>
+</feed>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="auto-purge" mtime="1130057035" type="bool" value="false">
+        </entry>
+</gconf>

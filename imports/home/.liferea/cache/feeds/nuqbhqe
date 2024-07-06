@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<feed>
+  <feedTitle>Linux.com</feedTitle>
+  <feedSource>http://www.linux.com/index.rss</feedSource>
+  <feedDescription>The Enterprise Linux Resource</feedDescription>
+  <feedImage>http://images.linux.com/topics/topicslash.gif</feedImage>
+  <feedUpdateInterval>60</feedUpdateInterval>
+  <feedStatus>1</feedStatus>
+  <feedDiscontinued>0</feedDiscontinued>
+  <attributes>
+    <attribute name="language">en-us</attribute>
+    <attribute name="copyright">Copyright 2004, OSTG - Open Source Technology Group, Inc.  All Rights Reserved.</attribute>
+    <attribute name="publisher">LiNUX.COM</attribute>
+    <attribute name="creator">info@linux.com</attribute>
+    <attribute name="category">Linux</attribute>
+    <attribute name="textInput">&lt;p&gt;Search Linux.com stories&lt;form class="rssform" method="GET" ACTION="http://www.linux.com/search.pl"&gt;&lt;input class="rssformtext" type=text value="" name="query"&gt;&lt;input class="rssformsubmit" type=submit value="Search Linux.com"&gt;&lt;/form&gt;&lt;/p&gt;</attribute>
+  </attributes>
+  <item>
+    <title>Linux Advisory Watch - October 21, 2005</title>
+    <description> This week, advisories were released for Ruby, hylafax, Mozilla, module-assistant, Lynx, phpMyAdmin, AbiWord, netpbm, gdb, xloadimage, and openldap. The distributors include Debian, Gentoo, and Red Hat.</description>
+    <source>http://security.linux.com/article.pl?sid=05/10/21/0126207&amp;from=rss</source>
+    <id>http://security.linux.com/article.pl?sid=05/10/21/0126207&amp;from=rss</id>
+    <nr>10</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129881660</time>
+    <attributes>
+      <attribute name="creator">warthawg</attribute>
+      <attribute name="category">linux_advise_watch</attribute>
+      <attribute name="slash">security,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Review: Linux in a Nutshell</title>
+    <description>There are many kinds of Linux-related books. Some instruct readers on design philosophies and programming principles, others are "beginner" books written in layman's terms, and then there are administration and security guides. Linux in a Nutshell,...</description>
+    <source>http://docs.linux.com/article.pl?sid=05/10/12/1532209&amp;from=rss</source>
+    <id>http://docs.linux.com/article.pl?sid=05/10/12/1532209&amp;from=rss</id>
+    <nr>9</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129798860</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">documentation</attribute>
+      <attribute name="slash">documentation,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Advanced Squid</title>
+    <description>Squid is a free caching proxy server that runs on Linux and many other operating systems. Many Linux users who have used Squid have taken advantage of its simple setup, and ignore or overlook its advanced features. Here's an introduction to some of...</description>
+    <source>http://tips.linux.com/article.pl?sid=05/10/11/1441255&amp;from=rss</source>
+    <id>http://tips.linux.com/article.pl?sid=05/10/11/1441255&amp;from=rss</id>
+    <nr>8</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129712460</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">networking</attribute>
+      <attribute name="slash">tips,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Trolltech: A case study in open source business</title>
+    <description>With a customer list that includes Opera, Skype, German Brockhaus Encylopaedia, Google Earth, Adobe Photoshop Album, and the KDE Project, Trolltech is obviously a successful company. It has grown each year since it was founded by selling products...</description>
+    <source>http://news.linux.com/article.pl?sid=05/10/03/156205&amp;from=rss</source>
+    <id>http://news.linux.com/article.pl?sid=05/10/03/156205&amp;from=rss</id>
+    <nr>7</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129626060</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">news</attribute>
+      <attribute name="slash">news,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>CLI Magic: Trojan Scan</title>
+    <description>We're all about security this week. Not the security you get from being all wrapped up in a baby-blanket, coddling, gratuitous GUI, but the kind that comes from knowing who is connected to your machine, and why. Trojan Scan is a simple but effective...</description>
+    <source>http://enterprise.linux.com/article.pl?sid=05/10/14/1539210&amp;from=rss</source>
+    <id>http://enterprise.linux.com/article.pl?sid=05/10/14/1539210&amp;from=rss</id>
+    <nr>6</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129536060</time>
+    <attributes>
+      <attribute name="creator">warthawg</attribute>
+      <attribute name="category">cli</attribute>
+      <attribute name="slash">enterprise,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Linux Advisory Watch - October 14, 2005</title>
+    <description> This week, advisories were released for mason, cpio, dia, masqmail, shorewall, tcpdump, openvpn, up-imapproxy, ethereal, weex, py2play, graphviz, xloadimage, xli, xine-lib, hylafax, Ruby, SVG, hexlix player, uw-imap, openssl, thunderbird, binutils,...</description>
+    <source>http://security.linux.com/article.pl?sid=05/10/13/2312212&amp;from=rss</source>
+    <id>http://security.linux.com/article.pl?sid=05/10/13/2312212&amp;from=rss</id>
+    <nr>5</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129276860</time>
+    <attributes>
+      <attribute name="creator">warthawg</attribute>
+      <attribute name="category">linux_advise_watch</attribute>
+      <attribute name="slash">security,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>How to keep instant messaging off the record</title>
+    <description>Sometimes encryption isn't enough to keep your conversations private. With standard encryption, it's theoretically possible for someone to steal your secret encryption keys and decipher the conversation. For conversations that need to be kept...</description>
+    <source>http://applications.linux.com/article.pl?sid=05/10/07/1539201&amp;from=rss</source>
+    <id>http://applications.linux.com/article.pl?sid=05/10/07/1539201&amp;from=rss</id>
+    <nr>4</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129194060</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">mail</attribute>
+      <attribute name="slash">applications,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>A survey of Linux Web development tools</title>
+    <description>Choice is a good thing, and Linux users have plenty of it when selecting a program for Web development. Users can choose from the basic no-frills text editors, to full-featured "what you see is what you get" (WYSIWYG) programs. Here's a survey of...</description>
+    <source>http://programming.linux.com/article.pl?sid=05/10/03/1828224&amp;from=rss</source>
+    <id>http://programming.linux.com/article.pl?sid=05/10/03/1828224&amp;from=rss</id>
+    <nr>3</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129107660</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">webdev</attribute>
+      <attribute name="slash">programming,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Review: Ubuntu 5.10 Breezy Badger</title>
+    <description>The Ubuntu 5.10 release, also known as Breezy Badger, is not drastically different from the previous Ubuntu release, 5.04 Hoary Hedgehog, but it is an excellent distribution that is well worth a look for any user interested in a Linux distro for the...</description>
+    <source>http://distrocenter.linux.com/article.pl?sid=05/10/10/204207&amp;from=rss</source>
+    <id>http://distrocenter.linux.com/article.pl?sid=05/10/10/204207&amp;from=rss</id>
+    <nr>2</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129021260</time>
+    <attributes>
+      <attribute name="creator">StoneLion</attribute>
+      <attribute name="category">distro_reviews</attribute>
+      <attribute name="slash">distrocenter,</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Why the DCC Alliance needs to love Synaptic</title>
+    <description>Debian users have always boasted that their Advanced Package Tool (APT) was the best and fastest way there has ever been to install and delete software. They were right, except for two details: First, many computer users are scared of the command...</description>
+    <source>http://applications.linux.com/article.pl?sid=05/10/05/177210&amp;from=rss</source>
+    <id>http://applications.linux.com/article.pl?sid=05/10/05/177210&amp;from=rss</id>
+    <nr>1</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1128945600</time>
+    <attributes>
+      <attribute name="creator">jzb</attribute>
+      <attribute name="category">tools</attribute>
+      <attribute name="slash">applications,</attribute>
+    </attributes>
+  </item>
+</feed>

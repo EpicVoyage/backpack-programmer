@@ -1,0 +1,9 @@
+OPTIONS=name:Backpacker
+
+OPTIONS=fruit:kiwi
+OPTIONS=rest_on_space
+OPTIONS=dogname:Fang
+OPTIONS=catname:Meow
+OPTIONS=horsename:Silver
+OPTIONS=autoquiver,autopickup,confirm,disclose,+i+a+v+g+c
+OPTIONS=!cmdassist,!legacy,!tombstone

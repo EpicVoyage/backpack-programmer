@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="paned_location" mtime="1130019225" type="int" value="303">
+        </entry>
+        <entry name="main_window_position_y" mtime="1130019225" type="int" value="25">
+        </entry>
+        <entry name="main_window_position_x" mtime="1130019225" type="int" value="0">
+        </entry>
+        <entry name="main_window_height" mtime="1130019225" type="int" value="500">
+        </entry>
+        <entry name="main_window_width" mtime="1130019225" type="int" value="700">
+        </entry>
+        <entry name="main_window_maximized" mtime="1130019225" type="bool" value="false">
+        </entry>
+</gconf>

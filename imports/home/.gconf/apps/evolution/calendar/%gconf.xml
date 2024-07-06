@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="sources" mtime="1130057056" type="list" ltype="string">
+        <li type="string">
+                <stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1130057054.3806.0@backpack&quot; name=&quot;On This Computer&quot; base_uri=&quot;file:///home/user/.evolution/calendar/local/&quot; readonly=&quot;no&quot;&gt;&lt;source uid=&quot;1130057054.3806.1@backpack&quot; name=&quot;Personal&quot; relative_uri=&quot;system&quot; color=&quot;becedd&quot;/&gt;&lt;/group&gt;
+</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1130057054.3806.2@backpack&quot; name=&quot;On The Web&quot; base_uri=&quot;webcal://&quot; readonly=&quot;no&quot;/&gt;
+</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1130057054.3806.3@backpack&quot; name=&quot;Contacts&quot; base_uri=&quot;contacts://&quot; readonly=&quot;no&quot;&gt;&lt;source uid=&quot;1130057054.3806.4@backpack&quot; name=&quot;Birthdays &amp;amp; Anniversaries&quot; relative_uri=&quot;/&quot;/&gt;&lt;/group&gt;
+</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1130057054.3806.5@backpack&quot; name=&quot;Weather&quot; base_uri=&quot;weather://&quot; readonly=&quot;no&quot;/&gt;
+</stringvalue>
+        </li>
+        </entry>
+</gconf>

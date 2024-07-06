@@ -1,0 +1,151 @@
+.\" Process with groff -man -Tascii unionfs.1
+.\"
+.TH UNIONFS 2 "May 2006" Linux
+.SH NAME
+Unionfs \- a unification file system for Linux
+.SH SYNOPSIS
+
+.nf
+.B #include <sys/ioctl.h>
+.B #include <unionfs.h>
+.sp
+.BI "int ioctl(int " fd ", int " action ", void *" args );
+.fi
+.SH DESCRIPTION
+Unionfs uses 
+.B ioctl
+for branch management. The three arguments passed are the file descriptor,
+.IR fd ,
+which unless otherwise noted, is for the root of the union;
+.I action
+which specifies what branch management operation is desired; and
+.I args
+which is a pointer to action-dependent arguments.
+
+The following actions are defined:
+.TP
+.B UNIONFS_IOCTL_ADDBRANCH
+When this action is specified, the directory by the
+.B unionfs_addbranch_args
+structure will be added to the union.
+
+.sp
+.nf
+struct unionfs_addbranch_args {
+.in +8
+unsigned int ab_branch;
+char *ab_path;
+unsigned int ab_perms;
+.in -8
+};
+.fi
+
+.I ab_branch
+is the requested branch number. All the branches already in the union with
+branch number greater than or equal to
+.I ab_branch
+will get their branch numbers incremented by one, and the new branch will fill
+the empty position.
+
+.I ab_path
+is the path for the new branch. There is no default, and it must be specified.
+
+.I ab_perms
+are the permissions for the new branch. The default is
+.BR "MAY_READ | MAY_WRITE" .
+
+.TP
+.B UNIONFS_IOCTL_DELBRANCH
+Branch removal is currently done in a slightly different way. One needs to first
+allocate space for 3 arguments passed to mount(2).
+
+.sp
+.nf
+unsigned long remount_args[3];
+.fi
+
+One allocated, they need to be filled in appropriately. For example, if we
+want to remove branch number
+.B bnum
+from the union mounted on
+.BR mount_path ,
+we set the arguments to:
+
+.sp
+.nf
+remount_args[0] = UNIONFS_REMOUNT_MAGIC;
+remount_args[1] = UNIONFS_IOCTL_DELBRANCH;
+remount_args[2] = bnum;
+.fi
+
+One filled in, we can pass it to mount(2). For detailed explanation of the
+arguments, see the mount manual page.
+
+.sp
+.nf
+mount("unionfs", mount_path, "unionfs", MS_REMOUNT | MS_MGC_VAL, remount_args);
+.fi
+
+.TP
+.B UNIONFS_IOCTL_RDWRBRANCH
+This action allows the permissions on branches of an already mounted union to
+be changed. The
+.I args
+argument is a pointer to a
+.B unionfs_rdwrbranch_args
+structure which contains the necessary information.
+
+.sp
+.nf
+struct unionfs_rdwrbranch_args {
+.in +8
+unsigned int rwb_branch;
+unsigned int rwb_perms;
+.in -8
+};
+.fi
+
+.I rwb_branch
+is number of the branch that the permission change will take effect.
+
+.I rwb_perms
+is the permission mask. It consists of
+.B MAY_READ
+,
+.B MAY_WRITE
+, and
+.B MAY_NFSRO.
+The
+.B MAY_NFSRO
+bit forces Unionfs to ignore -EACCES on NFS mounted file systems.
+
+.TP
+.B UNIONFS_IOCTL_QUERYFILE
+This action allows the caller to find out which branch a particular file is
+taken from. The file descriptor,
+.BR fd ,
+is obtained by open(2)ing the file in question through unionfs, along with a
+pointer to an
+.B fd_set
+as 
+.IR args .
+
+One can then use
+.BR FD_ISSET ,
+see select(2), to check which "descriptor" is set in
+.IR args .
+The index passed to
+.B FD_ISSET
+is equal to the branch number that contains the file identified by
+.IR fd .
+
+.SH AUTHORS
+Josef Sipek <jsipek@cs.sunysb.edu>,
+Erez Zadok <ezk@cs.sunysb.edu>
+.SH "SEE ALSO"
+.BR unionctl(8),
+.BR unionfs(4),
+.BR uniondbg(8),
+http://unionfs.filesystems.org/
+
+\"  LocalWords:  groff Tascii unionfs unionctl rw ro Erez uniondbg

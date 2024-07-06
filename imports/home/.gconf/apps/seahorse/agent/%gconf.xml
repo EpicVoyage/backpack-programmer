@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="cache_authorize" mtime="1130145726" type="bool" value="true">
+        </entry>
+        <entry name="cache_expire" mtime="1130145726" type="bool" value="true">
+        </entry>
+        <entry name="cache_enabled" mtime="1130145726" type="bool" value="true">
+        </entry>
+        <entry name="cache_ttl" mtime="1130145726" type="int" value="300">
+        </entry>
+</gconf>

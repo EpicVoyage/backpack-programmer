@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dufie
+Comment=Graphical front-end for 'du'
+Type=Application
+Exec=dufie
+TryExec=dufie
+Icon=/usr/share/dufie/pixmaps/dufie-icon.png
+Path=/
+Terminal=false
+StartupNotify=true
+Categories=Application;System;

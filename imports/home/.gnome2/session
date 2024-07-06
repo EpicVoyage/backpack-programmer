@@ -1,0 +1,32 @@
+
+[Default]
+0,id=117f000001000112771977800000022630003
+0,RestartStyleHint=1
+0,Priority=40
+0,Program=gnome-volume-manager
+0,CurrentDirectory=/home/user
+0,CloneCommand=gnome-volume-manager --sm-config-prefix /gnome-volume-manager-XAk08o/ 
+0,RestartCommand=gnome-volume-manager --sm-config-prefix /gnome-volume-manager-XAk08o/ --sm-client-id 117f000001000112771977800000022630003 --screen 0 
+1,id=117f000001000112771977700000022630001
+1,RestartStyleHint=2
+1,Priority=40
+1,Program=gnome-panel
+1,CurrentDirectory=/home/user
+1,CloneCommand=gnome-panel --sm-config-prefix /gnome-panel-FQ6Amr/ 
+1,RestartCommand=gnome-panel --sm-config-prefix /gnome-panel-FQ6Amr/ --sm-client-id 117f000001000112771977700000022630001 --screen 0 
+2,id=117f000001000112771977800000022630002
+2,RestartStyleHint=2
+2,Priority=40
+2,Program=nautilus
+2,CurrentDirectory=/home/user
+2,CloneCommand=nautilus --sm-config-prefix /nautilus-IDgcgS/ 
+2,RestartCommand=nautilus --sm-config-prefix /nautilus-IDgcgS/ --sm-client-id 117f000001000112771977800000022630002 --screen 0 --no-default-window 
+3,id=117f000001000112771977700000022630000
+3,RestartStyleHint=2
+3,Priority=20
+3,Program=metacity
+3,CurrentDirectory=/home/user
+3,DiscardCommand=rm -f /home/user/.metacity/sessions/1130102543-3592-2566442729.ms 
+3,CloneCommand=metacity 
+3,RestartCommand=metacity --sm-save-file 1130102543-3592-2566442729.ms 
+num_clients=4

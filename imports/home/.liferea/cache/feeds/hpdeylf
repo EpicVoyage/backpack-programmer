@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<feed>
+  <feedTitle>GNOME Footnotes</feedTitle>
+  <feedSource>http://www.gnomedesktop.org/backend.php</feedSource>
+  <feedUpdateInterval>-1</feedUpdateInterval>
+  <feedStatus>1</feedStatus>
+  <feedDiscontinued>0</feedDiscontinued>
+  <feedLastModified>Fri, 21 Oct 2005 08:30:10 GMT</feedLastModified>
+  <attributes>
+    <attribute name="language">en</attribute>
+  </attributes>
+  <item>
+    <title>Gaim development</title>
+    <description>&lt;p&gt;&lt;i&gt;A lot of you have noticed that while we typically release every three weeks, we haven't had a release in a while. We've shifted all our efforts to finishing Gaim 2.0.0. Gaim 2.0.0 has a ton of great features, fixes every problem you've ever had with Gaim, makes drastic changes to huge parts of Gaim---especially status, includes three new protocols, and does a bunch of other amazing stuff. We're looking to feature freeze at the end of this month and release a month or so later, so be sure to get on our cases and make sure we get it finished...&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://gaim.sourceforge.net/index.php?id=162"&gt;Read the rest&lt;/a&gt;&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2447</source>
+    <nr>15</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129840651</time>
+    <attributes>
+      <attribute name="category">GNOME IM</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Reducing Board Size Referendum</title>
+    <description>&lt;p&gt;The &lt;a href="http://foundation.gnome.org/"&gt;GNOME Foundation&lt;/a&gt; will hold a &lt;a href="http://foundation.gnome.org/referenda/2005-10/"&gt;referendum&lt;/a&gt; to decide whether the board size should be reduced from 11 directors to 7 directors.&lt;/p&gt;
+&lt;p&gt;You can read the &lt;a href="http://mail.gnome.org/archives/foundation-list/2005-September/msg00082.html"&gt;original thread&lt;/a&gt; about the idea of reducing board size and the &lt;a href="http://mail.gnome.org/archives/foundation-list/2005-October/msg00010.html"&gt;petition&lt;/a&gt; that requests a referendum. In order to vote for this referendum, you have to be a member of the Foundation.&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2446</source>
+    <nr>14</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129814513</time>
+    <attributes>
+      <attribute name="category">Gnome Foundation</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>GnuCash 1.8.12 released</title>
+    <description>&lt;p&gt;The GnuCash development team proudly announces a new stable release of  the GnuCash Open Source Accounting Software version 1.8.12, which is expected to be the very last release of the gtk1-based gnucash-1.8.x series. The next release series of gnucash will be based on gtk2/gnome2, and the first pre-release packages are expected to be released this December.&lt;/p&gt;
+&lt;p&gt;FAQ: "Is this a gnome2 application?" A: "No." This release still belongs to GnuCash's 1.8.x series which is not yet ported to gtk2/gnome2. Read more below.&lt;/p&gt;
+&lt;p&gt;Download: &lt;a href="http://www.gnucash.org/pub/gnucash/"&gt;http://www.gnucash.org&lt;/a&gt; or &lt;a href="http://download.sourceforge.net/gnucash"&gt;http://download.sourceforge.net/gnucash&lt;/a&gt;&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2445</source>
+    <nr>13</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129814461</time>
+    <attributes>
+      <attribute name="category">GnuCash</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Gnumeric 1.6 Released</title>
+    <description>&lt;p&gt;&lt;strong&gt;Free, Fast, Accurate -- Pick Any Three!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Gnumeric Team is pleased to announce our &lt;a href="http://www.gnome.org/projects/gnumeric/announcements/1.6/gnumeric-1.6.shtml"&gt;new stable 1.6 series&lt;/a&gt; with the release of &lt;a href="http://www.gnome.org/projects/gnumeric/announcements/1.6/gnumeric-1.6.0.html"&gt;Gnumeric 1.6.0&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Over the past year we have improved Gnumeric's charting, its accuracy, its xls file loading capabilities, and improved its rich text editing. Our Win32 build is now quite stable and very usable.&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2444</source>
+    <nr>12</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129757151</time>
+    <attributes>
+      <attribute name="category">Gnumeric</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>1000 Applications at GnomeFiles.org</title>
+    <description>&lt;p&gt;&lt;A HREF="http://www.gnomefiles.org/"&gt;GnomeFiles.org&lt;/a&gt; (GTK+ software repository) is celebrating 1000 applications added to its database. Since GnomeFiles' launch 1.5 years ago the site grew enormously and it now serves more than 22,000 web pages per day on average and it includes a recently improved cHTML version for mobile browsers (mostly optimized for PDAs and smartphones, less-featured phones should be using its WAP version).&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2442</source>
+    <nr>11</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129725891</time>
+    <attributes>
+      <attribute name="category">GTK</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Ruby-GNOME2 0.14.0 has been released!</title>
+    <description>&lt;p&gt;Yesterday (16 October 2005) &lt;a href="http://ruby-gnome2.sourceforge.jp/"&gt;Ruby GNOME2&lt;/a&gt; 0.14.0 was released.&lt;/p&gt;
+&lt;p&gt;This new release mainly features updated support for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GNOME 2.12 (Ruby/Libglade2, Ruby/GNOME, Ruby/GnomeCanvas2, Ruby/GnomePrint, Ruby/GnomePrintUI, Ruby/RSVG),&lt;/li&gt;
+&lt;li&gt;Gtk and GLib 2.8 (Ruby/GdkPixbuf2, Ruby/GTK2, Ruby/GLib2),&lt;/li&gt;
+&lt;li&gt;ATK 1.10 (Ruby/ATK),&lt;/li&gt;
+&lt;li&gt;GtkSourceView 1.4 (Ruby/GtkSourceView),&lt;/li&gt;
+&lt;li&gt;Pango 1.10 (Ruby/Pango) and&lt;/li&gt;
+&lt;li&gt;Ruby Cairo (rcairo) 1.0.0 (Ruby/Pango, Ruby/GdkPixbuf2, Ruby/GTK2).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also was Cygwin support added for Ruby/GConf2, Ruby/GnomeVFS and Ruby/Libgda2.&lt;br /&gt;
+Next to the support updates Ruby/GtkMozEmbed was merged and there were more minor bug fixes and improvements.&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2441</source>
+    <nr>10</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129637708</time>
+    <attributes>
+      <attribute name="category">Gnome 2.x</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Open Clip Art Library Release 0.18 Announcement :: www.openclipart.org</title>
+    <description>&lt;p&gt;October 16, 2005 - Release 0.18 of Open Clip Art Library (&lt;a href="http://www.openclipart.org"&gt;http://www.openclipart.org&lt;/a&gt;), containing over 6900 SVG files created by over 500 artists, is now available for download and use.&lt;/p&gt;
+&lt;p&gt;For the month of September, the Open Clip Art Library sought imagery related to pets including images of different breeds appropriate for use by animal shelters.&lt;/p&gt;
+&lt;p&gt;For the upcoming 0.19 release, due November 1, 2005, the theme is Halloween. This is any artist's chance to submit to the Open Clip Art Library images of ghosts and goblins, bats, witches, and pumpkins. The community would also welcome printable templates for creating holiday decorations usable in Inkscape, OpenOffice?, Scribus, and, or other graphics applications.&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2432</source>
+    <nr>9</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129570745</time>
+    <attributes>
+      <attribute name="category">General</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>PenguinTV 0.80 Released</title>
+    <description>&lt;p&gt;&lt;a href="http://penguintv.sourceforge.net"&gt;PenguinTV&lt;/a&gt; is a full-featured RSS, podcast, and video blog reading tool written in Python. It can be used by itself to download and view media, or you can copy the media files and a ready-made playlist to a portable mp3 player.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://sourceforge.net/project/showfiles.php?group_id=144780&amp;amp;package_id=159212&amp;amp;release_id=363532"&gt;Version 0.80&lt;/a&gt; is a major upgrade, with lots of new features and bugfixes. Look for feed filters, faster redraws, better error messages, and drag and drop subscription.&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2431</source>
+    <nr>8</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129570450</time>
+    <attributes>
+      <attribute name="category">Linux</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Dropline GNOME 2.12.1 ISO Available</title>
+    <description>&lt;p&gt;We are proud to announce the release of &lt;a href='http://dropline-gnome.sourceforge.net/'&gt;Dropline GNOME&lt;/a&gt; 2.12.1.  With this release we have an ISO image available for download.  You may either download it through &lt;a href='http://dlgwiki.dot42.org/dlg-2.12.1.iso.torrent'&gt;bittorrent&lt;/a&gt; or through one of our &lt;a href='http://dropline-gnome.sourceforge.net/forums/viewtopic.php?t=4550'&gt;mirrors&lt;/a&gt;.  Of course this release is also available through our &lt;a href='http://prdownloads.sourceforge.net/dropline-gnome/dropline-installer-2.12.0-i686-1dl.tgz?download'&gt;dropline update script&lt;/a&gt;.  This release is an incremental improvement with many bugfixes and refinements over 2.12.0.  Enjoy!&lt;/p&gt;
+&lt;p&gt;  -The Dropline GNOME Development Team&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2430</source>
+    <nr>7</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129311365</time>
+    <attributes>
+      <attribute name="category">Gnome 2.x</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>AbiWord-2.4.1 released.</title>
+    <description>&lt;p&gt;The AbiWord team is happy to announce AbiWord v2.4.1. Since the 2.4.0&lt;br /&gt;
+release we have received a lot of great feedback from our users, which&lt;br /&gt;
+led to a number of useful bugreports as well. This is the first&lt;br /&gt;
+bugfixing releasing in the new stable 2.4 series to address some of&lt;br /&gt;
+those bugreports.&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2429</source>
+    <nr>6</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129295652</time>
+    <attributes>
+      <attribute name="category">AbiWord</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>GNOME to fish in embedded Linux pond</title>
+    <description>&lt;p&gt;&lt;i&gt;GNOME developers are making various changes to the open source desktop environment that should make it more suitable for embedded environments.&lt;/p&gt;
+&lt;p&gt;Future versions of GNOME will include improved compatibility with styluses and performance enhancements, according to GNOME Foundation director Murray Cumming on Friday. This will include a focus on the GTK+, a toolkit used by GNOME to create graphical user interfaces.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://news.zdnet.co.uk/software/developer/0,39020387,39228026,00.htm"&gt;Read the rest&lt;/a&gt;&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2426</source>
+    <nr>5</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129033538</time>
+    <attributes>
+      <attribute name="category">GNOME</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Tango project announced</title>
+    <description>&lt;p&gt;Jakub Steiner wrote: &lt;i&gt;One thing I have been working on recently together with a few folks is what we now call the Tango project.&lt;/p&gt;
+&lt;p&gt;Tango aims to address a problem of visual inconsistency between applications commonly running on user's desktop when she/he is running a GNU/Linux distribution. Different projects have their own style that is consistent with itself (mostly), but the final user experience on the "linux desktop" is not so smooth. Just like there is a lot of standards people have been able to agree on across free software projects, Tango tries to propose a few building bricks to make the consistent visual experience possible.&lt;/i&gt;&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2425</source>
+    <nr>4</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129033177</time>
+    <attributes>
+      <attribute name="category">Gnome Art</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>GARNOME 2.12.1 Released</title>
+    <description>&lt;p&gt;Incorporating the GNOME 2.12.1 Desktop and Developer Platform, together with&lt;br /&gt;
+a host of third-party GNOME packages, Bindings and the Mono(tm) Platform --&lt;br /&gt;
+this release irons out yet-more bugs, adds yet-more new packages, yet-more&lt;br /&gt;
+speed improvements and hopefully yet-more stability.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://cipherfunk.org/garnome/"&gt;GARNOME Home Page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tarball: &lt;a href="ftp://cipherfunk.org/pub/tarballs/garnome/v2.12/garnome-2.12.1.tar.bz2"&gt;garnome-2.12.1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://mail.gnome.org/archives/garnome-list/2005-October/msg00026.html"&gt;Full Annoucement&lt;/a&gt;&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2423</source>
+    <nr>3</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1128722660</time>
+    <attributes>
+      <attribute name="category">Gnome 2.x</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>A first look at GIMP 2.4</title>
+    <description>&lt;p&gt;A major update to the GNU Image Manipulation Program (GIMP), widely regarded as the leading free software raster image editing program, is scheduled for this month. The 2.4 release is expected to include a number of new features and enhancements to existing features.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://software.newsforge.com/software/05/09/28/1345228.shtml?tid=75&amp;amp;tid=132"&gt;Read the rest&lt;/a&gt;&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2422</source>
+    <nr>2</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1128615027</time>
+    <attributes/>
+  </item>
+  <item>
+    <title>Gnome 2.12.1 Released</title>
+    <description>&lt;p&gt;The first point release of the stable 2.12.x series of Gnome has been&lt;br /&gt;
+released. This release includes the latest bugfixes and other&lt;br /&gt;
+improvements such as updated translations and is the first in a series&lt;br /&gt;
+of point releases.&lt;/p&gt;
+</description>
+    <source>http://gnomedesktop.org/node/2421</source>
+    <nr>1</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1128553543</time>
+    <attributes>
+      <attribute name="category">Gnome 2.x</attribute>
+    </attributes>
+  </item>
+</feed>

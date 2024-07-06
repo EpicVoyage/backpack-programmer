@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="Capabilities" mtime="1130320836" type="int" value="0">
+        </entry>
+        <entry name="MountPoint" mtime="1130320836" type="string">
+                <stringvalue>/mnt/cdrom</stringvalue>
+        </entry>
+        <entry name="DeviceNode" mtime="1130320836" type="string">
+                <stringvalue>/dev/hdc</stringvalue>
+        </entry>
+        <entry name="DeviceId" mtime="1130320836" type="string">
+                <stringvalue>/dev/hdc</stringvalue>
+        </entry>
+        <entry name="DeviceName" mtime="1130320836" type="string">
+                <stringvalue>VMware Virtual IDE CDROM Drive</stringvalue>
+        </entry>
+</gconf>

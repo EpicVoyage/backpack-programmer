@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<feed>
+  <feedTitle>TuxMobil</feedTitle>
+  <feedSource>http://tuxmobil.org/tuxmobil_rss.rdf</feedSource>
+  <feedDescription>TuxMobil.org features services for mobile UniX (BSD, Linux, Solaris, ..) on laptops, notebooks, PDAs and mobile cell phones.</feedDescription>
+  <feedImage>http://tuxmobil.org/pics/mobilix_mini.png</feedImage>
+  <feedUpdateInterval>1440</feedUpdateInterval>
+  <feedStatus>1</feedStatus>
+  <feedDiscontinued>0</feedDiscontinued>
+  <feedLastModified>Thu, 20 Oct 2005 11:34:37 GMT</feedLastModified>
+  <attributes>
+    <attribute name="creator">wehe at tuxmobil.org (Werner Heuser)</attribute>
+    <attribute name="language">en</attribute>
+    <attribute name="category">Linux On Mobile Computers</attribute>
+    <attribute name="publisher">Werner Heuser (wehe at tuxmobil.org)</attribute>
+    <attribute name="copyright">Copyright 2002-2005, Werner Heuser</attribute>
+    <attribute name="textInput">&lt;p&gt;search TuxMobil&lt;form class="rssform" method="GET" ACTION="http://tuxmobil.org/mobilix_search.html"&gt;&lt;input class="rssformtext" type=text value="" name="query"&gt;&lt;input class="rssformsubmit" type=submit value="quick finder"&gt;&lt;/form&gt;&lt;/p&gt;</attribute>
+  </attributes>
+  <item>
+    <title>open-ezx - free Linux-based Motorola EZX phone platform (project started)</title>
+    <description>The open-ezx.org project tries to gather information about the Linux-based Motorola EZX phone platform (mainly the A780, E680 and E680i phones).</description>
+    <source>http://open-ezx.org</source>
+    <id>http://open-ezx.org</id>
+    <nr>6</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129766400</time>
+    <attributes>
+      <attribute name="creator">Werner Heuser (wehe at tuxmobil.org)</attribute>
+      <attribute name="category">PHONE</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>AvantSlash - read Slashdot on WAP, Palm or WinCE devices (3.3)</title>
+    <description>AvantSlash read Slashdot on Palm or WinCE devices (through AvantGo or another PDA Web browser) or via a WAP.</description>
+    <source>http://www.fourteenminutes.com/code/avantslash/</source>
+    <id>http://www.fourteenminutes.com/code/avantslash/</id>
+    <nr>5</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129766400</time>
+    <attributes>
+      <attribute name="creator">Werner Heuser (wehe at tuxmobil.org)</attribute>
+      <attribute name="category">PHONE</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>gournal - note-taking application for Tablet-PCs (0.4.1)</title>
+    <description>gournal is a note-taking application written for usage on Tablet-PCs.</description>
+    <source>http://www.adebenham.com/gournal/</source>
+    <id>http://www.adebenham.com/gournal/</id>
+    <nr>4</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129766400</time>
+    <attributes>
+      <attribute name="creator">Werner Heuser (wehe at tuxmobil.org)</attribute>
+      <attribute name="category">TABLET</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>ieee80211 - generic networking stack (1.1.5)</title>
+    <description>A generic ieee80211 networking stack for the Linux kernel.</description>
+    <source>http://ieee80211.sourceforge.net/</source>
+    <id>http://ieee80211.sourceforge.net/</id>
+    <nr>3</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129766400</time>
+    <attributes>
+      <attribute name="creator">Werner Heuser (wehe at tuxmobil.org)</attribute>
+      <attribute name="category">WLAN</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Intel - driver for PRO/Wireless 2200BG and 2915ABG WLAN chipset Centrino (1.0.7)</title>
+    <description>Intel Linux driver for the PRO/Wireless 2200 chipsets used in their Centrino technology.</description>
+    <source>http://ipw2200.sourceforge.net/</source>
+    <id>http://ipw2200.sourceforge.net/</id>
+    <nr>2</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129680000</time>
+    <attributes>
+      <attribute name="creator">Werner Heuser (wehe at tuxmobil.org)</attribute>
+      <attribute name="category">WLAN</attribute>
+    </attributes>
+  </item>
+  <item>
+    <title>Intel - driver for PRO/Wireless 2100 WLAN chipset Centrino (1.1.3)</title>
+    <description>Intel Linux driver for the PRO/Wireless 2100 chipsets used in their Centrino technology.</description>
+    <source>http://ipw2100.sourceforge.net/</source>
+    <id>http://ipw2100.sourceforge.net/</id>
+    <nr>1</nr>
+    <newStatus>0</newStatus>
+    <readStatus>0</readStatus>
+    <updateStatus>0</updateStatus>
+    <mark>0</mark>
+    <time>1129680000</time>
+    <attributes>
+      <attribute name="creator">Werner Heuser (wehe at tuxmobil.org)</attribute>
+      <attribute name="category">WLAN</attribute>
+    </attributes>
+  </item>
+</feed>

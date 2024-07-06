@@ -1,0 +1,6 @@
+gnome-speech
+gnome-mag
+orca
+dasher
+gok
+kdeaccessibility

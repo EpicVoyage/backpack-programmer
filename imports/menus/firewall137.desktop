@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Firewall - incoming SMB
+Comment=Allow the ports required for incoming Windows file sharing connections [137-139]
+Exec=sudo /etc/rc.d/rc.firewall samba
+TryExec=sudo
+Terminal=true
+Type=Application
+StartupNotify=false
+Icon=apacheconf
+Categories=live-cd;firewall;

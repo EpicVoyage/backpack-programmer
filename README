@@ -1,0 +1,89 @@
+Build scripts for the Backpack Programmer's LiveCD
+--------------------------------------------------
+
+Sections:
+
+1. Introduction
+2. Quickstart
+3. Saving Bandwidth
+4. Statistics
+5. Credits
+
+--------------------------------------------------
+1. Introduction
+
+The script compile.sh is designed to download and install all
+required packages into modules.
+
+The major caveats right now are the requirement that you
+compile unionfs and squashfs modules for your running kernel,
+and the number of packages which are downloaded. We don't
+see a fix for the package downloads any time soon.
+
+For a list of available options, please try:
+
+./compile.sh --help
+
+--------------------------------------------------
+2. QuickStart
+
+The first step is to open compile.sh in a text editor and
+uncomment a mirror for Slackware and Dropline. From there,
+the most basic usage is to simply run it:
+
+./compile.sh
+
+It is recommended that you run the command this way the first
+time that the script is run. It is also recommended to use
+this for the release builds, but in between there is a special
+mode designed to speed up testing:
+
+./compile.sh --fast development
+
+This command enables fast mode, and the optional name after
+it is the name of one module to delete and re-create. If you
+don't wish to have the script delete a module, simply specify
+"--fast" and the script will not delete any existing modules.
+
+--------------------------------------------------
+3. Saving Bandwidth
+
+If you do not have CDs or .iso images of either Slackware or
+Dropline Gnome, please disregard this section. If you do,
+you can save some download time as well as bandwidth by
+copying the packages (*.tgz) into the appropriate directory.
+
+On the Slackware CD, the packages are stored under the
+"slackware" directory, and then under another directory
+which categorizes the packages. We lump them all into the
+slackware/ directory of the build tree.
+
+The same goes for the destination of packages found on the
+Dropline CD. All packages are lumped under the dropline/
+directory.
+
+--------------------------------------------------
+4. Statistics
+
+Some stats from a full build on my (~2.2 Ghz) system:
+  Packages to download: ~1.8 GB
+  Disk space used:	7.8 GB
+  Build time*: 		2.5 - 3 hours
+
+* The build time does not including downloads.
+
+--------------------------------------------------
+5. Credits
+
+* These scripts are copyright 2006 Daga <daga@daga.dyndns.org>,
+and are released under the GPL v2.
+
+* Much of the original scripting was the work of Thomas M. of
+linux-live.org, though most things have been highly modified
+(or replaced).
+
+* This is not officially endorsed by the Dropline team, though
+they do create one of the best distributions of Gnome for
+Slackware.
+
+To the last two, I would like to say "Thanks!"

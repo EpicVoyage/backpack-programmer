@@ -1,0 +1,29 @@
+October 5, 2005
+	* Release 0.1.4
+	* Bug Fix: Crash caused by clicking cancel on some file dialogs
+	* New: Ability to scan a directory from the command line.
+	* New: Follow Dufie's progress in the status bar
+	* New: Debian package support
+	* And: Lots of little things
+
+April 29, 2005:
+	* Release 0.1.3
+	* Bug Fix: The automake symlinks were removed for actual files
+	* New: View the sizes of installed Portage (Gentoo) packages
+	
+March 4, 2005:
+	* Release 0.1.2
+	* Bug fix: Added handling for missing icons/pixmaps
+	* Bug fix: Directories with spaces, semi-colons, and other
+	           special characters are handled correctly now.
+	* Updated: Higher precision output with decimal numbers
+	* New: You can view the sizes of installed RPM files
+
+February 28, 2005:
+	* Release 0.1.1
+	* Bug fix: You can now select the root directory (/)
+	* New: You can view the sizes of installed Slackware packages
+	* New: Files are sorted -- largest first
+
+February 3, 2005:
+	* Initial release (0.1)

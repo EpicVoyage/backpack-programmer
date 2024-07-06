@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Start Samba
+Comment=Start the Windows file sharing daemon
+Exec=sudo /bin/sh /etc/rc.d/rc.samba restart
+TryExec=sudo /bin/sh
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=text/plain;
+Icon=/usr/share/icons/hicolor/48x48/apps/apacheconf.png
+Categories=live-cd;livecd;Utility;

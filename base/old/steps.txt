@@ -1,0 +1,17 @@
+* Slackware 10.2 (full) installation
+* Dropline 2.12.1 installation
+* Upgraded kernel to 2.6 from Slackware disk 2 (+squashfs patch)
+* Customized built kernel, then removed source package
+* Add "user" account
+* Custom .vimrc, .nethackrc, sudoers files
+* Add bookmarks for programming sites
+* Add source examples in ~/Projects/ and link on the desktop
+* Automatically mount harddrives at boot
+* Add Anjuta IDE (v2 from CVS, latest stable had major bugs)
+* Firewall boot script (and menu items to modify it)
+* Additional menu entries for servers and root launch of some apps
+* Modify linux-live scripts -- liblinuxlive:121, runme.sh:58
+* Compile unionfs and include module
+
+* Removed Gnome accessibility apps
+* Removed many more applications (.iso was 1.2 GB!)

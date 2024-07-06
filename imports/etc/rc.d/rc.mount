@@ -1,0 +1,81 @@
+#!/bin/sh
+#
+# Written by Daga <daga@daga.dyndns.org>
+# Released under the terms of the GNU license agreement (v2)
+
+#if [ -a /tmp/livecd ]; then exit; fi
+
+if [ -n "`/usr/bin/grep -i floppy /proc/cmdline`" ]; then
+  echo "Mounting floppy disk..."
+  /sbin/mount /dev/fd0 /mnt/floppy
+fi
+
+FINDHOME=0
+if [ -n "`/usr/bin/grep -i nohome /proc/cmdline`" ]; then
+  FINDHOME=1
+fi
+
+echo "Mounting all available harddrive partitions..."
+#grep -v 'loop' /proc/partitions| while read LINE
+fdisk -l|grep '^/dev/'|while read LINE; do
+  DEVICE=`echo $LINE|cut '-d ' -f 1`
+  FILESYSTEM=${LINE:52:2}
+  MOUNT="/mnt/`basename $DEVICE`"
+
+  if [ -n "`echo $LINE|grep NTFS`" ]; then
+  	NTFSOPTS=',umask=222'
+  fi
+
+  if [ -z "`grep $DEVICE /etc/fstab`" ]; then
+    case "$FILESYSTEM" in
+    '5 '|'F ') # Extended partitions, ignore
+      FILESYSTEM=''
+      ;;
+    '4 '|'6 '|'E '|'14'|'16'|'1E'|'C4'|'C6') # FAT16 [Win95/hidden/LBA/DRDOS/< 32MB]
+      FILESYSTEM='fat'
+      ;;
+    'B '|'C '|'1B'|'1C') # FAT32 [W95/LBA/Hidden]
+      FILESYSTEM='vfat'
+      ;;
+    '82') # Swap space, ignore
+      FILESYSTEM=''
+      ;;
+    *) # 83 (linux), and numbers we don't care (much) about
+      echo "    ** Using kernel autodetect for $DEVICE"
+      FILESYSTEM='auto'
+    esac
+      
+    if [ -n "$FILESYSTEM" ]; then
+      echo "    ** Using module '$FILESYSTEM' to handle $DEVICE"
+      echo -e "$DEVICE\t$MOUNT\t${FILESYSTEM}\tdefaults,auto,exec,users,ro$NTFSOPTS 0 0">>/etc/fstab 
+
+      if [ -z "`grep $DEVICE /etc/mtab`" ]; then
+        echo "    ** Attempting to mount $MOUNT..."
+        /usr/bin/mkdir -p $MOUNT
+        /sbin/mount $MOUNT
+
+	if [ -z "$NTFSOPTS" ]; then
+	  DESKTOP="/usr/share/applications/`basename $MOUNT`.desktop"
+          echo "[Desktop Entry]">$DESKTOP
+	  echo "Encodings=UTF-8">>$DESKTOP
+          echo "Name=Remount $MOUNT read/write">>$DESKTOP
+	  echo "Comment=Makes $MOUNT writable">>$DESKTOP
+          echo "Exec=sudo mount -o remount,rw,exec $MOUNT">>$DESKTOP
+	  echo "TryExec=sudo">>$DESKTOP
+          echo "Terminal=false">>$DESKTOP
+	  echo "Type=Application">>$DESKTOP
+          echo "StartupNotify=false">>$DESKTOP
+	  echo "Icon=gnome-ccperiph.png">>$DESKTOP
+          echo "Categories=live-cd;mount;">>$DESKTOP
+	fi
+      fi
+
+      if [ $FINDHOME = 1 ]; then
+        if [ -e $MOUNT/.backpacker ]; then
+          mount -o remount,rw,exec $MOUNT
+          mount --move /mnt/$MOUNT /home/user
+        fi
+      fi
+    fi
+  fi
+done

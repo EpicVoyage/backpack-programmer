@@ -1,0 +1,73 @@
+# From linuxpackages.net
+#http://linuxpackages.inode.at/Slackware-10.2/ken/ethereal-0.10.14-i486-2kjz.tgz
+http://microarrays.ucsd.edu/~ivan/slackpack/wireshark-0.99.3a-i486-1ivan.tgz
+
+#http://linuxpackages.cgucccc.org/Slackware-10.2/ken/net-snmp-5.3.0.1-i486-1kjz.tgz
+#http://linuxpackages.cs.utah.edu/Slackware-10.2/ken/k3b-0.12.15-i486-1kjz.tgz
+http://linuxpackages.inode.at/Slackware-10.0/jay/nethack/nethackQT-3.4.3-i686-3jlp.tgz
+http://linuxpackages.telecoms.bg/Slackware-10.2/Console/NetHack-tty/nethack-tty-3.4.3-i686-1hif.tgz
+http://www.nymphomatic.org/mirror/linuxpackages/Slackware-10.2/Library/ClanLib/clanlib-0.6.5-i486-1pin.tgz
+http://www.software-mirror.com/linuxpackages/Slackware-10.2/Library/hermes/hermes-1.3.3-i486-1pin.tgz
+http://packages.slackware.hu/ariszlo/games/pingus-0.6.0-i486-1szl.tgz
+#http://ftp.scarlet.be/pub/linuxpackages/Slackware-10.2/Library/ruby-gnome2/ruby-gnome2-0.14.1-i486-1cl.tgz
+http://ftp.naist.jp/pub/Linux/linuxpackages/Slackware-10.2/X11/Njam/njam-1.25-i486-2pin.tgz
+http://linuxpackages.cgucccc.org/Slackware-10.2/Console/fortune-mod-starwars/fortune-mod-starwars-0.1-noarch-1doc.tgz
+http://opensys.linuxpackages.net/Slackware-10.2/Console/fortune-mod-chucknorris/fortune-mod-chucknorris-0.1-noarch-1doc.tgz
+http://linuxpackages.cs.utah.edu//Slackware-10.2/Console/fortune-mod-hitchhiker/fortune-mod-hitchhiker-0.1-noarch-1doc.tgz
+http://www.slacky.it/repository/slackware/slackware-11.0/network/bittorrent/4.26.0/bittorrent-4.26.0-noarch-1sl.tgz
+http://linuxpackages.telecoms.bg/Slackware-11.0/Daemon/snort/snort-2.6.0.2-i486-1stb.tgz
+http://www.slacky.it/download/multimedia/sound/streamripper/1.61.27/streamripper-1.61.27-i486-1as.tgz
+
+http://www.slacky.it/repository/slackware/slackware-11.0/multimedia/mplayer/1.0rc1/mplayer-1.0rc1-i686-1sl.tgz
+http://www.slacky.it/download/multimedia/video/gmencoder/0.1.0/gmencoder-0.1.0-i486-1.tgz
+http://www.slacky.it/download/multimedia/video/mplayerplug-in/3.31/mplayerplug-in-3.31-i486-1gal.tgz
+http://www.slacky.it/repository/slackware/slackware-11.0/multimedia/all/20060611/all-20060611-noarch-2sal.tgz
+http://mirrors.unixsol.org/linuxpackages//Slackware-11.0/Console/kismet/kismet-2006.04.R1-i486-1pjb.tgz
+http://www.slackware.com/~alien/slackbuilds/dosbox/pkg/10.2/dosbox-0.65-i486-1.tgz
+
+# Extras from the dropline team
+http://trovao.droplinegnome.org/extras/ooo/openoffice-2.0.4.0-i686-3dle.tgz
+http://mmyoung.droplinegnome.org/themes/Gno-SX-2.6-noarch-2mmy.tgz
+http://mmyoung.droplinegnome.org/themes/dropline-neu-1.5-noarch-1dl.tgz
+http://mmyoung.droplinegnome.org/utils/firestarter-1.0.3-i686-8dle.tgz
+#http://mmyoung.droplinegnome.org/bittorrent/BitTorrent-4.4.0-noarch-1dle.tgz
+http://mmyoung.droplinegnome.org/parted/parted-1.7.0-i686-1dle.tgz
+http://mmyoung.droplinegnome.org/parted/gparted-0.2.5-i686-1dle.tgz
+http://harmon.droplinegnome.org/extra/supertux-0.1.3-i686-1dle.tgz
+#http://harmon.droplinegnome.org/extra/snort-2.4.3-i686-1dle.tgz
+#http://harmon.droplinegnome.org/extra/streamripper-1.61.16-i686-1dle.tgz
+#http://harmon.droplinegnome.org/extra/mplayer-1.0pre7try2-i686-1dle.tgz
+http://harmon.droplinegnome.org/extra/libglademm-2.6.1-i686-1dle.tgz
+#http://harmon.droplinegnome.org/extra/kismet-2005_08_R1-i686-dle.tgz
+http://harmon.droplinegnome.org/extra/jdk-1.5.0_06-i586-1dle.tgz
+#http://harmon.droplinegnome.org/extra/dosbox-0.63-i686-1dle.tgz
+http://harmon.droplinegnome.org/extra/apache-ant-1.6.5-i686-1dle.tgz
+#http://harmon.droplinegnome.org/extra/sysfsutils-2.0.0-i686-1dle.tgz
+http://harmon.droplinegnome.org/scripts/checkStuff.sh
+
+# Apparmor
+http://danieldk.org/apparmor/packages/apparmor-docs-2.0-i486-1.tgz
+http://danieldk.org/apparmor/packages/apparmor-parser-2.0-i486-1.tgz
+http://danieldk.org/apparmor/packages/apparmor-utils-2.0-i486-1.tgz
+http://danieldk.org/apparmor/packages/libapparmor-2.0-i486-1.tgz
+http://danieldk.org/apparmor/packages/perl-dbd-sqlite-1.11-i486-1.tgz
+http://danieldk.org/apparmor/packages/perl-gettext-1.05-i486-1.tgz
+http://danieldk.org/apparmor/packages/perl-timedate-1.16-i486-1.tgz
+http://danieldk.org/apparmor/apparmor-profiles-20060113.tar.gz
+
+# Documentation/tutorials
+http://www.ibiblio.org/g2swap/byteofpython/files/120/byteofpython_html_120.zip
+http://www.linuxguruz.org/ebooks/apache_desktop_reference/adr.pdf
+http://www.mindviewinc.com/downloads/TICPP-2nd-ed-Vol-one.zip
+http://www.mindviewinc.com/downloads/TICPP-2nd-ed-Vol-two.zip
+http://www.mindviewinc.com/downloads/TIJ-3rd-edition4.0.zip
+http://www.mindviewinc.com/downloads/TIPatterns-0.9.zip
+#http://us2.php.net/get/php_manual_en.tar.gz/from/us3.php.net/mirror
+http://us3.php.net/distributions/manual/php_manual_en.tar.gz
+http://java.sun.com/docs/books/tutorialNB/download/tutorial.zip
+
+# MPlayer codecs
+#http://www.mplayerhq.hu/MPlayer/releases/codecs/all-20060501.tar.bz2
+
+# Ad blocking for the live-cd
+http://everythingisnt.com/hosts

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="exec" mtime="1130106064" type="string">
+                <stringvalue>gnome-terminal</stringvalue>
+        </entry>
+</gconf>

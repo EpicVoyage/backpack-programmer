@@ -1,0 +1,77 @@
+#!/bin/sh
+#
+# /etc/rc.d/rc.local:  Local system initialization script.
+#
+# Put any local setup commands in here:
+
+# To disable auto-mounting, chmod rc.mount to 644
+if [ -x /etc/rc.d/rc.mount ]; then
+	sh /etc/rc.d/rc.mount
+fi
+
+# Change mouse driver
+#MOUSEDEV=`cat /proc/cmdline|sed -r "s/^.*mousedev=([^[:space:]]+).*$/\\1/"`
+#if [ -n "$MOUSEDEV" ]; then
+#  rm /dev/mouse
+#  ln -s $MOUSEDEV /dev/mouse
+#fi 
+
+# Automatically detect graphics card
+echo "    *** Attempting to select a video driver..."
+VIDEO=vesa
+
+#if [ "`cat /proc/cmdline|grep debug`" ]; then
+#	/sbin/lspci
+#fi
+
+# Apparently the 'nv' driver doesn't like PCI Express cards
+if [ -n "`/sbin/lspci|grep -i NVIDIA|grep -i VGA|grep -vi 'PCI Express'`" ]; then
+	VIDEO=nv
+elif [ -n "`/sbin/lspci|grep -i intel|grep -i VGA`" ]; then
+	VIDEO=i810
+fi
+
+# Change mouse driver
+MOUSEPROTO=`cat /proc/cmdline|sed -r "s/^.*mouseproto=([^[:space:]]+).*$/\\1/"`
+if [ -n "`/usr/bin/grep wheelmouse /proc/cmdline`" ]; then MOUSEPROTO="IMPS/2"; fi
+if [ -z "$MOUSEPROTO" ]; then MOUSEPROTO="IMPS/2"; fi
+
+# apply changes
+if [ -a /tmp/livecd ]; then
+  MOUSEPROTO=`echo $MOUSEPROTO|sed 's/\//\\\/'`
+#  sed "s/IMPS\/2/$MOUSEPROTO/; s/vesa/$VIDEO/" /etc/X11/xorg.conf-def>/etc/X11/xorg.conf
+  sed "s/vesa/$VIDEO/" /etc/X11/xorg.conf-def>/etc/X11/xorg.conf
+fi
+
+# Change password?
+PASSWD=`cat /proc/cmdline|sed -r "s/^.*passwd=([^[:space:]]+).*$/\\1/"|grep -v ' '`
+if [ "$PASSWD" = "ask" ]; then
+  read -sp "Desired password: " PASSWD
+fi
+
+if [ -e /tmp/livecd -a -n "$PASSWD" ]; then
+  echo "    *** Changing password..."
+  expect -f -<<EOF
+spawn passwd root
+expect "password: "
+send -- "$PASSWD\r"
+expect "password: "
+send -- "$PASSWD\r"
+expect eof
+
+spawn passwd user
+expect "password: "
+send -- "$PASSWD\r"
+expect "password: "
+send -- "$PASSWD\r"
+expect eof
+EOF
+fi
+
+echo "    *** Adjusting sound levels to a reasonable default..."
+/usr/bin/amixer -q set Master 50%,50% unmute 2>/dev/null
+/usr/bin/amixer -q set PCM 100% unmute 2>/dev/null
+/usr/bin/amixer -q set Headphone 100% unmute 2>/dev/null
+
+# Delete pam_console lock and refcount files
+rm -f /var/run/console/*

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="selected_tasks" mtime="1130057054" type="list" ltype="string">
+        <li type="string">
+                <stringvalue>1130057054.3806.7@backpack</stringvalue>
+        </li>
+        </entry>
+        <entry name="primary_tasks" mtime="1130057054" type="string">
+                <stringvalue>1130057054.3806.7@backpack</stringvalue>
+        </entry>
+</gconf>

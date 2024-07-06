@@ -1,0 +1,28 @@
+unionfs for Debian
+------------------
+
+o How do i build this module the debian way?
+
+- Building with module-assistant
+
+$ m-a a-i unionfs
+
+(for kernel source or headers in non-standard directory, add the option
+-k /path/to/kernel/source with the correct path)
+
+- Building with make-kpkg
+
+$ cd /usr/src/
+$ ta jxvf unionfs.tar.bz2
+$ cd /usr/src/kernel-source-2.6.9
+$ make-kpkg --added-modules=unionfs modules
+
+- Building without make-kpkg
+
+$ cd /usr/src/
+$ tar jxvf unionfs.tar.bz2
+$ cd modules/unionfs
+$ fakeroot debian/rules kdist_image
+
+(no fakeroot needed if you run this as root)
+

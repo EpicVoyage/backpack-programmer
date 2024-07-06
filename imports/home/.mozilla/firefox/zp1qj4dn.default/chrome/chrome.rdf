@@ -1,0 +1,575 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:c="http://www.mozilla.org/rdf/chrome#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Seq RDF:about="urn:mozilla:locale:ja-JP:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:ja-JP:flashgot"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="urn:mozilla:locale:pt-BR:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:pt-BR:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:package:messenger"
+                   c:hasOverlays="true" />
+  <RDF:Description RDF:about="urn:mozilla:locale:sk-SK"
+                   c:name="sk-SK"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:sk-SK:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:fr-FR:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:fr-FR:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:sl-SI"
+                   c:name="sl-SI"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:sl-SI:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:sr-YU:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:sr-YU:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:ru-RU:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/ru-RU/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:skin:classic/1.0:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/skin/classic/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:en-US:webdeveloper"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7Bc45c406e-ab73-11d8-be73-000a95be3b12%7D/chrome/webdeveloper.jar!/locale/en-US/webdeveloper/">
+    <c:package RDF:resource="urn:mozilla:package:webdeveloper"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:sv-SE"
+                   c:name="sv-SE"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:sv-SE:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:package:global"
+                   c:hasOverlays="true"
+                   c:hasStylesheets="true" />
+  <RDF:Description RDF:about="urn:mozilla:locale:ca-AD"
+                   c:name="ca-AD"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:ca-AD:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:skin:classic/1.0:packages">
+    <RDF:li RDF:resource="urn:mozilla:skin:classic/1.0:webdeveloper"/>
+    <RDF:li RDF:resource="urn:mozilla:skin:classic/1.0:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:pl-PL"
+                   c:name="pl-PL"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:pl-PL:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:ar-JO:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/ar-JO/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:ja"
+                   c:author="Hadakadenkyu"
+                   c:displayName="Japanese(JP)"
+                   c:name="ja"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:ja:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:it-IT"
+                   c:name="it-IT"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:it-IT:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:ca-AD:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:ca-AD:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:pt-BR"
+                   c:name="pt-BR"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:pt-BR:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:pl-PL:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:pl-PL:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:zh-CN"
+                   c:displayName="Chinese(Simplified)"
+                   c:author="Charlie Chen and George C. Tsoi(moZine.org)"
+                   c:name="zh-CN"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:zh-CN:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:es-AR:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:es-AR:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:es-ES:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/es-ES/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:he-IL"
+                   c:name="he-IL"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:he-IL:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:id-ID:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:id-ID:flashgot"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="urn:mozilla:locale:zh-TW:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:zh-TW:flashgot"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="urn:mozilla:locale:en-US:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:en-US:webdeveloper"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:en-US:flashgot"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="urn:mozilla:locale:it-IT:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:it-IT:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:ro-RO:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/ro-RO/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:package:browser"
+                   c:hasStylesheets="true"
+                   c:hasOverlays="true" />
+  <RDF:Description RDF:about="urn:mozilla:locale:sr-YU"
+                   c:name="sr-YU"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:sr-YU:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:zh-TW:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/zh-TW/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:zh-CN:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/zh-CN/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:skin:classic/1.0:webdeveloper"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7Bc45c406e-ab73-11d8-be73-000a95be3b12%7D/chrome/webdeveloper.jar!/skin/classic/webdeveloper/">
+    <c:package RDF:resource="urn:mozilla:package:webdeveloper"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:lt-LT:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:lt-LT:flashgot"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="urn:mozilla:locale:ja-JPM:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:ja-JPM:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:sq-AL"
+                   c:name="sq-AL"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:sq-AL:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:id-ID:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/id-ID/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:tr-TR"
+                   c:name="tr-TR"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:tr-TR:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:skin:root">
+    <RDF:li RDF:resource="urn:mozilla:skin:classic/1.0"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:sq-AL:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/sq-AL/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:fr-FR"
+                   c:name="fr-FR"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:fr-FR:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:ja-JP-mac:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/ja-JP/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:ja-JP:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/ja-JP/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:th-TH:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/th-TH/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:nb-NO:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:nb-NO:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:ca-AD:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/ca-AD/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:pt-BR:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/pt-BR/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:fr-FR:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/fr-FR/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:skin:classic/1.0"
+                   c:name="classic/1.0"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:skin:classic/1.0:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:id-ID"
+                   c:name="id-ID"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:id-ID:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:el-GR:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:el-GR:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:ar-JO"
+                   c:name="ar-JO"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:ar-JO:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:ms-MY:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:ms-MY:flashgot"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="urn:mozilla:locale:th-TH:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:th-TH:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:sk-SK:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/sk-SK/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:ru-RU"
+                   c:name="ru-RU"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:ru-RU:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:package:navigator"
+                   c:hasOverlays="true" />
+  <RDF:Description RDF:about="urn:mozilla:locale:pt-PT:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/pt-PT/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:nl-NL:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:nl-NL:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:sl-SI:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/sl-SI/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:cs-CZ:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/cs-CZ/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:nb-NO"
+                   c:name="nb-NO"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:nb-NO:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:ro-RO:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:ro-RO:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:da-DK"
+                   c:name="da-DK"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:da-DK:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:ru-RU:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:ru-RU:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:fa-IR"
+                   c:name="fa-IR"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:fa-IR:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:de-DE:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:de-DE:flashgot"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="urn:mozilla:locale:tr-TR:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:tr-TR:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:el-GR"
+                   c:name="el-GR"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:el-GR:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:ms-MY:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/ms-MY/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:package:mozapps"
+                   c:hasOverlays="true" />
+  <RDF:Description RDF:about="urn:mozilla:locale:es-AR"
+                   c:name="es-AR"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:es-AR:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:ko-KR:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:ko-KR:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:ro-RO"
+                   c:name="ro-RO"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:ro-RO:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:fi-FI:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:fi-FI:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:nl-NL"
+                   c:name="nl-NL"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:nl-NL:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:lt-LT"
+                   c:name="lt-LT"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:lt-LT:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:sr-YU:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/sr-YU/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:da-DK:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:da-DK:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:it-IT:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/it-IT/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:cs-CZ:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:cs-CZ:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:package:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/content/flashgot/"
+                   c:locType="profile"
+                   c:displayName="FlashGot 0.5.9.995"
+                   c:author="Giorgio Maone (InformAction)"
+                   c:authorURL="http://www.informaction.com/g_maone"
+                   c:name="flashgot"
+                   c:description="Enables Firefox, Mozilla Suite, Netscape and Thunderbird to handle single and massive (&quot;all&quot; and &quot;selection&quot;) downloads using the most popular external download managers for Windows, Mac OS X, Linux and FreeBSD (dozens currently supported, see Extension's Home Page for details). FlashGot offers also a Build Gallery functionality which helps to synthetize full media galleries in one page, from serial contents originally scattered on several pages, for easy and fast &quot;download all&quot;."
+                   c:extension="true" />
+  <RDF:Description RDF:about="urn:mozilla:locale:th-TH"
+                   c:name="th-TH"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:th-TH:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:ja-JPM:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/ja-JP/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:da-DK:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/da-DK/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:bg-BG:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/bg-BG/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:sv-SE:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:sv-SE:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:pl-PL:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/pl-PL/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:es-ES"
+                   c:name="es-ES"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:es-ES:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:hu-HU:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:hu-HU:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:bg-BG"
+                   c:name="bg-BG"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:bg-BG:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:he-IL:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:he-IL:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:en-US:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/content/flashgot/en-US/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:pt-PT:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:pt-PT:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:tr-TR:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/tr-TR/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:nb-NO:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/nb-NO/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:hu-HU"
+                   c:name="hu-HU"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:hu-HU:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:pt-PT"
+                   c:name="pt-PT"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:pt-PT:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:cs-CZ"
+                   c:name="cs-CZ"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:cs-CZ:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:ko-KR:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/ko-KR/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:zh-TW"
+                   c:name="zh-TW"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:zh-TW:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:sv-SE:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/sv-SE/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:el-GR:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/el-GR/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:ar-JO:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:ar-JO:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:ko-KR"
+                   c:name="ko-KR"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:ko-KR:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:lt-LT:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/lt-LT/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:fa-IR:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/fa-IR/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:sk-SK:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:sk-SK:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:es-AR:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/es-AR/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:fi-FI"
+                   c:name="fi-FI"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:fi-FI:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:es-ES:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:es-ES:flashgot"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="urn:mozilla:locale:root">
+    <RDF:li RDF:resource="urn:mozilla:locale:en-US"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:ar-JO"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:bg-BG"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:ca-AD"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:cs-CZ"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:da-DK"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:de-DE"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:el-GR"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:es-AR"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:es-ES"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:fa-IR"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:fi-FI"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:fr-FR"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:he-IL"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:hu-HU"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:id-ID"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:it-IT"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:ja"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:ko-KR"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:lt-LT"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:ms-MY"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:nb-NO"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:nl-NL"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:pl-PL"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:pt-BR"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:pt-PT"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:ro-RO"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:ru-RU"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:sk-SK"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:sl-SI"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:sr-YU"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:sq-AL"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:sv-SE"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:th-TH"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:tr-TR"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:zh-CN"/>
+    <RDF:li RDF:resource="urn:mozilla:locale:zh-TW"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:package:webdeveloper"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7Bc45c406e-ab73-11d8-be73-000a95be3b12%7D/chrome/webdeveloper.jar!/content/webdeveloper/"
+                   c:locType="profile"
+                   c:author="Chris Pederick"
+                   c:authorURL="http://chrispederick.com/work/webdeveloper/"
+                   c:description="Adds a menu and a toolbar with various web developer tools."
+                   c:displayName="Web Developer 1.0.2"
+                   c:extension="true"
+                   c:name="webdeveloper"
+                   c:settingsURL="chrome://webdeveloper/content/options/options.xul" />
+  <RDF:Description RDF:about="urn:mozilla:locale:de-DE"
+                   c:name="de-DE"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:de-DE:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:ja:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/ja-JP/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:he-IL:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/he-IL/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:ja-JP-mac:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:ja-JP-mac:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:de-DE:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/de-DE/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:fa-IR:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:fa-IR:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:nl-NL:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/nl-NL/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:sl-SI:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:sl-SI:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:ms-MY"
+                   c:name="ms-MY"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:ms-MY:packages"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:fi-FI:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/fi-FI/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:locale:bg-BG:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:bg-BG:flashgot"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="urn:mozilla:locale:sq-AL:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:sq-AL:flashgot"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="urn:mozilla:locale:zh-CN:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:zh-CN:flashgot"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:locale:hu-HU:flashgot"
+                   c:baseURL="jar:file:///home/user/.mozilla/firefox/zp1qj4dn.default/extensions/%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D/chrome/flashgot.jar!/locale/hu-HU/flashgot/">
+    <c:package RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:locale:en-US"
+                   c:author="Chris Pederick"
+                   c:displayName="English(US)"
+                   c:name="en-US"
+                   c:locType="profile">
+    <c:packages RDF:resource="urn:mozilla:locale:en-US:packages"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mozilla:package:root">
+    <RDF:li RDF:resource="urn:mozilla:package:webdeveloper"/>
+    <RDF:li RDF:resource="urn:mozilla:package:flashgot"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="urn:mozilla:locale:ja:packages">
+    <RDF:li RDF:resource="urn:mozilla:locale:ja:flashgot"/>
+  </RDF:Seq>
+</RDF:RDF>

@@ -1,0 +1,46 @@
+unionfs (1.0.13-1) unstable; urgency=low
+
+  * New upstream release
+    + gcc-4.0 fixes (closes: #317687, #318157)
+    + needs a build-dependency on uuid-dev
+  * added the snapmerge script as example to unionfs-utils (closes: #321273)
+
+ -- Eduard Bloch <blade@debian.org>  Sat,  6 Aug 2005 09:07:39 +0200
+
+unionfs (1.0.11-1) unstable; urgency=low
+
+  * New upstream release (adopted my changes, .diff.gz becoming smaller)
+  * added debhelper to unionfs-source build-depends
+
+ -- Eduard Bloch <blade@debian.org>  Fri,  1 Apr 2005 23:02:01 +0200
+
+unionfs (1.0.9-3) unstable; urgency=low
+
+  * added missing build-dep on bzip2 (closes: #301865)
+  * added a full stop to the package descriptions (closes: #301872)
+
+ -- Eduard Bloch <blade@debian.org>  Tue, 29 Mar 2005 03:29:34 +0200
+
+unionfs (1.0.9-2) unstable; urgency=low
+
+  * cosmetics, adapted few things from the Morphix debianisation
+
+ -- Eduard Bloch <blade@debian.org>  Mon, 28 Mar 2005 20:51:27 +0200
+
+unionfs (1.0.9-1) unstable; urgency=low
+
+  * Initial Release (closes: #297606)
+
+ -- Eduard Bloch <blade@debian.org>  Sat,  5 Mar 2005 10:01:57 +0100
+
+unionfs (1.0.6-0) unstable; urgency=low
+
+  * modified ndiswrapper debian/ for unionfs
+
+ -- Alex de Landgraaf <alex@delandgraaf.com>  Sun,  9 Jan 2005 17:45:19 +0100
+
+ndiswrapper (0.12+1.0rc1-1) unstable; urgency=low
+
+  * Built for kernel-image-2.6.9.
+
+ -- Andres Salomon <dilinger@voxel.net>  Wed, 29 Dec 2004 03:06:16 -0500

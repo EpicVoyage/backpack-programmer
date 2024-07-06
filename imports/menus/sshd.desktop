@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Start SSHd
+Comment=Start the Secure SHell daemon [SSHd]
+Exec=sudo /bin/sh /etc/rc.d/rc.sshd restart
+TryExec=sudo
+Terminal=true
+Type=Application
+StartupNotify=false
+Icon=gnome-server-config
+Categories=live-cd;server;

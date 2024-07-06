@@ -1,0 +1,174 @@
+#!/bin/ash
+
+export PATH=.:/:/usr/sbin:/usr/bin:/sbin:/bin
+. liblinuxlive
+
+header "Loading initramfs..."
+
+echolog "    ** Mounting /proc and /sys filesystems..."
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
+
+# setup DEBUGCMD variable. If debug boot option is present, call debug()
+# function several times during script's execution
+if [ -n "`cmdline_parameter debug`" ]; then DEBUGCMD="debug"; else DEBUGCMD=""; fi
+
+$DEBUGCMD
+
+# I have to set these variables very carefully
+UNION=/union
+#MEMORY=/memory
+MEMORY=$UNION/mnt/memory
+MOUNTDIR=mnt
+CHANGES=$MEMORY/changes
+COPY2RAM=$MEMORY/copy2ram
+IMAGES=$MEMORY/images
+INITRAMDISK=$MOUNTDIR/live
+
+# we need cdrom support, isofs support, unionfs support, etc
+echolog "    ** Loading required kernel modules..."
+modprobe_essential_modules
+setup_dma
+
+$DEBUGCMD
+
+# $UNION will be used as a root directory, livecd modules will be added soon.
+echolog "    ** Mountion unionfs on $UNION..."
+mkdir -p $UNION $MEMORY
+
+CHANGESDEV="`cmdline_value changes`"
+if [ -n "$CHANGESDEV" ]; then
+   echo "    ** Mounting $CHANGESDEV to $MEMORY"
+   mount_device $CHANGESDEV $MEMORY
+else false; fi
+
+# mount tmpfs only in the case when changes= boot parameter was empty
+# or we were not able to mount the storage device
+if [ $? -ne 0 ]; then mount -t tmpfs -o "size=60%" tmpfs $MEMORY; fi
+
+mkdir -p $CHANGES $COPY2RAM $IMAGES
+mount -t unionfs -o dirs=$CHANGES=rw unionfs $UNION
+if [ $? -ne 0 ]; then fatal "    !!! Can't setup unionfs in $UNION directory"; fi
+
+$DEBUGCMD
+
+# try to find livecd data directory. If not found, try modprobing
+# USB kernel modules and repeat the find procedure again
+echolog "    ** Looking for data modules..."
+DATA="`find_live_data_dir $MOUNTDIR`";
+if [ -z "$DATA" ]; then
+   modprobe_usb_modules;
+   echolog -n "searching for usb devices .."
+   for i in 1 2 3 4 5 6 7 8; do # max 36 seconds
+      echolog -n "."
+      create_block_devices >/dev/null
+      DATA="`find_live_data_dir $MOUNTDIR`";
+      if [ -n "$DATA" ]; then break; fi
+      sleep $i;
+   done
+fi
+if [ -z "$DATA" ]; then fatal "        !!! Data for LiveCD not found. Not sure what to do..."; fi
+echolog "        --> Found in $DATA"
+
+$DEBUGCMD
+
+# If toram or copy2ram boot parameter is present, copy all .mo modules to RAM.
+# (skip modules from /optional/ which are not listed in load= boot option)
+# Finaly modify DATA variable so it will point to correct directory
+if [ -n "`cmdline_parameter toram`" -o -n "`cmdline_parameter copy2ram`" ]; then
+   echolog "    ** Copying modules to RAM, this may take some time..."
+   copy_to_ram $DATA $COPY2RAM
+   cd_autoeject 1
+   umount $DATA 2>/dev/null
+   if [ $? -ne 0 ]; then umount `dirname $DATA` 2>/dev/null; fi
+   DATA=$COPY2RAM
+   cd_autoeject 0
+
+   $DEBUGCMD
+fi
+
+# DATA contains path to the base directory of all .mo images which need
+# to be mounted and inserted into live filesystem. Do it now.
+echolog "    ** Creating live filesystem..."
+union_insert_modules $UNION $DATA $IMAGES
+
+$DEBUGCMD
+
+echo "    ** Copying root changes"
+cp -a $DATA/rootcopy/* $UNION 2>/dev/null
+
+$DEBUGCMD
+
+echo "    ** Creating /etc/fstab"
+activate_fstab $UNION
+
+# More likely these directories aren't there.
+# Even if they are, this won't hurt.
+mkdir -p $UNION/proc $UNION/sys $UNION/tmp $UNION/dev
+chmod 777 $UNION/tmp
+
+$DEBUGCMD
+
+LC="C"
+if [ -n "`cmdline_parameter lang`" -o -n "`cmdline_parameter locale`" ]; then
+  LC="`cmdline_value locale`"
+  if [ "${LC}" = "" ]; then LC="C"; fi
+
+  if [ -n "`cmdline_parameter lang`" ]; then
+    TMP="`cmdline_value lang`"
+
+    LC="en_EN"
+    if [ "${TMP}" = "fr" ]; then LC="fr_FR"; fi
+    if [ "${TMP}" = "de" ]; then LC="de_DE"; fi
+    if [ "${TMP}" = "es" ]; then LC="es_ES"; fi 
+    if [ "${TMP}" = "it" ]; then LC="it_IT"; fi
+    if [ "${TMP}" = "pt" ]; then LC="pt_PT"; fi
+    if [ "${TMP}" = "ru" ]; then LC="ru_RU"; fi
+  fi
+
+  export LC_ALL="${LC}"
+  export LANG="${LC}"
+  export LANGUAGE="${LC}"
+fi
+
+echo "    ** Using locale ${LC}..."
+if [ -n "`cmdline_parameter livecd`" ]; then
+  echo "${LC}">$UNION/tmp/livecd
+fi
+
+if [ "$DATA" != "$COPY2RAM" ]; then
+  echo "    ** Storing /dev/`basename $DATA` as medium to eject at shutdown"
+  echo "`basename $DATA`">$UNION/tmp/eject
+fi
+
+# Union contains all the files and directories unioned from all modules.
+# Change root directory to it, and move initrd's root to /mnt/live/initramdisk
+# Finaly execute /sbin/init to start the distribution.
+echolog "    ** Changing root directory..."
+cd $UNION
+mkdir -p $INITRAMDISK
+
+umount /sys # we won't need it anymore
+if [ ! -e $UNION/dev/console ]; then mknod $UNION/dev/console c 5 1; fi
+
+if [ -x $UNION/usr/sbin/chroot ];
+  then CHROOT=usr/sbin/chroot
+  else CHROOT=usr/bin/chroot
+fi
+
+RUNLEVEL="" # use the default
+if [ -n "`cmdline_parameter nogui`" -o -n "`cmdline_parameter console`" ]; then
+  echolog "    ** Using runlevel 3 - You may start Gnome with 'startx' or 'telinit 4'"
+  RUNLEVEL="3"
+fi
+
+header "End of initramfs script. Passing off to Linux init."
+
+$DEBUGCMD
+
+exec switch_root -c dev/console . sbin/init ${RUNLEVEL}
+#exec chroot . sbin/init ${RUNLEVEL} <dev/console >dev/console 2>&1
+
+header "ERROR!"
+echolog "    You are not supposed to be here, something went wrong!"
+echolog "    Unfortunately you will have to use the power button."

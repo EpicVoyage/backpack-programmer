@@ -1,0 +1,97 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version:0.08:$
+
+[PLUGINS]
+/usr/lib/firefox/plugins/libmozsvgdec.so:$
+:$
+1158070252000:1:1:$
+Scalable Vector Graphics, as handled by RSVG-2.16.0.  Views SVG images.<br><br>This is alpha software.  It will probably behave in many situations, but may also ride your motorcycle, drink all your milk, or use your computer to browse porn.  Comments, feature requests, and patches are welcome.<br><br>See <a href="http://librsvg.sourceforge.net/">http://librsvg.sourceforge.net/</a> for information.<br><br>:$
+Scalable Vector Graphics:$
+5
+0:image/svg+xml:Scalable Vector Graphics:svg,svgz:$
+1:image/svg-xml:Scalable Vector Graphics:svg,svgz:$
+2:image/svg:Scalable Vector Graphics:svg,svgz:$
+3:image/vnd.adobe.svg+xml:Scalable Vector Graphics:svg,svgz:$
+4:text/xml-svg:Scalable Vector Graphics:svg,svgz:$
+/usr/lib/firefox/plugins/libtotem-narrowspace-plugin.so:$
+:$
+1160482787000:1:1:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.16.2 plugin handles video and audio streams.:$
+QuickTime Plug-in 7.0 (compatible; Totem):$
+1
+0:video/quicktime:QT video:mov:$
+/usr/lib/firefox/plugins/libtotem-mully-plugin.so:$
+:$
+1160482787000:1:1:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.16.2 plugin handles video and audio streams.:$
+DivX® Web Player:$
+1
+0:video/divx:AVI video:divx:$
+/usr/lib/firefox/plugins/libtotem-gmp-plugin.so:$
+:$
+1160482787000:1:1:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.16.2 plugin handles video and audio streams.:$
+Windows Media Player Plug-in 10 (compatible; Totem):$
+6
+0:application/x-mplayer2:AVI video:avi, wma, wmv:$
+1:video/x-ms-asf-plugin:ASF video:asf, wmv:$
+2:video/x-msvideo:AVI video:asf, wmv:$
+3:video/x-ms-asf:ASF video:asf:$
+4:video/x-ms-wmv:WMV video:wmv:$
+5:video/x-wmv:WMV video:wmv:$
+/usr/lib/firefox/plugins/libtotem-complex-plugin.so:$
+:$
+1160482787000:1:1:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.16.2 plugin handles video and audio streams.:$
+Helix DNA Plugin: RealPlayer G2 Plug-In Compatible (compatible; Totem):$
+1
+0:audio/x-pn-realaudio-plugin:RealAudio document:rpm:$
+/usr/lib/firefox/plugins/libtotem-basic-plugin.so:$
+:$
+1160482787000:1:1:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.16.2 plugin handles video and audio streams.:$
+Totem Web Browser Plugin 2.16.2:$
+4
+0:application/ogg:Ogg multimedia:ogg:$
+1:video/mpeg:MPEG video:mpg, mpeg, mpe:$
+2:audio/wav:WAV audio:wav:$
+3:audio/mpeg:MP3 audio:mp3:$
+/usr/lib/firefox/plugins/libunixprintplugin.so:$
+:$
+1161664148000:1:1:$
+The demo print plugin for unix.:$
+Demo Print Plugin for unix/linux:$
+1
+0:application/x-print-unix-nsplugin:Demo Print Plugin for Unix/Linux:.pnt:$
+/usr/lib/firefox/plugins/libnullplugin.so:$
+:$
+1161664148000:1:1:$
+The default plugin handles plugin data for mimetypes and extensions that are not specified and facilitates downloading of new plugins.:$
+Default Plugin:$
+1
+0:*:All types:.*:$
+/home/user/.mozilla/plugins/gxineplugin.so:$
+:$
+1156137941000:1:1:$
+will start external gxine media player for embedded media streams:$
+gxine starter plugin:$
+17
+0:video/mpeg: MPEG animation: mpeg, mpg, mpe:$
+1:video/x-mpeg: MPEG animation: mpeg, mpg, mpe:$
+2:audio/mpeg2: MPEG audio: mp2:$
+3:audio/x-mpeg2: MPEG audio: mp2:$
+4:audio/mpeg3: MPEG audio: mp3:$
+5:audio/x-mpeg3: MPEG audio: mp3:$
+6:audio/mpeg: MPEG audio: mpa,abs,mpega:$
+7:audio/x-mpeg: MPEG audio: mpa,abs,mpega:$
+8:video/quicktime: Quicktime animation: mov,qt:$
+9:video/x-quicktime: Quicktime animation: mov,qt:$
+10:video/msvideo: AVI animation: avi:$
+11:video/x-msvideo: AVI animation: avi:$
+12:application/x-mplayer2: mplayer2: asf,asx,asp:$
+13:video/x-ms-asf-plugin: mms animation: asf,asx,asp:$
+14:audio/x-pn-realaudio-plugin: Real audio: rpm:$
+15:audio/x-ogg: OGG Media: ogg,ogm:$
+16:audio/x-scpls: MPEG audio: pls:$
